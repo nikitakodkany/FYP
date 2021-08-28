@@ -6,13 +6,13 @@
 ### Data Scrapping Instructions
 There are 18,333 pages to be scraped. 
 
-Following are the numbers that you have to enter in your 'for loop'. 
-1-2600: Sumedha
-2601-5200: Rashmi
-5201-7800: Varun
-7801-10400: Sahil 
-10401-13000: Nikita
-13001-15000: Prathamesh
-15001-18333: Prathamesh
+Following are the numbers that you have to enter in your 'for loop'. <br />
+1-2600: Sumedha <br />
+2601-5200: Rashmi <br />
+5201-7800: Varun <br />
+7801-10400: Sahil <br />
+10401-13000: Nikita <br />
+13001-15000: Prathamesh <br />
+15001-18333: Prathamesh <br />
 
-Contact Prathamesh incase of any errors.
+Contact Prathamesh incase of any errors. <br />
