@@ -1,7 +1,7 @@
 # PGN - Pointer Generator Networks
 
 ## Roadmap
-![alt text](https://github.com/nikitakodkany/PGN/blob/main/Raw_Data.png)
+![alt text](https://github.com/nikitakodkany/PGN/blob/main/DOCUMENTATION/RoadMap.png)
 
 ## Data Scrapping Instructions
 There are 18,333 pages to be scraped. 
