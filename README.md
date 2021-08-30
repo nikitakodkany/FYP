@@ -23,7 +23,9 @@ Install Geckodriver and Firefox. Add Geckodriver to the path.
 
 **Usage**
 Line No. 20 contains the range from which each person will have to scrape as alloted above. The script is recommended to be run in chunks as it would be easier to manage.
+There are a few known errors (which are handled in the code, dont worry much about the log messages.) that occur due to Naukri.com's servers. The pages that could not be scraped because of that, will be added to a new file and saved.After one is done with their chunk, they should go back to those numbers and rescrape them.
 
-Everytime a chunk is run, change the name of the CSV file in the last line, else, the file will be overwritten. Remove the break at the end and please test it before running the script for a longer chunk of the data.
+You may have to play around with the numbers in driver.implicit_wait() based on your network connection. Incase your network is slow , increase it.
+To confirm whether it is a network issue or if it is a script issue , comment out line 19 and see the it in action.
 
 Contact Prathamesh incase of any errors in the script Scrape.py.
