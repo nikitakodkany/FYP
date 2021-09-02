@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
-import sys 
-import pandas as pd 
+import sys
+import pandas as pd
 import random
 from tqdm import tqdm
 
@@ -16,14 +16,14 @@ url_head = "https://www.naukri.com/it-jobs-"
 url_tail = "?k=it"
 
 options = Options()
-options.add_argument('--headless') 
+options.add_argument('--headless')
 options.add_argument('--incognito')
 driver = webdriver.Firefox(options=options)
 
 x,y = 0,0
-for i in tqdm(range(15001,15005)):  #18333
+for i in tqdm(range(11401,11501)):  #18333
 
-    
+
     for attempt in range(7):
         try:
 
@@ -34,7 +34,7 @@ for i in tqdm(range(15001,15005)):  #18333
             elems = driver.find_elements_by_xpath('//*[@class="title fw500 ellipsis"]')
 
             job_urls = [x.get_attribute('href') for x in elems ]
-            
+
             for j in range(20):
                 try:
                     driver.get(job_urls[j])
@@ -73,11 +73,11 @@ for i in tqdm(range(15001,15005)):  #18333
                 #     numbers.append(i)
                 #     print("Index Error")
 
-                except selenium.common.exceptions.TimeoutException as e: 
+                except selenium.common.exceptions.TimeoutException as e:
                     name = random.getrandbits(32)
                     df.to_csv(str(name)+".csv" , sep = '|')
                     print(i)
-                
+
                 except selenium.common.exceptions.NoSuchElementException as e:
                     y+=1
                     print(e , y, sep="\t")
@@ -92,6 +92,6 @@ for i in tqdm(range(15001,15005)):  #18333
 with open('your_file.txt', 'w') as f:
     for item in numbers:
         f.write("%s\n" % item)
-    
+
 name = random.getrandbits(32)
 df.to_csv(str(name)+".csv" , sep = '|')
