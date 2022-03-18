@@ -1,4 +1,4 @@
-# PGN - Pointer Generator Networks
+# FYP - Final Year Project
 
 ## Roadmap
 ![alt text](https://github.com/nikitakodkany/PGN/blob/main/DOCUMENTATION/RoadMap.png)
