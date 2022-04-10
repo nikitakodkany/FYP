@@ -4,11 +4,11 @@
 ### 1. Legacy
 1. DataPreparation [directory]:
 * EDA [directory]: Directory for Exploratory Data Analysis
-** EDA.ipynb
-** EDA_updated.ipynb
+ >EDA.ipynb
+EDA_updated.ipynb
 * ProcessedData [directory]: Directory for Processed Dataset
-** pros_Dataset.csv
-** pros_Dataset2.csv
+>pros_Dataset.csv
+pros_Dataset2.csv
 2. Scripts:
 * Scrape.py : Python script to scrape the data
 * SimilarityScore.py : Python script to find the similarity score between syllabus and JD
