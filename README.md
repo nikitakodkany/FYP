@@ -1,31 +1,33 @@
 # FYP - Final Year Project
+**Problem Statement:** University-Curriculum Analysis based on entry level based job description.
+## Directories iPython notebooks for Exploratory Data Analysis
+### 1. Legacy
+1. DataPreparation [directory]:
+* EDA [directory]: Directory for Exploratory Data Analysis
+ >EDA.ipynb | EDA_updated.ipynb
+* ProcessedData [directory]: Directory for Processed Dataset
+> pros_Dataset.csv | pros_Dataset2.csv
+2. Scripts:
+* Scrape.py : Python script to scrape the data
+* SimilarityScore.py : Python script to find the similarity score between syllabus and JD
 
-## Roadmap
-![alt text](https://github.com/nikitakodkany/PGN/blob/main/DOCUMENTATION/RoadMap.png)
+### 2. Dataset
+1. csv_files [directory]: Contains the scraped JD dataset from naukri.com
+2. dataset.csv: Final JD Dataset
+3. notebooktomerge.ipynb: Notebook file to merge all the scraped data from naukri.com
+4. syllabuskeys.csv: Contains syllabus key words and description
 
-## Data Scrapping Instructions
-There are 18,333 pages to be scraped. 
-Following are the numbers that you have to enter in your 'for loop'.
-- 1-2600: Sumedha 
-- 2601-5200: Rashmi
-- 5201-7800: Varun
-- 7801-10400: Sahil
-- 10401-13000: Nikita
-- 13001-15000: Prathamesh
-- 15001-18333: Prathamesh
+### 3. Others
+1. Phase 0 powerpoint presentation pdf
 
-### Installation Details for Scrape.py
-Install Geckodriver and Firefox. Add Geckodriver to the path.
-
-**Dependencies** 
+## Dependencies
 1. Pandas
 2. Selenium
+3. Python
+4. iPython
 
-**Usage**
-Line No. 20 contains the range from which each person will have to scrape as alloted above. The script is recommended to be run in chunks as it would be easier to manage.
-There are a few known errors (which are handled in the code, dont worry much about the log messages.) that occur due to Naukri.com's servers. The pages that could not be scraped because of that, will be added to a new file and saved.After one is done with their chunk, they should go back to those numbers and rescrape them.
-
-You may have to play around with the numbers in driver.implicit_wait() based on your network connection. Incase your network is slow , increase it.
-To confirm whether it is a network issue or if it is a script issue , comment out line 19 and see the it in action.
-
-Contact Prathamesh incase of any errors in the script Scrape.py.
+## Authors
+1. Nikita Kodkany
+2. Nischal Kanishk
+3. Prathamesh Koranne
+4. Prithvi Gudodagi
