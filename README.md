@@ -14,8 +14,8 @@
 ### 2. Dataset
 1. csv_files [directory]: Contains the scraped JD dataset from naukri.com
 2. dataset.csv: Final JD Dataset
-3. notebooktomerge.ipynb: Notebook file to merge all the scraped data from naukri.com
-4. syllabuskeys.csv: Contains syllabus key words and description
+3. ScriptToMergeDataset.ipynb.ipynb: Notebook file to merge all the scraped data from naukri.com
+4. Syllabus_Dataset.csv: Contains syllabus key words and description
 
 ### 3. Others
 1. Phase 0 powerpoint presentation pdf
