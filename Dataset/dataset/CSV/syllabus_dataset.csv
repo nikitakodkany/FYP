@@ -1,0 +1,1384 @@
+Subject,Description
+Statistical – Numerical – Fourier Techniques,"Numerical solution of Algebraic and Transcendental equations:
+Method of False position, Newton- Raphson method (with derivation), Fixed point iteration method
+(without derivation).
+Numerical solution of Ordinary differential equations: Taylor’s Series method, Euler and
+Modified Euler method, Fourth order Runge–Kutta method
+Fourier Series: Periodic functions. Dirichlet’s conditions, Fourier series, Half range Fourier sine and
+cosine series. Practical examples, Harmonic analysis.
+Fourier Transforms: Infinite Fourier Transform and Properties. Fourier Sine and Cosine Transforms
+Properties and Problems.
+Probability: Random Variables (RV), Discrete and Continuous Random variables, (DRV, CRV)
+Probability Distribution Functions (PDF) and Cumulative Distribution Functions(CDF),
+Expectations (Mean, Variance). Binomial, Poisson, Exponential and Normal Distributions. Practical
+Examples
+oint PDF and Stochastic Processes: Discrete Joint PDF, Conditional Joint PDF, Expectations
+(Mean, Variance and Covariance).Definition and classification of stochastic processes. Discrete state
+and discrete parameter stochastic process, Unique fixed probability vector, Regular Stochastic
+Matrix, Transition probability, Markov chain.
+"
+DATA STRUCTURES WITH C (Theory),"Pointers, Structures: Introduction to Pointers, Pointers and Arrays, Pointers to Pointers, Pointers to functions,
+Dynamic memory management in C (malloc(), calloc(), free() and realloc() functions). Introduction to Structures,
+Declaration, Initialization, Accessing Structures, Internal implementation of Structures, Union and its Definition.
+Self-learning topics: Enumerations.
+Files, Linked lists:
+Files in C: Text input output with respect to files in C, Basic file handling functions in C.
+General linear lists: Basic operations, Implementation, List ADT. Complex implementations: circular linked lists,
+doubly linked lists.
+Files, Linked lists:
+Files in C: Text input output with respect to files in C, Basic file handling functions in C.
+General linear lists: Basic operations, Implementation, List ADT. Complex implementations: circular linked lists,
+dToubly linked lists.
+Stacks & Queues:
+Stacks: Basic Stack operations, Stack ADT, Stack linked list Implementation, Stack applications: Conversion of
+Expression (Infix to Postfix), Evaluation of Expressions.
+Queues: Queues, Queue ADT, Circular Queues Linked list design, Queue applications.
+Self-learning topics: Implementation of stacks and queues using arrays
+rees: Basic tree concepts, Binary trees, Binary search tree ADT, general trees, Binary search tree (BST) concept,
+BST operations, BST Applications. AVL trees basic concepts.
+Heaps and Hashing
+Heap: Basic concepts, Heap implementation, Heap ADT, Heap applications
+Hashing: Basic concept, Hashing methods, collision resolution."
+Digital Electronics ( Theory),"Revision of Logic gates and Boolean algebra, Simplification of Boolean functions using Basic Logic
+gates, Universal Gates, SOP, POS form, K-Map Simplification ( up to 4 variables), Don’t-care Condition,
+Quine McClusky method to generate Prime Implicants, Prime Implicants chart, problem solving with
+multiple methods.
+Tutorial: Implementation of SOP/POS Boolean function using Universal gates.
+Data Processing Circuits: Multiplexers, De-multiplexers, Decoder, Encoders and implementation of
+Boolean functions using multiplexer and Decoders, Parity Generators and Checkers using XOR gates
+Magnitude Comparators (1 bit and 2 bit), PLA, PAL, Adder / Subtracter.
+Tutorial: Implementation of Boolean functions using Multiplexer/Decoder, Realization of
+Adder/Substracter using logic gates.
+Clocks and Flip Flops: Clock waveforms, TTL clock, RS Flip Flops, Gated flip-flops, Edge
+triggered RS Flip-Flops, Edge triggered D Flip-Flops, and Edge triggered JK Flip-Flops, JK master
+slave Flip Flops, various representations of Flip Flops.
+Tutorial: Implementation of flip flops using logic gates.
+Analysis of Sequential Circuits: Conversion of flip flops: A synthesis example, Types of Shift
+Register, SISO, SIPO, PISO and PIPO, Applications of Shift Registers as Ring Counter, Johnson
+Counter, Serial Adder.
+Counters: Asynchronous counters (4 bit), Synchronous Counters (4 bit), Changing the counter
+Modulus, Decade counter (using IC 7490).
+Tutorial: Application of IC 7490, Design and implementation of MOD-N counter
+DAC, ADC and Introduction to HDL: Variable, Resistor Networks, Binary Ladders, D/A
+converters, D/A Resolution and Accuracy, A/D converters: Simultaneous Conversion, Successive
+Approximation and Counter type, A/D Resolution and Accuracy.
+Introduction to HDL: Types of Model, Syntax for Data Flow model.
+Tutorial: Simple programs for SOP equation, Multiplexer, Decoder and Adder using Verilog."
+Object Oriented Programming with Java (Theory),"Unit – I 08 Hours
+OOP Paradigm: The key attributes of object-oriented programming.
+Java basics: The Java language, JDK, arrays, multidimensional arrays, alternative array declaration,
+assigning array references, using the length member, the for-each loop, Strings, using the command line
+arguments.
+Introducing classes and objects: Class fundamentals, how objects are created, reference variables and
+assignment.
+Unit – II 08 Hours
+Methods and classes: methods, returning from a method, returning a value, using parameters, constructors,
+parameterized constructors, the new operator revisited, garbage collection and finalizers, this keyword.
+controlling access to class members, pass objects to methods, argument passing, returning objects, method
+overloading, recursion, static, nested and inner classes, varargs.
+Inheritance: Inheritance basics, member access and inheritance, constructors and inheritance, using super,
+multilevel hierarchy, when are constructors executed, superclass reference and subclass objects, method
+overriding, polymorphism, using abstract classes, using final, the Object class.
+Interfaces: interface fundamentals, creating, implementing and using interfaces, implementing multiple
+interfaces, constants in interfaces, extending interfaces and nested interfaces.
+Unit – IV 08 Hours
+Packages: Package fundamentals, packages and member access, importing packages, static import.
+Exception handling: the exception hierarchy, exception handling fundamentals, uncaught exceptions,
+handle errors gracefully, multiple catch, catching subclass exceptions, nested try, throwing exception,
+throwable, using finally and throws, built-in exceptions, new exception features in JDK7, creating
+exception subclasses.
+String Handling: String fundamentals, constructors, String related language features, length(),
+obtaining characters within a String, String comparison, indexOf() and lastIndexOf(), obtaining a
+modified String, Changing Case, StringBuffer and StringBuilder.
+Unit – V 08 Hours
+Swing fundamentals: origins and design philosophy, components and containers, layout managers,
+event handling, push button, JTextField, anonymous inner classes.
+Swing Controls: JLabel and ImageIcon, Swing Buttons, Trees."
+Computer Organization ( Theory),"Basic Structure of Computers:
+Functional Units, Basic Operational Concepts, Bus Structures, Performance – Processor Clock,
+Basic Performance Equation, Clock Rate, Performance Measurement, Machine Instructions and
+Programs: Numbers, Arithmetic Operations and Characters, Memory Location and Addresses,
+Memory Operations, Instructions and Instruction Sequencing. Addressing Modes.
+Self learning topics: Computer Types, Historical Perspective
+Input / Output Organization:
+Accessing I/O Devices, Program controlled I/O, Memory mapped I/O, Interrupts – Interrupt
+Hardware, Enabling and Disabling Interrupts, Handling Multiple Devices, Controlling Device
+Requests, Direct Memory Access, Bus Arbitration Techniques: Centralized & Distributed, Buses:
+Synchronous & Asynchronous
+Memory System
+Basic Concepts, Semiconductor RAM Memories, Read Only Memories, Speed, Size, and Cost,
+Cache Memories–Mapping Functions: Direct Mapping, Associative Mapping, Set-Associative
+Mapping.
+Arithmetic:
+Addition and Subtraction of Signed Numbers, Design of Fast Adders, Multiplication of Positive
+Numbers, Signed Operand Multiplication, Fast Multiplication, Integer Division.
+Application of the algorithms for arithmetic operations.
+Basic Processing Unit:
+Fundamental Concepts, Execution of a Complete Instruction, Multiple Bus Organization, Hard-
+wired Control.
+Self learning topics: Embedded Systems"
+Web Programming ( Integrated),"Unit – I 08 Hours
+Introduction: The Internet Versus the Web, Serving Up Your Information, Web Page Addresses (URLs),
+The Anatomy of a Web Page, A Dizzying Multitude of Devices, Sticking with the Standards, Progressive
+Enhancement, Responsive Web Design, Accessibility, Site Performance, Steps to becoming a web
+developer, skills and tools, Dos and Don’ts, career trends
+Self learning topics: Web history, web standards
+Unit – II 08 Hours
+HTML5: Basic Elements, drag and drop, File upload, Dropdown menu, audio player, local storage,
+graphics and animation, Geolocation and form validation, CSS3: Basic properties, Inheritance, Multiple
+classes, Box model, Effects.
+Self learning topics: HTML5 code validation
+Unit – III 08 Hours
+Basics of JavaScript: Dialog boxes, Conditional statements, loops, arrays, objects, events, Jquery:
+Add/Remove class, UI Datepicker, File upload, Autocomplete
+Self learning topics: JavaScript Code Validation, JQuery basics
+Unit – IV 08 Hours
+Basics of AngularJS: Form validation, Routing, Controller, Table, Data binding
+Self learning topics: AgularJS API, W3.CSS, Includes
+Unit – V 08 Hours
+Basics of Bootstrap: Grid, Navbar, Table, Dropdown, Form, Layout, Tooltip, Panel, Pop-over, Tabs,
+Modals
+Self learning topics: Concepts of responsive design, BS4 basic template"
+"Calculus, Fourier Analysis and Linear Algebra","Unit – I 10 Hours
+Differential Calculus: Taylor’s and Maclaurin’s theorems for function of one variable (statement only)-
+problems. Angle between polar curves. Partial Differentiation: Definition and problems. Total
+differentiation- problems. Partial differentiation of composite functions- problems.
+Unit – II 10 Hours
+Laplace Transforms: Definition, Laplace transforms of elementary functions. Laplace transforms
+of)t(feat ,)t(ft n ,dt)t(f
+t
+0 ,t
+)t(f (without proof), Inverse Laplace transforms: Inverse Laplace
+transforms -problems, applications to solve linear differential equation.
+Unit –III 10 Hours
+Fourier Analysis: Fourier Series: Fourier series, half range Fourier sine and cosine series. Practical
+examples. Harmonic analysis.
+Fourier Transforms: Infinite Fourier transform and properties. Fourier sine and cosine transforms.
+Properties and problems.
+Unit – IV 10 Hours
+Numerical Techniques: Numerical solution of algebraic and transcendental equations: Method of
+false position, Newton- Raphson method, fixed point iteration method (without derivation).
+Numerical solution of ordinary differential equations: Taylor’s series method, Euler and modified
+Euler method, fourth order Runge-Kutta method (without derivation).
+Unit – V 10 Hours
+Linear Algebra: Rank of a matrix by elementary transformation, solution of system of linear
+equations-Gauss elimination method and Gauss-Seidal method. Eigen value and eigen vectors –
+Rayleigh’s Power method."
+Discrete Mathematical Structures and Graph Theory,"Unit-I 08 hrs
+Fundamentals of Logic: Laws of Logic, Logical Implication-Rules of Inference. Quantifiers-
+Universal and Existential Quantifiers, Proofs Techniques: direct, indirect and Contradiction.
+Unit–II 08 hrs
+Relations and Functions: Zero-One Matrices and Directed Graphs, Closure and Equivalence
+Relations and Partitions, Partial Orders, Hasse Diagrams, Lattice, Properties of functions,
+Composition and Invertible functions.
+Unit-III 08 hrs
+Advanced Counting Techniques: Sterling Number of second kind, Inclusion and Exclusion,
+Pigeonhole Principle, Generating Function, Recurrence relations, Solution of Linear homogeneous
+and non-homogeneous recurrence relations with constant coefficients, Divide and Conquer
+Algorithms, Merge sort algorithm.
+Unit-IV 08 hrs
+Basic Graph Theory: Definitions and Examples, Subgraphs, Complements and Graph
+Isomorphism, Connectivity, Euler Trails and Circuits, Planar Graphs, Hamiltonian Paths and Cycles,
+Coloring, Matching.
+Unit-V 08 hrs
+Elementary Number Theory and Cryptography: Fields, Modular Arithmetic, Prime Numbers,
+Fermat’s and Euler’s theorem. Testing of Primality, Chinese Remainder Theorem. Caesar
+Encryption/Decryption, RSA Cryptosystem"
+Operating System ( Theory),"Unit – I 10 Hours
+Introduction to Operating System: System structures: What operating systems do; Operating System
+operations; Process management; Memory management; Storage management; Protection and security;
+Distributed system; Operating System Services; System calls; Types of system calls; Operating System
+structure; System boot.
+Introduction to UNIX File System: Inside UNIX, Internal and External Commands, Command
+structure.
+Case Study: Android Operating System / iOS
+Unit – II 09 Hours
+Process Management: Process concept; Process scheduling; Process Scheduling: Basic concepts; Scheduling
+criteria; Scheduling algorithms.
+The Process: Understanding the process, How a process is created, the login shell, init, internal and external
+commands, ps.
+Unit – III 09 Hours
+Process Synchronization: Synchronization: The Critical section problem; Peterson’s solution; Semaphores;
+Classical problems of synchronization.
+Deadlocks: Deadlocks: System model; Deadlock characterization; Methods for handling deadlocks; Deadlock
+prevention; Deadlock avoidance; Deadlock detection and recovery from deadlock.
+Unit – IV 09 Hours
+Memory Management: Memory Management Strategies: Background; Swapping; Contiguous
+memory allocation; Paging; Virtual Memory Management: Background; Demand paging;
+Copy-on-write; Page replacement;
+Unit – V 10 Hours
+File System: Implementation of File System: File System: File concept; Access methods; Directory structure;
+File system mounting; File sharing; Protection. Implementing File System: File system structure.
+The File System: The parent child relationship, The UNIX file system, Absolute Pathnames, Relative
+Pathnames, pwd, cd, mkdir, rmdir, cp, rm, mv, cat. File Attributes: ls, ls-l, ls-d, file permissions, chmod."
+Database Management System (Theory),"Unit – I 9 Hours
+Introduction: Introduction to database, Characteristics of Database approach, Advantages of using
+DBMS approach, Three-schema architecture and data independence.
+Entity-Relationship Model: Using High-Level Conceptual Data Models for Database Design; An
+Example Database Application; Entity Types, Entity Sets, Attributes and Keys; Relationships,
+Relationship types, Roles and Structural Constraints; Weak Entity Types.
+CASE STUDY: ER-Modeling of Airline Reservation System, Hospital Management and
+Educational Institute.
+Unit – II 9 Hours
+Relational Model and Relational Algebra: Relational Model Concepts; Relational Model
+Constraints and Relational Database Schemas; Update Operations, Dealing with constraint violations;
+Unary Relational Operations: SELECT and PROJECT; Relational Algebra Operations from Set
+Theory; Binary Relational Operations: JOIN and DIVISION; Additional Relational Operations.
+Unit – III 9 Hours
+Database Design: Informal Design Guidelines for Relation Schemas; Functional Dependencies;
+Normal Forms Based on Primary Keys; General Definitions of Second and Third Normal Forms;
+Boyce-Codd Normal Form.
+Transaction Processing Concepts: Introduction to Transaction processing, Transaction and System
+concepts, Desirable properties of Transactions and issues with concurrent transactions.
+SELF STUDY: Triggers 1 Hour
+Unit – IV 9 Hours
+SQL :SQL Data Definition and Data Types; Specifying basic constraints in SQL; Schema change
+statements in SQL; Basic queries in SQL; More complex SQL Queries. Insert, Delete and Update
+statements in SQL.
+Unit – V 9 Hours
+PL/SQL :PL/SQL Block Structure, PL/SQL Variables, PL/SQL Function , PL/SQL Procedure,
+PL/SQL IF Statement , PL/SQL Loop Statement: PL/SQL WHILE Loop Statement, PL/SQL FOR
+Loop Statement.
+SELF STUDY: PLSQL installation and Programming. 2 Hours
+"
+Design and Analysis of Algorithm(Theory),"Unit – I 8 Hours
+Introduction: Fundamentals of Algorithmic Problem Solving, Analysis Framework, Asymptotic
+Notations and basic efficiency classes, Mathematical Analysis of Non-Recursive and Recursive
+Algorithms, Brute Force Approaches: Introduction, Selection Sort, linear search.
+Self learning topics: Short Tutorial on Recurrence Relations, Bubble Sort( 1Hr)
+Unit – II 8 Hours
+Algorithm Design Technique-I: Divide and Conquer, Decrease-and-Conquer Transform and Conquer,
+the General approach and illustration.
+Applications of Divide and Conquer technique: Binary Search, Merge Sort, Quick Sort and their
+performance comparison. Counting Leaf-nodes, Tiling-Game Implementation.
+Applications of Decrease and Conquer technique: Insertion Sort, Depth First Search and Breadth First
+Search. Maze-Game implementation.
+Applications of Transform and Conquer: Heaps and Heap Sort, Horner’s Rule. Clustering.
+Self learning topics: Multiplication of Large Integers and Binary Exponentiation. (2 Hrs)
+Unit – III 8 Hours
+Algorithm Design Technique-II: The General Greedy Technique, Illustration with examples.
+Applications of Greedy method:Kruskal’s Algorithm – Minimum-Cost Spanning Trees: Prim’s
+Algorithm, Single Source Shortest Path - Dijkstra’s Algorithm, Huffman Trees – Encoding of Data.
+Unit – IV 8 Hours
+Algorithm Design Technique-III: Dynamic Programming Definition and Concept Illustration. The
+General Method,
+Applications of Dynamic programming:Warshall’s Algorithm – Transitive Closure, Floyd’s Algorithm
+for the All-Pairs Shortest Paths, Knapsack using General Weights and 0/1 Knapsack. Longest Common
+Difference – Used in implementation of Diff command and polynomial interpolation.
+Self learning topics: Computing nCr, the dynamic approach (1 Hr)
+Unit – V 8Hours
+Algorithm Design Technique-IV: Backtracking, Branch-and-Bound, String Matching, basics and
+illustrations.
+Applications of backtracking: N - Queens’s problem, Hamiltonian Circuit Problem, Sum of Subset –
+Problem and its use in public key cryptosystem. Graph coloring problem.
+Applications of branch and bound: JobAssignment Problem, Knapsack Problem, Traveling
+Salesperson Problem. Best First Search used in AI.
+Applications string matching: Input Enhancement in String Matching, Horsepool’s method, Rabin-
+Karp Algorithm. Used in Text processing toolkits like nltk.
+Self learning topics: Naïve String Matching Algorithm. (1Hr)"
+Software Engineering ( Theory),"Unit – I 8 Hours
+Introduction: Professional Software Development: Software Engineering, Software Engineering Ethics. A Case
+Study.
+Software Process: Software Process models: The Waterfall model – A Case study, Incremental development,
+Reuse- oriented software engineering, Process activities: Software specification, Software design and
+implementation, Software validation, Coping with Change: Prototyping, Incremental Delivery, Boehm’s Spiral
+Model.
+Unit – II 8 Hours
+Requirements Engineering: Functional and non-functional requirements: Functional requirements, non-
+functional requirements, Case studies, The Software requirements document, Introduction to Requirements
+specification, Requirements Engineering processes: Requirement Elicitation and Analysis.
+Unit – III 8 Hours
+Design Engineering: Context Models, Interaction Models, Design within the Context of Software Engineering
+,Design Process and Design Quality, Design Concepts: Abstraction , Architecture, Patterns, Modularity ,
+Information Hiding, Functional Independence, Refinement, Refactoring
+Agile Software Development: Agile methods, Plan driven and Agile Development, Introduction to Extreme
+Programming. Self Study: SCRUM
+Unit – IV 8 Hours
+Project Planning: Software pricing, Plan-driven Development: Project Plans, Planning process, Project
+scheduling: Schedule Representation, Agile Planning, Estimation techniques: Algorithmic Cost Modeling. The
+COCOMO II Model. Project Duration and Staffing.
+Unit – V 8 Hours
+Software Testing: Development Testing: Unit Testing, Choosing Unit Test Cases, Component Testing, System
+Testing, Test Driven Development, Release Testing, Requirements Based Testing, Scenario Testing, Performance
+Testing, User Testing. A Demo of Selenium."
+Python Programming ( Integrated Lab),"Unit - I 8 Hours
+Introduction to Python, use IDLE to develop programs, Basic coding skills, working with data types and
+variables, working with numeric data, working with string data, Python functions, Boolean expressions,
+selection structure, iteration structure, Illustrative Programs
+Unit - II 8 Hours
+Define and use functions and modules, Basic skills for working with lists, work with a list of lists, work
+with tuples, get started with dictionaries, An introduction to file I/O, use text files, use CSV files, Handle a
+single exception, handle multiple exceptions Illustrative programs
+Unit - III 8 Hours
+Object Oriented Programming, An introduction to classes and objects, define a class, work with object
+composition, work with encapsulation, work with inheritance, override object methods, Using SQLite
+Manager to work with a database, Using Python to work with a database, Creating a GUI that handles an
+event Illustrative programs
+Unit - IV 8 Hours
+NumPy Basics: Arrays and Vectorized Computation: Creating ndarrays, Data Types for ndarrays,
+Operations between Arrays and Scalars, Basic Indexing and Slicing, Indexing with slices, Boolean Indexing,
+Transposing Arrays and Swapping Axes.
+Unit – V 8 Hours
+Introduction to Pandas, Pandas Objects, Operations in Pandas: Object creation, viewing data, selection,
+Different ways of creating DataFrame, Handling missing data, merge and concat operations. Pivot and
+Pivot table.
+SciPy: Introduction to Optimization and Minimization, Interpolation, Integration, Statistics
+"
+Graph Theory and Discrete Mathematical Structures,"Unit-I 10 hrs
+Fundamentals of Logic: Laws of Logic, Logical Implication-Rules of Inference. Quantifiers- Universal and
+Existential Quantifiers, Proofs Techniques: direct, indirect and Contradiction.
+Unit –II 10 hrs
+Relations and Functions: Zero-One Matrices and Directed Graphs, Closure and Equivalence Relations and
+Partitions, Partial Orders, Hasse Diagrams, Lattice, Properties of functions, Composition and Invertible functions.
+Unit III 10 hrs
+Advanced Counting Techniques: Sterling Number of second kind, Inclusion and Exclusion, Pigeonhole
+Principle, Generating Function, Recurrence relations, Solution of Linear homogeneous and non-homogeneous
+recurrence relations with constant coefficients, Divide and Conquer Algorithms, Merge sort algorithm.
+Unit IV 10 hrs
+Basic Graph Theory: Definitions and Examples, Subgraphs, Complements and Graph Isomorphism,
+Connectivity, Euler Trails and Circuits, Planar Graphs, Hamiltonian Paths and Cycles, Coloring, Matching.
+Unit V 10 hrs
+Elementary Number Theory and Cryptography: Fields, Modular Arithmetic, Prime Numbers, Fermat’s and
+Euler’s theorem. Testing of Primality, Chinese Remainder Theorem. Caesar Encryption/Decryption, RSA
+Cryptosystem."
+ENVIRONMENTAL STUDIES (MNC),"UNIT I 06 Hours
+Definition of Environment, Ecology and Eco-system, Structure and functions of ecosystem, balanced ecosystem,
+Introduction to Environmental Impact Assessment.
+Natural Resources: Material Cycles - Oxygen, Carbon, Nitrogen and Hydrological cycle. Importance of water
+quality, Water borne diseases, Water induced diseases, Significance of Fluoride in drinking water.
+UNIT II 06 Hours
+Energy - Different types of energy, Conventional and Non - Conventional sources – Advantages and Limitations
+of Wind Mills, Hydro Electric, Fossil fuel, Nuclear, Solar, Biomass and Bio-gas, Geothermal energy.
+UNIT III 06 Hours
+Disasters - Natural Disasters: Meaning and nature of natural disasters, their types and effects (Floods, drought,
+cyclone, earthquakes, Tsunami). Man Made Disasters: Nuclear disasters, chemical disasters, biological disasters,
+building fire, coal fire, forest fire, oil fire, air pollution, water pollution, deforestation, industrial waste water
+pollution and marine pollution.
+UNIT IV 05 Hours
+Disaster Management: International strategy for disaster reduction. Concept of disaster management and national
+disaster management framework
+UNIT V 05 Hours
+Environmental Protection: Role of Government, Legal aspects, Initiatives by Non - Governmental Organizations
+(NGO), Environmental Education, Women Education. E waste and solid waste management rules
+"
+Computer Networks,"Unit – I 10 Hours
+Introduction to Computer Networks and the Internet: What Is the Internet?, The Network Edge, The
+Network Core, Delay, Loss, and Throughput in Packet-Switched Networks, Protocol Layers and Their
+Service Models.
+Tutorials: Networks Under Attack, Introduction to network analysis tool- Wireshark
+Unit – II 10 Hours
+Application Layer: Principles of Network Applications, The Web and HTTP, File Transfer: FTP
+Commands and Replies, Electronic Mail in the Internet, The Internet's Directory Service, Peer-to-Peer
+Applications-Bit Torrent File distribution protocol.
+Tutorials: Wireshark demonstration for HTTP and DNS, Introduction to RFC.
+Unit – III 10 Hours
+Transport Layer: Introduction and Transport-Layer Services, Multiplexing and De-multiplexing,
+Connectionless Transport : UDP, Principles of Reliable Data Transfer: Go-Back-N and Selective Repeat,
+Connection-Oriented Transport: TCP.
+Tutorials: Programming assignment on Implementing a Reliable Transport Protocol and Using the
+Wireshark for exploring the TCP and UDP
+Unit – IV 10 Hours
+The Network layer: Introduction, Virtual Circuit and Datagram Networks, What’s Inside a Router?, The
+Internet Protocol (IP): Forwarding and Addressing in the Internet.
+Tutorials : Introduction to Routing in the Internet-BGP, Wireshark for Exploring ICMP using ping and
+trace-route
+Unit – V 10 Hours
+The Link Layer: Links, Access Networks, and LANs:
+Introduction to the Link Layer, Error Detection and Correction Techniques, Multiple Access Links and
+Protocols, Introduction to Link Virtualization and Data Center Networking.
+Tutorials : Use of Wireshark in exploring Ethernet, ARP and DHCP"
+Object Oriented Modeling and Design,"Unit – I 8 Hours
+Introduction, Modeling Concepts, Class Modeling: Introduction to Object Orientated (OO)
+development. OO themes; OO modeling history. Modeling as Design Technique: Modeling; abstraction;
+The three models.
+Class Modeling: Object and class concepts; Link and associations concepts; Generalization and
+Inheritance. Introduction to association and aggregation.
+Unit – II 8 Hours
+State Modeling, Advanced State Modeling: State Modeling: Events, States, Transitions and
+Conditions; State diagrams; State diagram behavior; Advanced State Modeling: Nested state diagrams;
+Nested states.
+Unit – III 7 Hours
+Interaction Modeling, Advanced interaction Modeling: Interaction Modeling: Use case models;
+Sequence models; Activity models. Use case relationships; Procedural sequence models; Special
+constructs for activity models.
+Unit – IV 8 Hours
+Domain Analysis: Overview of domain analysis; Domain class model; Domain state model; Domain
+interaction model; Iterating the analysis.
+Unit – V 8 Hours
+Application Analysis: Application interaction model; Application class model; Overview of class
+Design."
+Unix System Programming,"Unit – I 10 Hours
+Introduction to UNIX and its Commands: UNIX and ANSI Standards: The ANSI C Standard, The
+ANSI/ISO C++ Standards, Difference between ANSI C and C++, The POSIX Standards, The POSIX.1
+FIPS Standard. UNIX and POSIX APIs: The POSIX APIs, The UNIX and POSIX Development
+Environment, API Common Characteristics, The File System: The File, What’s in a (File)name, The
+Parent-Child relationship, The UNIX File System, pwd, Absolute pathnames, cd, Relative pathnames,
+mkdir, rmdir, cp, rm, mv, cat, ls.
+Unit – II 10 Hours
+UNIX Files: File Types, The UNIX and POSIX File System, The UNIX and POSIX File Attributes,
+Inodes in UNIX System V, Application Program Interface to Files, UNIX Kernel Support for Files,
+General File APIs, Directory File APIs , Device File APIs, FIFO File APIs , Symbolic Link File APIs,
+File and Record Locking.
+Unit – III 10 Hours
+UNIX Processes: The Environment of a UNIX Process: Introduction, main function, Process
+Termination, Command-Line Arguments, Environment List, Memory Layout of a C Program, Shared
+Libraries, Memory Allocation, Environment Variables, setjmp and longjmp Functions, getrlimit, setrlimit
+Functions, UNIX Kernel Support for Processes.
+Unit – IV 10 Hours
+Signals and Daemon Processes: Signals: The UNIX Kernel Support for Signals, signal, Signal Mask,
+sigaction, The SIGCHLD Signal and waitpid API, The sigsetjmp and siglongjmp Functions, kill, alarm,
+Interval Timers.
+Daemon Processes: Introduction, Daemon Characteristics, Coding Rules, Error Logging, Client-Server
+Model.
+Unit – V 10 Hours
+Inter-process Communication: Introduction, Pipes, popen and pclose Functions, Co-processes, FIFOs,
+Message Queues, Semaphores, Shared Memory."
+Formal languages and Automata Theory,"Unit – I 10 Hours
+Introduction to Finite Automata: Introduction to Finite Automata, Structural Representation. The
+central concepts of Automata theory – Alphabet, Strings & Languages. Deterministic Finite Automata
+(DFA), Non-Deterministic and Equivalence of NFA and DFA,
+Self learning: FA with Epsilon (ε) transitions and Applications of Finite automata.
+Unit – II 10 Hours
+Regular Expressions and languages: Regular Expressions, Finite Automata and Regular Expressions,
+Properties of Regular Languages (RL): Proving Languages not to be Regular. Equivalence and
+Minimization of Automata.
+Self learning : Closure properties of Regular Languages and Applications of Regular Expressions
+Unit – III 10 Hours
+Context-Free Grammars (CFG) and Languages (CFL): Context-Free Grammars, Parse Trees,
+Applications of Context-Free Grammars, Ambiguity in Grammars and Languages. Normal forms for
+Context Free Grammar.
+Self learning: Closure properties and Pumping lemma for Context Free Languages.
+Unit – IV 10 Hours
+Pushdown Automata (PDA): Definition of Pushdown Automata, The languages of a PDA: Acceptance
+by Final state & Empty stack.
+Introduction to Turing Machines (TM): Turing Machine model: Definition of Turing Machine,
+Transition Function, Instantaneous Description & Moves, Programming a Turing Machine, Language
+recognition by Turing Machine.
+Self learning: Deterministic Pushdown Automata,Turing Machine as a acceptors,Turing Machine as
+Transducers.
+Unit – V 10 Hours
+LEX and YACC Tools: The Simplest Lex Program, Recognizing Words with Lex. Grammars: Parser-
+lexer communication, A Yacc Parser, Rules section. Running Lex and Yacc and examples
+Using Lex: Regular Expressions and examples.
+Using Yacc: Shift reduce parsing, Arithmetic Expressions and Ambiguity."
+Advanced Web Programming,"Unit – I 09 Hours
+An Ajax Overview: Introducing Ajax, Examples of real world Applications, Back to the joke of the day
+application. Understanding the Document Object Model: The ajax story of the day application, An
+introduction to the document Object model, The Dom tree, Walking the DOM tree, Dynamically updating
+the Page content. Ajax Basics: Connecting your application to web servers, working with the
+XMLHttpRequest Object, Managing the current XMLHttpRequests. Important Ajax design Issues:
+Programming hurdles that all Ajax developers face.
+Self learning topics: project preview : The joke of the day application , The Ajax story of the day
+application, Ajax Typing challenge,
+Unit – II 07 Hours
+Introducing Full Stack Development: Node.js, Express, MongoDB, AngularJS, Supporting cast;
+Designing a MEAN stack architecture: Planning a real application, breaking the development into
+stages, Hardware Architecture
+Unit – III 08 Hours
+Building Node Application: A brief look at Express, Node and npm, Create Express Project, Modifying
+Express for MVC, Import Bootstrap for responsive layout, Setting up Heroku, Building a static site with
+Node and Express: Defining routes in Express, Building basic controllers, Creating views.
+Unit – IV 07 Hours
+Connecting Express application to MongoDB, why model data?, Defining Mongoose schemas,
+Database development with MongoDB and Mongoose, Getting our database live ,Installing the
+stack and supporting softwares.
+Unit – V 08 Hours
+Rules of REST API, Setting up the API in Express, GET, POST,PUT and DELETE methods; Consuming
+a REST API: Call an API from Express, Using Lists of data from API, Getting single documents from
+API, Adding data to the database via API, Protecting data Integrity with data validation, writing modular
+JavaScript and JavaScript callbacks."
+Advanced Java,"Unit – I 08 Hours
+Java I/O: Byte streams and Character streams, The Byte Stream classes, The Character Stream classes,
+Predefined streams, Using Byte Streams, Using Java’s Type Wrappers to Convert Numeric Strings.
+Unit – II 08 Hours
+File I/O: Reading and Writing Files using Byte Streams, Automatically closing a file, Reading and
+Writing Binary data, Random-Access Files, Using Java’s Character-based Streams, File I/O using
+Character Streams
+Unit – III 08 Hours
+Multithreaded Programming: Multithreading Fundamentals, The Thread class and Runnable interface,
+Creating a thread, Creating multiple threads, Determining when a thread ends, Thread Priorities,
+Synchronization, Using Synchronized Methods, The synchronized statement, Thread communication using
+notify(), wait() and notifyall(), Suspending, Resuming and Stopping threads
+Unit – IV 08 Hours
+JDBC: The Concept of JDBC; JDBC Driver Types; JDBC Packages; A Brief Overview of the JDBC
+process; Database Connection; Associating the JDBC/ODBC Bridge with the Database; Statement
+Objects; ResultSet; Transaction Processing - commit(), rollback(), SavePoint.
+Unit – V 08 Hours
+Servlets: Background; The Life Cycle of a Servlet; Using Tomcat for Servlet Development; A simple
+Servlet; The Servlet API; The Javax.servlet Package; Reading Servlet Parameter; The Javax.servlet.http
+package; Handling HTTP Requests and Responses; Using Cookies; Session Tracking."
+Advanced Algorithms,"Unit – I 8 Hours
+Review of Analysis Techniques: Standard notations and common functions; Recurrences and Solution of
+Recurrence equations- The substitution method, The recurrence – tree method, The master method; Amortized
+Analysis: Aggregate, Counting and Potential method.
+Unit – II 8 Hours
+Graph Algorithms: Johnson‘s Algorithm for sparse graphs; Detecting Negative Cycle-Floyd Warshal
+Algorithm. Single source shortest path in DAG. Flow networks and Ford-Fulkerson method. Graph coloring
+Algorithm.
+Unit – III 8 Hours
+Number-Theoretic Algorithms: Theoretic Algorithms: Elementary notions; GCD, Extended Euclid;
+Solving modular linear equations; Powers of an element; Modular Inverse, Chinese Remainder theorem,
+Fermat‘s theorem, Miller-Rabin for primality test. RSA cryptosystem.
+Unit – IV 8 Hours
+String-Matching Algorithms: Naïve string Matching; Rabin - Karp algorithm; String matching with finite
+automata and its time complexity; Knuth-Morris-Prat Algorithm and its time complexity, Boyer – Moore
+algorithms.
+Unit – V 8 Hours
+Probabilistic and Randomized Algorithms: Deterministic and Non-deterministic algorithms, Concept of NP-
+Hard and NP-Complete. TSP example. Probabilistic algorithms; Randomizing deterministic algorithms, Monte
+Carlo and Las Vegas algorithms."
+Data Warehousing and Data Mining,"Unit – I 8 Hours
+Data Mining: Introduction, What is Data Mining?, Data Mining – on what kind of Data? Data Mining
+Functionalities-What kinds of patterns can be mined?, Classification of Data mining systems, Major
+issues in Data Mining.
+Unit – II 8 Hours
+Data Warehouse and OLAP Technology: What is Data Warehouse? A multidimensional Data
+model, Data Warehouse architecture. From data warehouse to Data mining.
+Self-learning topics: Weka tool
+Unit – III 8 Hours
+Data Pre-Processing: Why preprocess the data? Data Cleaning, Data Integration and transformation,
+Data reduction.
+Self-learning topics: Weka tool
+Unit – IV 8 Hours
+Classification and Prediction: What is Classification and Prediction? Issues regarding classification
+and prediction. Classification by Decision Tree Induction. Bayesian Classification. Backpropagation.
+Self learning topics: Weka tool for Analysis
+Unit – V 8 Hours
+Cluster Analysis: What is cluster Analysis? Types of data in cluster analysis, Categarization of
+major clustering methods. Partitioning methods."
+NoSQL,"Unit – I 08 Hours
+Why NoSQL? Aggregate Data Models, More Details on Data Models, Distribution Models,
+Consistency, Version Stamps, Map-Reduce.
+Unit – II 08 Hours
+Implement: Key-Value Databases, Document Databases, Column-Family Stores, Graph Databases,
+Choosing Your Database.
+Unit – III 08 Hours
+MongoDB: Introduction, Creating, Updating, and Deleting Documents, Querying
+Unit – IV 08 Hours
+Introduction to Cassandra: The Cassandra Data Model, Reading and Writing Data: Query Basic write
+properties, basic read properties, Deleting.
+Unit – V 08 Hours
+Redis: Getting to know Redis: What is redis? , What does Redis data structures look like, Anatomy of
+Redis Web Application, Commands in Redis, Building a simple social network."
+Enterprise Resource Planning,"Unit – I 08 Hours
+Introduction to ERP: Overview, Business Processes, Introduction to ERP, Benefits of ERP, ERP and
+Related Technologies, Business Process Reengineering, Data Warehousing, Data Mining, On–line
+Analytical Processing, Supply Chain Management.
+Unit – II 08Hours
+ERP Implementation: Implementation Life Cycle, Implementation Methodologies, Hidden Costs,
+Vendors and Consultants, Contracts with Vendors, Consultants, and Employees, Project Management
+and Monitoring.
+Unit – III 08 Hours
+Business Modules: Business Modules in an ERP Package, Financials, Manufacturing, Human Resource
+Management, Plant Maintenance, Materials Management, Quality Management, Sales, Distribution, and
+Service.
+Unit – IV 08 Hours
+ERP Market Dynamics: ERP Market Place and marketplace dynamics, ERP Vendors.
+Two case studies such as Data Span, LG Electronics, Tata Motors.
+Self learning topics: System Software Associates
+Unit – V 08 Hours
+ERP –Present and Future: Turbo Charge the ERP System, EIA, ERP and E–Business, ERP,Internet,and
+www-ERP II ,ERP and Total Quality Management.
+Self learning topics: Future Directions and trends in ERP, Working of GOOGLE search engine."
+Project Management,"UNIT I 8 hours
+Introduction to software project management: Introduction ,why is software project management important,
+what is project, software projects versus other types of project, contract management and technical project
+management, Activities covered by software project management, plans methods and methodologies some ways
+of categorizing software projects, stakeholders, selling objectives, the business case, project success and failure,
+what is management, management control, traditional versus modern project management practices
+Project Evaluation and Programme Management: Introduction, A business case, project portfolio
+management, evaluation of individual projects. Cost benefit evaluation technique, risk evaluation, programme
+management, managing the allocation of resources within programme, strategic programme management,
+creating a programme, aids to programme management, some reservations about programme management,
+benefit management
+UNIT II 8 hours
+Risk Management: Introduction, Risk, categories of risk, A framework for dealing with risk, risk identification,
+risk Assessment, Risk planning, Risk management, Evaluating risks to the schedule, Applying the PERT
+technique, Monte carlo simulation, critical chain concepts.
+Resource Allocation: Introduction, The Nature of resources, Identifying Resource Requirements, scheduling
+Resources, Creating critical paths, counting the cost, being specific, publishing the resource schedule, cost
+schedules, The Scheduling sequence.
+UNIT III 8 Hours
+Monitoring and control: Introduction, Creating the framework, collecting the data, review, Project termination
+review, visualising progress, cost monitoring, earned value analysis, Prioritizing monitoring, Getting the project
+back to target, change control, software configuration management(SCM).
+Managing Contracts: Introduction, types of contracts, stages in Contract placement, typical terms of a contract,
+Contract management, Acceptance.
+UNIT IV 8 Hours
+Managing people in software environment: Introduction, Understanding Behaviour, Organizational Behaviour:
+A background, selecting the right person for job, instruction in the best methods, motivation, The Oldham-
+Hackman job characteristics model, stress, Health and safety, Some ethical and professional concerns
+Working in teams: Introduction, Becoming a team, decision making, organization and team structures,
+Coordination Dependencies, Dispersed and virtual Teams, Communication Genres, Communication Plans,
+Leadership
+UNIT V 8 hours
+Software Quality: Introduction, the place of software quality in project planning, the importance of software
+quality, defining software quality, ISO 9126, product and process metrics, product versus process quality
+management, quality management systems, process capability models, techniques to help enhance software
+quality, testing, software reliability, quality plans"
+Principles of Cyber Security,"Unit – I 8 Hours
+Ethical Hacking: Overview of Ethics, Overview of Ethical Hacking, Methodology of Ethical Hacking,
+Networking
+Foundations: Communications Models, Topologies, Physical Networking, IP, TCP, UDP, Internet
+Control Message Protocol, Network Architectures, Cloud Computing,
+Unit – II 8 Hours
+Security Foundations: The Triad, Risk, Policies, Standards, and Procedures, Security Technology,
+Being Prepared;
+Footprinting and Reconnaissance: Open-Source Intelligence, Domain Name System, Passive
+Reconnaissance, Website Intelligence, Technology Intelligence,
+Unit – III 8 Hours
+Scanning Networks: Ping Sweeps, Port Scanning, Vulnerability Scanning
+Enumeration: Service Enumeration, Remote Procedure Calls, Server Message Block, Web-Based
+Enumeration
+Unit – IV 8 Hours
+System Hacking: Searching for Exploits, System Compromise, Gathering Passwords, Password
+Cracking, Client-Side Vulnerabilities, Post Exploitation
+Malware: Malware Types, Malware Analysis, Antivirus Solutions, Spoofing Attacks
+Subject Code: 18CS564 Credits: 3
+Course Type: OE CIE Marks: 50
+Hours/week: L – T – P 3 – 0 – 0 SEE Marks: 50
+Total Hours: 40 SEE
+Duration:
+3 Hours
+Unit – V 8 Hours
+Social Engineering: Social Engineering, Physical Social Engineering, Phishing Attacks, Website
+Attacks
+Cryptography: Basic Encryption, Symmetric Key Cryptography, Asymmetric Key Cryptography,"
+Object Oriented Programming Using C++,"Unit– I 8 Hours
+Beginning with C++ and its features: What is C++?, Applications and structure of C++ program,
+Different Data types, Variables, Different Operators, expressions, operator overloading and control
+structures in C++.
+Unit – II 8 Hours
+Functions, classes and Objects: Functions, Inline function, function overloading, friend and virtual
+functions, Specifying a class, C++ program with a class, memory allocation to objects, array of objects.
+Unit – III 8 Hours
+Constructors, Destructors and Operator overloading: Constructors, Multiple constructors in a class, Copy
+constructor, Dynamic constructor, Destructors, Overloading Unary and binary operators.
+Unit– IV 8 Hours
+Inheritance, Pointers, Virtual Functions, Polymorphism: Derived Classes, Single, multilevel, multiple
+inheritance, Pointers to objects and derived classes, this pointer, Virtual and pure virtual functions.
+Unit– V 8 Hours
+Templates & Standard Template Library (STL): Introduction, Need and Use of Templates, Function templates
+and Class templates; STL: Introduction, Containers, Algorithms and Iterators."
+"Artificial Intelligence and Machine Learning
+","Unit – I 10 Hours
+Introduction to Artificial Intelligence: Introduction, what is AI, Strong Methods and weak
+Methods. Uses and Limitations:
+Knowledge Representation: Need for good representation, semantic nets, Frames, , Search Spaces,
+Semantics Tress, Search Trees, Combinatorial Explosion, Problem reduction, Goal Trees,
+Combinatorial Explosion
+Self-learning topics: Inheritance, Object oriented programming
+Unit – II 10 Hours
+Search Methodologies: Introduction, Problem solving as search, Data driven or goal driven search,
+Generate and test, Properties of search methods, Depth First Iterative Deepening, Using Heuristics
+for Search, Hill Climbing, Best-First Search, Identifying Optimal Paths, Constraint Satisfaction
+search, Forward Checking, Local Search and Meta heuristics, Simulated Annealing. Genetic
+Algorithms for search, Real time A*, Bidirectional search, Nondeterministic search, non-
+chronological backtracking
+Self-learning topics: Depth First Search, Breadth First Search, Implementing Depth-First and
+Breadth-First Search
+Unit – III 10 Hours
+Game Playing: Game Trees, Minimax, Alpha beta pruning
+Prepositional and Predicate Logic: Introduction, what is Logic, Why Logic is used in Artificial
+Intelligence, Logical Operators, translating between English and Logic Notation, The deduction
+Theorem, Soundness, Completeness, Decidability, Monotonicity, Abduction and Inductive reasoning,
+Modal logics and possible worlds, Dealing with change.
+Inference and Resolution for Problem Solving: Introduction, Resolution in prepositional logic:
+Applications of Resolution, Resolution in Predicate Logic, Normal forms for predicate logic,
+Skolemization, Resolution Algorithms, Resolution for problem solving,
+Self-learning topics: Truth Tables: Not, And, Or, Implies, if, Complex Truth Tables, Tautology,
+Equivalence
+Unit – IV 10 Hours
+Introduction to Machine Learning: Introduction, Training Rote Learning, Learning Concepts,
+General-to-Specific Ordering, Version Spaces, Candidate Elimination, Inductive Bias, Decision-
+Tree Induction, The Problem of Overfitting, The Nearest Neighbor Algorithm, Backpropagation
+algorithms, Reinforcement Learning.
+Neural Networks: Introduction, Neurons, Perceptrons, Multilayer Neural Networks, Recurrent
+Networks, Unsupervised Learning Networks, Evolving Neural Networks.
+Self-learning topics: Supervised Learning, Unsupervised Learning
+Unit – V 10 Hours
+Probabilistic Reasoning and Bayesian Belief Networks: Introduction, Probabilistic Reasoning,
+Joint Probability Distributions, Bayes’ Theorem, Simple Bayesian Concept Learning, Bayesian
+Belief Networks, The Noisy-V Function, Bayes’ Optimal Classifier, The Naïve Bayes Classifier
+Self-learning topics: Collaborative Filtering"
+"Compiler Design
+","nit – I 10 Hours
+Introduction and Lexical Analysis:
+Introduction: Language Processor, Structure of Compiler: Lexical Analysis, Syntax Analysis,
+Semantic Analysis, Intermediate Code Generation, Code Optimization, Code Generation, Symbol-Table
+Management, The Grouping of Phases into Passes, Compiler-Construction Tools
+Lexical Analysis: The Role of Lexical Analyzer: Lexical Analysis Versus Parsing, Tokens, Patterns,
+and Lexemes, Attributes for Tokens, Lexical Errors; Input Buffering: Buffer pairs, Sentinels;
+Specification of Tokens: Strings and Languages, Operations on Languages, Regular Expressions,
+Regular Definitions, Extensions of Regular Expressions; Recognition of Tokens: Transition Diagrams,
+Recognition of Reserved Words and Identifiers, Completion of the Running Example, Architecture of a
+Transition-Diagram-Based Lexical Analyzer
+Tutorial: Exercises on Specification and Recognition of Tokens
+Self-learning: Applications of Compiler Technology
+Unit – II 10 Hours
+Syntax Analysis-1:
+Introduction: The Role of the Parser, Representative Grammars, Syntax Error Handling, Error-
+Recovery Strategies; Context-Free Grammars: The Formal Definition of a Context-Free Grammar,
+Notational Conventions, Derivations, Parse Trees and Derivations, Ambiguity, Verifying the Language
+Generated by a Grammar, Context-Free Grammars Versus Regular Expressions; Writing a Grammar:
+Lexical Versus Syntactic Analysis, Eliminating Ambiguity, Elimination of Left Recursion, Left
+Factoring; Top-Down Parsing: Recursive-Descent Parsing, FIRST and FOLLOW, LL(l) Grammars,
+Non-recursive Predictive Parsing, Error Recovery in Predictive Parsing
+Tutorial: Exercises on Top down Parsing
+Unit – III 10 Hours
+Syntax Analysis-2:
+Bottom-up Parsing: Reductions, Handle Pruning, Shift-Reduce Parsing, Conflicts During Shift-Reduce
+Parsing; Introduction to LR Parsing: Simple LR: Items and the LR(O) Automaton, The LR-Parsing
+Algorithm, Constructing SLR-Parsing Tables, Viable Prefixes; More Powerful LR Parsers: Canonical
+LR(l) Items, Constructing LR(l) Sets of Items, Canonical LR(l) Parsing Tables, Constructing LALR
+Parsing
+Tutorial: Exercises on Bottom up Parsing
+Self-learning: Using Ambiguous Grammars
+Unit – IV 10 Hours
+Syntax-Directed Definitions and Syntax-Directed Translation Schemes:
+Inherited and Synthesized Attributes, Evaluating an SDD at the Nodes of a Parse Tree; Evaluation
+Orders for SDD's: Dependency Graphs, Ordering the Evaluation of Attributes, S-Attributed
+Definitions, L-Attributed Definitions; Applications of Syntax-Directed Translation: Construction of
+Syntax Trees (Only S-Attributed)
+Syntax-Directed Translation Schemes: Postfix Translation Schemes, Parser-Stack Implementation of
+Postfix SDT's
+Unit – V 10 Hours
+Intermediate Code Generation and Code Generation:
+Variants of Syntax Trees: Directed Acyclic Graphs for Expressions, The Value-Number Method for
+Constructing DAG's; Three-Address Code: Addresses and Instructions, Quadruples, Triples, Static
+Single-Assignment Form; Translation of Expressions: Operations Within Expressions; Control Flow:
+Boolean Expressions, Short-Circuit Code, Flow-of-Control Statements
+Code Generation: Issues in the design of Code Generator, The Target language, Basic blocks and Flow
+graphs; Optimization of basic blocks; A Simple Code Generator
+Self-learning: Control-Flow Translation of Boolean Expressions
+"
+Embedded Systems and IoT,"Unit – I 8 Hours
+Embedded Computing: Introduction, Complex systems and microprocessors, Embedding
+computers, Characteristics of embedded computing applications, Why use microprocessors,
+Challenges in embedded computing system design, Performance of embedded computing systems.
+The embedded system design process: Requirements, Specification, Architecture design, Designing
+hardware and software components, System integration.
+Unit – II 8 Hours
+The 8051 Microcontrollers: Microcontrollers and embedded processors, Overview of the 8051
+family.
+8051 Programming in C: Data types and time delay in 8051 C, I/O programming in 8051 C, Logic
+operations in 8051 C, Data conversion programs in 8051 C.
+Unit – III 8 Hours
+Programming timers 0 and 1 in 8051 C, Basics of serial communication, Serial port programming
+in C, LCD interfacing, DAC interfacing, and Sensor interfacing.
+Unit – IV 7 Hours
+Introduction to Internet of Things: Introduction, Definition and Characteristics of IoT, Physical
+design of IoT, Things in IoT, IoT Protocols, Logical Design of IoT, IoT functional blocks, IoT
+Communication Models, IoT Communication APIs, IoT Enabling Technologies, IoT levels and
+Deployment Templates.
+Domain Specific IoTs: Introduction, Home Automation, Environment.
+Unit – V 7 Hours
+IoT Physical Devices and Endpoints: What is an IoT Device, Basic building blocks of an IoT
+Device, Exemplary Device: Raspberry Pi, About the board, Linux on Raspberry Pi, Raspberry Pi
+interfaces, Programming Raspberry Pi with Python, Other IoT Devices.
+"
+Computer Graphics,"Unit – I 8 Hours
+Introduction: A graphics system, Images: Physical and synthetic, The synthetic camera model, The
+programmer’s interface, Graphics architectures, The Sierpinski gasket, Programming 2D
+Applications, The OpenGL API, Primitives and attributes.
+Unit – II 8 Hours
+Introduction: Color, Viewing, Control functions, The Gasket program, Polygons and recursion, The
+three-dimensional gasket.
+Input and Interaction: Interaction, Input devices, Programming Event Driven Input, Menus, A
+simple CAD program, Building Interactive Models, Animating Interactive Program, Design of
+Interactive Programs, Logic Operations.
+Unit - III 8 Hours
+Geometric Objects and Transformations : Three-dimensional Primitives, Coordinate Systems and
+Frames, Frames in Open GL, Modeling a Colored Cube, Affine Transformations, Rotation,
+Translation and Scaling, Transformation in Homogeneous Coordinates, Concatenation of
+Transformations, 3D Transformations, OpenGL Transformation Matrices.
+Unit - IV 8 Hours
+Viewing: Classical and computer viewing, Viewing with a Computer; Positioning of the camera,
+Simple projections, Projections in OpenGL, Hidden-surface removal.
+Lighting: Light and Matter, Light Sources, The Phong Lighting model, Computation of vectors.
+Unit - V 8 Hours
+Shading: Polygonal Shading, Approximation of a sphere by recursive subdivisions, Light sources in
+OpenGL, Specification of materials in OpenGL, Shading of the sphere model, Global Illumination.
+Implementation: Clipping, Line-segment clipping, Polygon clipping."
+Big Data Management,"Unit – I 8 Hours
+Introduction: Big Data Definition, History of Data Management-Evolution of Big Data, Structuring Big
+Data, Elements of Big Data, Big Data Analytics, Careers in Big Data, Future of Big Data, Use of Big Data
+in Social Networking, Use of Big Data in Preventing Fraudulent Activities; Use of Big Data in Retail
+Industry
+Unit – II 8 Hours
+Hadoop Ecosystem: Understanding Hadoop Ecosystem, Hadoop Distributed File System:HDFS
+Architecture,Concept of Blocks in HDFS Architecture, NameNodes and Data Nodes, The Command-Line
+Interface, Using HDFS Files, Hadoop-Specific File System Types, HDFS Commands, The
+org.apache.hadoop.io package,HDFS High availability:Features of HDFS.
+Course Code 18CS642 Credits 3
+Course type PE CIE Marks 50 marks
+Hours/week: L-T-P 3 – 0 – 0 SEE Marks 50 marks
+Total Hours: 40 SEE Duration 3 Hours for 100 marks
+Pre-requisites: Database Management System, Unix Shell Programming
+Unit – III 8 Hours
+Understanding MapReduce: The MapReduce Framework: Exploring the Features of MapReduce,
+Working of MapReduce, Exploring Map and Reduce Functions, Uses of MapReduce.
+YARN Architecture: Background; Advantages of YARN; YARN Architecture
+Unit – IV 8 Hours
+Apache Spark: Overview - What Apache Spark is? Features of apache spark, Spark programming
+languages, Spark's built-in libraries; Spark History - Limitations of Map Reduce in Hadoop, Creation
+history of Spark; Why Use Spark - Comparison of Spark and Map Reduce, Reasons for choosing Spark;
+Spark architecture and its advantages; Data sharing using Spark RDD; iterative operations on Spark RDD;
+interactive operations on Spark RDD; Spark –installation.
+Unit – V 8 Hours
+NoSQL: Introduction to NoSQL: Why NoSQL, Characteristics of NoSQL, History of NoSQL, Types of
+NoSQL Data Models: Key-Value Data Model, Column-Oriented Data Model, Document Data Model,
+Graph Databases, Schemaless Databases, Materialized views, Distribution Models: CAP Theorem,
+Sharding"
+System Software,"Unit – I 8 Hours
+Machine Architecture: Introduction, System Software and Machine Architecture, Simplified
+Instructional Computer (SIC) - SIC Machine Architecture, SIC/XE Machine Architecture, SIC and
+SIC/XE Programming Examples. Case Study UltraSPARC architecture
+Self-learning topics: PowerPC Architecture
+Unit – II 8 Hours
+Assemblers -1: Basic Assembler Function - A Simple SIC Assembler, Assembler Algorithm and
+Data Structures, Machine Dependent Assembler Features - Instruction Formats and Addressing
+Modes, Program Relocation
+Unit – III 8 Hours
+Assemblers -2: Machine Independent Assembler Features – Literals, Program Blocks, Control
+Sections and Programming Linking, Assembler Design Operations – One Pass Assembler, Multi-
+Pass Assembler. Case Study MASM Assembler.
+Self-learning topics: SPARC Assembler.
+Unit – IV 8 Hours
+Loaders and Linkers: Basic Loader Functions - Design of an Absolute Loader, A Simple Bootstrap
+Loader, Machine-Dependent Loader Features – Relocation, Program Linking, Algorithm and Data
+Structures for a Linking Loader; Machine-Independent Loader Features - Automatic Library Search,
+Loader Options. Case Study MS-DOS Linker,
+Self-learning topics: Case Study Sun OS Linker
+Unit – V 8 Hours
+Macro Processor: Basic Macro Processor Functions - Macro Definitions and Expansion, Macro
+Processor Algorithm and Data Structures, Machine Independent Macro Processor Features -
+Concatenation of Macro Parameters, Generation of Unique Labels, Conditional Macro Expansion,
+Keyword Macro Parameters, Case Study: MASM Macro Processor. ANSI C Macro language."
+Software Testing,"Unit – I 8 Hours
+A perspective on Testing
+Basic definitions, Test cases, Insights from Venn diagram, Identifying Test Cases, Error and fault
+taxonomy, Levels of Testing.
+Examples: Generalized pseudocode, The Triangle problem, The Next Date function, The
+Commission Problem, The SATM (Simple Automatic Teller Machine) system, The currency
+convertor, Saturn Windshield Wiper Controller.
+Unit – II 8 Hours
+Boundary Value Testing
+Boundary Value Analysis, Robustness Testing, Worst Case Testing, Special Value Testing,
+Examples, Random Testing, Guidelines for Boundary Value Testing.
+Case Study: Analysis of Banking application using Boundary Value Analysis
+Unit – III 8 Hours
+Equivalence Class Testing:
+Equivalence classes, Equivalence Class Test Cases for the Triangle Problem, Equivalence Class Test
+Cases for the NextDate Function, Equivalence Class Test Cases for the Commission Problem,
+Guidelines and Observations.
+Case Study: Analysis of Amazon E-Commerce application by using Equivalence class testing.
+Unit – IV 8 Hours
+Path Testing: DD Paths, Test Coverage Matrix, Basis Path Testing, Guidelines and Observations.
+Unit – V 8 Hours
+Data Flow Testing:
+Define/use Testing, Slice Based Testing, Guidelines and Observations.
+Case Study: Selenium and J automated testing tools."
+"Robotic Process Automation
+(Industry supported elective)","Unit – I 8 Hours
+PROGRAMMING BASICS & RECAP
+Programming Concepts Basics - Understanding the application - Basic Web Concepts - Protocols -
+Email Clients -. Data Structures - Data Tables - Algorithms - Software Processes - Software Design
+- Scripting - .Net Framework - .Net Fundamentals - XML - Control structures and functions - XML
+- HTML - CSS - Variables & Arguments
+Unit – II 8 Hours
+RPA CONCEPTS
+RPA Basics - History of Automation - What is RPA - RPA vs Automation - Processes & Flowcharts
+- Programming Constructs in RPA - What Processes can be Automated - Types of Bots - Workloads
+which can be automated - RPA Advanced Concepts - Standardization of processes - RPA Developemt
+methodologies - Difference from SDLC - Robotic control flow architecture - RPA business case -
+RPA Team - Proccess Design Document/Solution Design Document - Industries best suited for RPA
+- Risks & Challenges with RPA - RPA and emerging ecosystem.
+Unit – III 8 Hours
+RPA TOOL INTRODUCTION & BASICS
+Introduction to RPA Tool - The User Interface - Variables - Managing Variables - Naming Best
+Practices - The Variables Panel - Generic Value Variables - Text Variables - True or False Variables
+- Number Variables - Array Variables - Date and Time Variables - Data Table Variables - Managing
+Arguments - Naming Best Practices - The Arguments Panel - Using Arguments - About Imported
+Namespaces - Importing New Namespaces- Control Flow - Control Flow Introduction - If Else
+Statements - Loops - Advanced Control Flow - Sequences - Flowcharts - About Control Flow -
+Control Flow Activities - The Assign Activity - The Delay Activity - The Do While Activity - The If
+Activity - The Switch Activity - The While Activity - The For Each Activity - The Break Activity -
+Data Manipulation - Data Manipulation Introduction - Scalar variables, collections and Tables - Text
+Manipulation - Data Manipulation - Gathering and Assembling Data
+Unit – IV 8 Hours
+ADVANCED AUTOMATION CONCEPTS AND TECHNIQUES
+Recording and Advanced UI Interaction - Recording Introduction - Basic and Desktop Recording
+- Web Recording - Input/Output Methods - Screen Scraping - Data Scraping - Scraping advanced
+techniques - Selectors - Selectors - Defining and Assessing Selectors - Customization - Debugging -
+Dynamic Selectors - Partial Selectors - RPA Challenge - Image, Text & Advanced Citrix Automation
+- Introduction to Image & Text Automation - Image based automation - Keyboard based automation
+- Information Retrieval - Advanced Citrix Automation challenges - Best Practices - Using tab for
+Images - Starting Apps - Excel Data Tables & PDF - Data Tables in RPA - Excel and Data Table
+basics - Data Manipulation in excel - Extracting Data from PDF - Extracting a single piece of data -
+Anchors - Using anchors in PDF.
+Unit – V 8 Hours
+EMAIL AUTOMATION & EXCEPTIONAL HANDLING
+Email Automation - Email Automation - Incoming Email automation - Sending Email automation -
+Debugging and Exception Handling - Debugging Tools - Strategies for solving issues - Catching
+errors."
+Digital Image Processing,"Unit I 8 Hours
+Introduction What is Digital Image Processing, The origin of digital Image Processing Examples of
+fields that use Image processing, Fundamental Steps in Digital Image Processing, Components of an
+Image Processing System, Image Sampling and Quantization, Some Basic Relationships between
+Pixels-Neighbors and Connectivity of pixels in image.
+Unit II 8 Hours
+Image Enhancement In The Spatial Domain: Some Basic Gray Level Transformations, Histogram
+Processing, Enhancement Using Arithmetic/Logic Operations, Basics of Spatial Filtering, Smoothing
+Spatial Filters, Sharpening Spatial Filters, Combining Spatial Enhancement Methods.
+Unit III 8 Hours
+Image Enhancement In Frequency Domain: Introduction to Fourier Transform & frequency domain,
+One dimensional & two dimensional Discrete Fourier Transform (DFT) and its inverse, Image filtering
+in frequency domain. Correspondence between filtering in spatial & frequency domain. Smoothing
+Frequency domain filters, Sharpening Frequency domain filters
+Unit IV 8 Hours
+Image Enhancement In Frequency Domain contd..: Smoothing Frequency domain filters: Ideal low
+pass filter, Butterworth low pass, Gaussian low pass, Sharpening Frequency domain filters: Ideal high
+pass filter, Butterworth high pass, Gaussian high pass, The Laplacian in the frequency domain
+Unit V 8 Hours
+Image Segmentation: Introduction, Detection of Discontinuities, Point Detection, line detection, Edge
+detection, Thresholding: Fondation, Role of illumination, Basic Global & Adaptive thresholding,
+Region based segmentation- Region growing, Region splitting and merging"
+Information and Network Security,"Unit – I 8 Hours
+Classical Encryption Techniques Symmetric Cipher Model:
+Symmetric cipher model, security attacks, security services, security mechanisms, Substitution
+Techniques, transposition techniques The data encryption standard, Feistal cipher structure, Block
+cipher design Principles
+Self-study: AES traditional block cipher.
+Unit – II 8 Hours
+Public-Key Cryptography and RSA:
+Principles of public-key cryptosystems. Publickey cryptosystems. Applications for public-key
+cryptosystems, requirements for publickey cryptosystems. Public-key cryptanalysis. The RSA
+algorithm, description of the algorithm, computational aspects, the security of RSA.
+Self-study: Other Public-Key Cryptosystems: Diffie-hellman key exchange, The algorithm, key
+exchange protocols, man in the middle attack
+Unit – III 8 Hours
+Key management and distribution
+Symmetric key distribution using Symmetric encryption, Symmetric key distribution using
+asymmetric encryption, distribution of public keys, x.509 certificates.
+Self-Study: Kerberos Motivation, Kerberos Version 4, Kerberos Version 5
+8 Hours
+Unit – IV
+Wireless network security and Transport layer security
+Wireless security, mobile device security, IEEE 802.11 Wireless LAN overview, Web Security
+Considerations, Secure Sockets Layer and transport layer security.
+Self-Study: HTTPS Connection Initiation, Connection Closure. Secure Shell (SSH).
+Unit – V 8 Hours
+Electronic Mail Security:
+Pretty good privacy, notation, operational; description, S/MIME, RFC5322, Multipurpose internet
+mail extensions, S/MIME functionality, S/MIME messages, S/MIME certificate processing,
+enhanced security services, Domain keys identified mail, internet mail architecture, E-Mail threats,
+DKIM strategy, DKIM functional flow."
+"ntroduction to Salesforce
+(Industry Supported Elective)","nit – I 8 Hours
+Introduction: Getting Around the App, Salesforce Platform Basics: Get started with salesforce
+platform. Discover Use Cases for the Platform, Understand the Salesforce Architecture, Navigate
+Setup, Power Up with AppExchange, Data Model: Understand Custom & Standard Objects, Create
+Object Relationships, Work with Schema Builder, Lightning Experience: Get Your Bearings,
+Navigate Around, Work with List Views, Work with Your Data, Company-Wide Org Settings: Learn
+About Regional Settings, Discover Multiple Currency Settings
+Unit – II 8 Hours
+Getting Your Organization Ready for Users: Lightning Experience Productivity: Elevate Your
+Daily Productivity, Work with Notes and Files, Manage Your Tasks, Events, and Email, Find Your
+Stuff with Search, Collaborate with Feeds and Groups, Analyze Your Data with Reports and
+Dashboards, Configuring Search Settings: Choose the Right Search Solution, Optimize Search
+Results, Setting Up Chatter (Classic): Get Started with Chatter, Enable Feed Tracking, Create
+Publisher Actions, Approve Records from the Feed, Develop a Rollout Strategy, Support a New
+Business Unit: Manage User Access, Manage Chatter, Modify Your Data Model, Configure an Email
+Letterhead and Template, Automate Your Business Process, Mobile Access with Salesforce1.
+Unit – III 8 Hours
+Elementary SCTP Sockets: Interface Models, shutdown function, Notifications.
+Setting Up and Managing Users: Managing Users and Introduction to Data Security, Activity
+Management: Activities: Tasks, Events, and Calendars Documentation.
+Security and Data Access: Data Security, Who Sees What.
+Object Customizations: Creating Picklist and Picklist Administration, Creating Formula Fields and
+Validation Rule, Working with Page Layouts, Working with Record Types, Introduction to Business
+Process, Maintaining Data Quality.
+Managing Data: Import Wizards, Export Wizards, Use Data Loader To Export Data, Data Loader
+To Import.
+Unit – IV 8 Hours
+Lightning Experience Customization: Customize the Lightning Experience user interface without
+writing any code, Reports and Dashboards: Introduction to Reports and Dashboards, Creating New
+Reports with the Report Builder, Running and Modifying Reports, Format Reports with Summary,
+Tabular, Matrix and Joined, Building Dashboards, Email Templates and Letterheads: Email
+Templates and LetterHeads, Automation: Difference Between Workflow Rules and Process Builder,
+Process Builder, Lead Automation.
+Unit – V 8 Hours
+Managing the Support Process: Managing and Resolving Cases, Customizing a Support Process,
+Automating Support, Understanding the Salesforce Console for Service, Collaborating in the Service
+Cloud, Analyzing Support Data, Lightning App Builder: Build custom pages for Lightning
+Experience and the Salesforce mobile app quickly with point-and-click tools."
+Mobile Computing,"Unit – I 8 Hours
+Introduction: PCS Architecture, Cellular Telephony: Advanced Mobile phone service, Global system
+for mobile communication, Cordless telephone and low tier PCS: Cordless Telephone, 2nd generation,
+Digital European Cordless Telephone, Personnel handy phone system, personnel access communication
+system, mobility management: Handoff, Intersystem handoff, Roaming management.
+Self learning topics: Roaming management under SS7
+Unit – II 8 Hours
+GSM System: Overview, Architecture: Mobile Station, Base Station System, Network and switching
+Subsystem, Radio Interface, Location Tracking, Security, Data Services: GPRS, Mobility Management,
+GSM Location Update, Failure Restoration
+Self learning topics: VLR Identification Algorithm.
+Unit – III 8 Hours
+GSM Short Message Service: SMS Architecture, SMS Protocol Hierarchy: Short message transfer layer,
+Short Message Relay Layer, connection sublayer, Mobile originated messaging, Mobile Terminated
+Messaging, DTE- DCE interface
+Unit – IV 8 Hours
+GPRS: Procedures, Billing, Wireless application Protocol, WAP UAprof, caching, 3rd Generation Mobile
+Services, WCDMA, DMA 2000, WAP Developer Toolkit, Wireless OS for 3G handset, 3rd generation
+systems.
+Unit – V 8 Hours
+Cellular Communication: The 3rd Generation(3G), The 3.5 Generation, 4th Generation, WLAN
+Standard, Physical Layer, MAC Layer, Frame Structure, Services, Bluetooth: Advantages, Applications,
+Protocol Stack, Tracking Services, Frame Structure, Hyperlan"
+Entrepreneurship and Managemen,"Unit - I 8 Hours
+Management: Introduction, nature and characteristics of Management, Scope and Functional areas
+of management, Levels of management.
+Planning: Nature, importance and purpose of planning process, Types of plans, Decision making,
+Importance of planning, steps in planning
+Organizing: Nature and purpose of organization, Principles of organization, Types of organization,
+Span of control.
+Self-learning topics: Management as a science, art of profession
+Unit - II 8 Hours
+Staffing: Nature and importance of staffing, Process of Selection & Recruitment, Training Methods.
+Directing: Meaning and nature of directing, Leadership styles, Motivation Theories,
+Communication-Meaning and importance.
+Controlling: Meaning and steps in controlling, Essentials of a sound control system, Methods of
+establishing control.
+Unit - III 8 Hours
+Entrepreneur: Meaning of entrepreneur: Evolution of the concept: Functions of an Entrepreneur,
+Types of Entrepreneur, Concept of Entrepreneurship, Evolution of Entrepreneurship, The
+Entrepreneurial Culture and Stages in entrepreneurial process.
+Creativity and Innovation: Creativity, Source of New Idea, Ideas into Opportunities, Creative
+Problem Solving: Heuristics, Brainstorming, Synectics, Significance of Intellectual Property Rights.
+Self-learning topics: Case studies of Entrepreneurs
+Unit - IV 8 Hours
+Micro, Small and Medium Enterprises [MSMEs] and Institutional Support: Business
+environment in India, Role of MSMEs, Government policies towards MSMEs, Impact of
+Liberalization, Privatization and Globalization on MSMEs.
+Institutional support: NSIC, TECKSOK, KIADB, KSSIDC, SIDBI; KSFC
+Self-learning topics: Make in India, Start Up India, Digital India
+Unit - V 8 Hours
+Preparation of project: Meaning of project, project identification, project selection, project report,
+need and significance of project report, contents, formulation, guidelines by planning commission for
+project report.
+Enterprise Resource Planning: Meaning and Importance- ERP and Functional areas of Management
+– Marketing / Sales- Supply Chain Management – Finance and Accounting – Human Resources – Types
+of reports and methods of report generation
+"
+Network Programming,"Unit – I 8 Hours
+Introduction: Introduction, Client/server communication, OSI Model, BSD Networking history,
+Test Networks and Hosts, Unix Standards, 64-bit architectures.
+Transport Layer: TCP, UDP and SCTP, TCP Connection Establishment and Termination.
+Self learning topics: TCP/IP Protocols in nut shell.
+Unit – II 8 Hours
+Sockets Introduction: Introduction, Socket Address Structures, Value-Result Arguments, Byte
+Ordering and Manipulation Functions.
+Elementary TCP Sockets: socket, connect, bind, listen, accept, fork and exec, Concurrent Server
+design, getcsockname and getpeername functions.
+Self learning topics: TCP Echo Client/Server Functions.
+Unit – III 8 Hours
+Elementary UDP Sockets: recvform and sendto Functions, UDP Echo Client/Server- main, dg_echo
+and dg_cli Functions, Lost Datagrams, Verifying received Responses, Server Not Running, connect
+Function with UDP, Lack of Flow control with UDP, Determining Outgoing Interface with UDP,
+TCP and UDP Echo Server using select.
+Elementary SCTP Sockets: Interface Models, shutdown function, Notifications.
+Self learning topics: STCP One-to-Many-Style Streaming Echo Client and Server main Functions.
+Unit – IV 8 Hours
+Advanced Sockets 1
+Ipv4 and IPv6 Interoperability: IPv4 Client and IPv6 Server, IPV6 Client ad IPv4 Server, IPv6
+Address-Testing Macros, Source Code Portability
+Daemon Processes: syslogd Daemon , syslog Function.
+Self learning topics: daemon_init Function, inetd Daemon daemon_inetd Function.
+Unit – V 8 Hours
+Advanced Sockets 2
+Broadcasting: Introduction, Broadcast Addresses, Unicast vs Broadcast, dg_cli Function using
+Broadcasting, Race Conditions.
+Multicasting: Introduction, Multicast Addresses, Multicast vs Broadcast on a LAN, Multicast on a
+WAN, Source-Specific Multicast."
+Distributed Computing,"Unit – I 10 Hours
+Characterization of Distributed Systems: Introduction, Examples of Distributed Systems,
+Challenges: Heterogeneity, Openness, Security, Scalability, Failure Handling.
+System Model: Architectural Models, Fundamental models.
+Self-learning topics: Security Models
+Unit – II 10 Hours
+Inter Process Communication: Introduction, API for Internet Protocols, External Data
+Representation and Marshalling, Client – Server Communication.
+Distributed Object and RMI: Introduction, Communication between Distributed Objects, RPC,
+Events and Notifications.
+Unit – III 10 Hours
+Distributed File System: Introduction, File Service architecture.
+Security in distributed systems: Introduction, Overview of security techniques: Cryptography,
+Certificates, Access control. Cryptographic Algo: Symmetric: Ex Substitution algo. , Asymmetric:
+RSA.
+Unit – IV 10 Hours
+Time and Global States: Introduction, Clocks, events and process status, Synchronizing physical
+clocks, Logical time and logical clocks, Global states.
+Coordination and Agreement: Introduction, Distributed mutual exclusion, Elections.
+Unit – V 10 Hours
+Introduction to Cloud Computing: Introduction, Network Centric computing and Network Centric
+Content, Peer to Peer Systems, Cloud Computing: An old idea Whose Time has Come,
+Cloud Computing: Delivery Models and Services, Ethical Issues in Cloud Computing, Cloud
+Vulnerabilities, Major Challenges Faced by Cloud Computing.
+Self-learning topics: Case Studies: Amazon Web Studies"
+Cloud Computing,"Unit – I 8 Hours
+Introduction: Business and IT perspective, Cloud and virtualization, Cloud services requirements, cloud
+and dynamic infrastructure, cloud computing characteristics, cloud adoption.
+Cloud Deployment models: Cloud characteristics, Measured Service, Cloud deployment models, security
+in a public cloud, public verses private clouds, cloud infrastructure self-service.
+Unit – II 8 Hours
+Cloud as a service: Gamut of cloud solutions, principal technologies, cloud strategy, cloud design and
+implementation using SOA, Conceptual cloud model, cloud service defined.
+Cloud solutions: Cloud ecosystem, cloud business process management, cloud service management, cloud
+stack, computing on demand, cloud sourcing.
+Unit – III 8 Hours
+Cloud virtualization technology: Virtualization defined, virtualization benefits, server virtualization,
+virtualization for x86 architecture, Hypervisor management software, Logical partitioning, VIO server,
+Virtual infrastructure requirements. Storage virtualization, storage area networks, network attached
+storage, cloud server virtualization.
+Unit – IV 8 Hours
+Cloud Management: Resiliency, Provisioning, Asset management, cloud governance, high availability
+and disaster recovery, charging models, usage reporting, billing and metering.
+Unit – V 8 Hours
+Cloud Computing with the Titans: Google, EMC, NetApp. Microsoft, Amazon, Salesforce.com, IBM."
+Soft Computing,"Unit – I 08 Hours
+Introduction: Neural networks, Application Scope of Neural Networks, Fuzzy Logic, Genetic
+Algorithm, Hybrid Systems, Soft Computing.
+Artificial Neural Network: An Introduction, Fundamental Concepts, Evolution of Neural
+Networks, Basic Models of Artificial Neural Networks, Important Terminologies of ANNs,
+McCulloch- Pitts Neuron, Linear Separability, Hebb Network.
+Unit – II 08 Hours
+Supervised Learning Network: Perceptron Networks: Perceptron Learning Rule, Perceptron
+Training Algorithm for single Output Classes, Adaptive Linear Neuron (Adaline): Delta Rule for
+Single Output Unit, Back-Propagation Network..
+Associative Memory Networks: Bidirectional Associative Memory (BAM), Hopfield Networks.
+Unit – III 08 Hours
+Introduction to Fuzzy Logic, Classical Sets and Fuzzy Sets: Introduction to Fuzzy Logic, Classical
+Sets (Crisp Sets), Fuzzy Sets, Properties of Fuzzy sets.
+Classical Relations and Fuzzy Relations: Classical Relation: Operations on Classical Relations,
+Fuzzy Relations: Cardinality of Fuzzy Relations, Operations on Fuzzy Relations, Properties of Fuzzy
+Relations, Fuzzy Composition.
+Unit – IV 08 Hours
+Membership Functions: Features of the Membership Functions, Fuzzification, Methods of
+Membership Value Assignments.
+Defuzzification: Defuzzification Methods.
+Unit – V 08 Hours
+Genetic Algorithm: Introduction, What are Genetic Algorithm?, Why Genetic Algorithms?, Genetic
+Algorithm and Search Space: Evolution and Optimization, Basic Terminologies in Genetic
+Algorithms, Operators in Genetic Algorithms: Encoding, Selection, Crossover (Recombination),
+Mutation"
+Block Chain Management,"Unit – I 08 Hours
+On Decentralization: Why decentralization matters Examples of failures due to centralized systems
+Some of the half-measures used to fix centralization
+Docker and Cryptography: Fundamental cryptography concepts: symmetric keys, asymmetric keys
+and hashes, Utilizing OpenSSL to understand cryptography concepts,Using Docker and Docker
+Compose to deploy simple applications
+Blockchain Revolution: Public blockchains, and the problem they solve Shortcomings of public
+blockchains addressed by permissioned blockchains, Components of a typical blockchain
+Unit – II 08 Hours
+Blockchain basics: From Bitcoin to Blockchain; Blockchain programming; UML blockchain design
+models; Blockchain node installation and management
+Smart contracts: The concept of a smart contract; Design of a smart contract; Development of smart
+contract code; Deploying and testing the smart contract; Decentralized airline system use case;
+Airlines smart contract; Motivating decentralized scenarios; Smart contract design considerations;
+Best practices
+Unit – III 08 Hours
+Techniques for trust and integrity: Essentials of trust and integrity; Implementing trust intermediation;
+Testing; Establishing trust with modifiers, require(), revert(), and assert(); Best practices
+From smart contracts to Dapps: Preliminary concepts; Dapp development using the Truffle IDE;
+Installing the Ganache test chain; Smart contract development; Dapp web application development;
+Introspection; Best practices
+Unit – IV 08 Hours
+Security and privacy: Deploying smart contracts on Ropsten; Cryptography basics; Application of
+public key cryptography; Hashing basics; Application of secure hashing; Introspection; Best practices
+On-chain and off-chain data: On-chain data; Blind auction use case; Off-chain data: External data
+sources; ASK airline system; Introspection; Best practices
+Unit – V 08 Hours
+Web3 and a channel Dapp; Going public with infura; decentralized file systesm(IPFS)
+Blockchain data analytics; Blockchain protocols and platforms; Blockchain business use cases"
+Ad-Hoc Sensor Networks,"Unit – I 8 Hours
+Introduction: Application examples, Types of applications, Challenges for WSNs, Why are sensor
+networks different – MANETs and WSNs, Energy scavenging, Microcontroller energy consumption,
+Relationship between computation and communication, Some examples of sensor nodes.
+Unit – II 8 Hours
+MAC Protocols: Introduction, Issues, Design goals, Classifications, Contention-Based Protocols –
+MACAW, Contention-Based Protocols with Reservation Mechanism – D-PRMA, Low duty cycle
+protocols and wakeup concepts – S-MAC, Schedule-based protocols – LEACH
+Self-learning topics: IEEE 802.11 DCF Back off mechanism
+Unit – III 8 Hours
+Routing Protocols: Introduction, Issues, Classifications, Table-Driven Routing Protocols – DSDV,
+On-Demand Routing Protocols – DSR, AODV, Hybrid Routing Protocols – ZRP, Routing Protocols
+with efficient flooding mechanism – OLSR, Hierarchical Routing Protocols – FSR
+Self-learning topics: Localization and Positioning, Topology control
+Unit – IV 8 Hours
+Transport Protocols: Introduction, Issues, Design goals, Classification, TCP over Ad Hoc Networks
+– A brief revisit, Why TCP does not perform well in Ad Hoc Networks, Feedback-based TCP, TCP
+with ELFN, Other Transport Layer Protocols – ACTP, Ad Hoc Transport Protocol.
+Self-learning topics: Coverage and deployment problems
+Unit – V 8 Hours
+Quality of Service: Introduction, Issues and Challenges, Classifications, MAC layer solutions –
+IEEE 802.11e EDCF, Network layer solutions – Predictive Location-Based QoS Routing Protocol,
+QoS Frameworks – QoS Models, QoS Resource Reservation Signaling
+Self-learning topics: QoS in Multihop Wireless Networks"
+System Simulation and Modeling,"Unit – I 8 Hours
+Introduction: When simulation is the appropriate tool and when it is not appropriate, Advantages
+and disadvantages of Simulation, Systems and system environment; Components of a system;
+Discrete and continuous systems; Model of a system; Types of Models; Discrete-Event System
+Simulation; Simulation examples: Simulation of queuing systems(single server and two server),
+Simulation of (M,N) inventory system.
+General Principles, Simulation Software: Concepts in Discrete-Event simulation: The event-
+scheduling / time-advance algorithm.
+Unit – II 8 Hours
+Statistical Models in Simulation: Review of terminology and concepts; Useful statistical models;
+Discrete distributions: Binomial distribution, Poisson distribution; Continuous distributions: Uniform
+distribution, Exponential distribution, Triangular distribution.
+Unit – III 8 Hours
+Random-Number Generation: Properties of random numbers; Generation of pseudo-random
+numbers; Techniques for generating random numbers; Tests for Random Numbers: frequency tests;
+Random-Variate Generation: Inverse transform technique: Exponential distribution, Uniform
+distribution, Triangular distribution.
+Unit – IV 8 Hours
+Input Modeling: Data Collection; Identifying the distribution with data; Parameter estimation;
+Goodness of Fit Tests; Selecting input models without data.
+Unit – V 6 Hours
+Verification, Calibration, Validation and Optimization
+Model building, verification and validation; Verification of simulation models; Calibration and
+validation of models, input-output validation using historical input data"
+Storage Area Networks,"UNIT I 8 hours
+Introduction to information storage and management:: Information Storage, Evolution of
+Storage Technology and Architecture , Data Centre Infrastructure , Key Challenges in Managing
+Information , information lifecycle
+Concepts of storage Networking: Data storage and data access problem
+UNIT II 8 hours
+Data Protection: RAID 5: Implementation of RAID, RAID Array Components , RAID Levels ,
+RAID Comparison , RAID Impact on Disk Performance ,hot spares
+UNIT III 8 Hours
+Storage Area Networks: Fibre Channel,The SAN and Its Evolution , Components of SAN , FC
+Connectivity.
+Network Attached Storage: General-Purpose Servers vs. NAS Devices , Benefits of NAS , NAS
+File I/O , Components of NAS
+UNIT IV 8 Hours
+Storage Virtualization: Definition of Storage virtualization, Implementation Considerations,
+Storage virtualization on Block or file level, Storage virtualization on various levels of the storage
+Network, Symmetric and Asymmetric storage virtualization in the Network
+UNIT V 8 hours
+Application and case studies of Storage Area Networks: Applying the SAN to OLT P workloads,
+Applying SAN to Web based applications, Applying SAN to Data ware house models. Case study:
+The import Auto industry"
+Agile Software Development,"Unit - I 8 Hours
+Introduction: Understanding Success, Beyond Deadlines, The Importance of Organizational
+Success, Enter Agility, Agile Methods, Don’t Make Your Own Method, The Road to Mastery,
+Find a Mentor, The XP Lifecycle, The XP Team, XP Concepts, Adopting X.P
+Unit - II 8 Hours
+Thinking: Pair Programming, Energized Work, Informative Workspace, Root-Cause Analysis,
+Retrospectives, Collaborating: Trust, Impressions, Sit Together, Real Customer Involvement,
+Ubiquitous Language, Stand-Up Meetings, Iteration Demo, Reporting.
+Unit - III 8 Hours
+Releasing: NoBugs, Version Control, Ten-Minute Build, Continuous Integration, Collective Code
+Ownership and Documentation.
+Unit - IV 8 Hours
+Planning: Vision, Release Planning, The Planning Game, Risk Management, Iteration Planning,
+Slack, Stories, Estimating.
+Unit - V 8 Hours
+Developing: Incremental Requirements, Customer Tests, Test-Driven Development,
+Refactoring, Simple Design, Incremental Design and Architecture, Spike Solutions, Performance
+Optimization, Exploratory Testing"
+Service Oriented Architecture,"Unit – I 8 Hours
+Introduction to SOA: Fundamental SOA- Common Misperceptions about SOA- Common tangible
+benefits of SOA- Common pitfalls of adopting SOA. The Evolution of SOA:-from XML to Web
+services to SOA, Comparing SOA with N-tier architecture, The continuing evolution of SOA, The
+roots of SOA
+Unit – II 8 Hours
+Web Services and Primitive SOA: The Web services framework- Services, Service descriptions,
+messaging with SOAP. Web Services and Contemporary SOA: Message exchange patterns- Service
+activity coordination- Atomic transactions- Business activities-Orchestration-Choreography.
+Unit – III 8 Hours
+Service orientation and security: Web Services and Contemporary SOA: Addressing- Reliable
+messaging- Correlation- Policies Metadata exchange- Security- Notification and eventing. SOA and
+Service-Orientation: Principles of Service-Orientation-Service-orientation. Anatomy of a service-
+oriented architecture- Common principle of service-orientation-Service Layers –Service orientation
+Unit – IV 8 Hours
+Building SOA: SOA Delivery Strategies- SOA delivery lifecycle phases. Service-Oriented
+Analysis: Introduction to service-oriented analysis- Benefits of a business-centric SOA Deriving
+business services- Service- Oriented Analysis: Service modeling, Service modeling guidelines-
+Classifying service model logic- Contrasting service modeling approaches
+Unit – V 8 Hours
+Service-oriented design: Introduction to service-oriented design- WSDL-related XML Schema
+language basics- WSDL language basics- SOAP language basics- Service interface, design tools.
+SOA Composition Guidelines: Steps to composing SOA Considerations for choosing service layers
+and SOA standards, positioning of cores and SOA extensions."
+AWS Cloud Computing (Integrated Lab),"Unit – I 8 Hours
+Cloud Concepts:
+Benefits of AWS Cloud: Security, Reliability, High Availability, Elasticity, Agility, Pay-as-you go pricing,
+Scalability, Global Reach, Economy of scale.
+Identify aspects of AWS Cloud economics: operational expenses (OpEx),capital expenses (CapEx),impact of
+software licensing costs when moving to the cloud,Right-sized infrastructure, Benefits of automation, Reduce
+compliance scope (for example, reporting), Managed services (for example, RDS, ECS, EKS, Dynamo DB).
+cloud architecture design principles: Design for failure, Decouple components versus monolithic architecture,
+Implement elasticity in the cloud versus on-premises, Think parallel
+Unit – II 8 Hours
+Security and Compliance:
+AWS shared responsibility model: customer’s responsibly on AWS, AWS responsibilities.
+AWS Cloud security and compliance concepts:AWS compliance information, Identify different encryption
+options on AWS (for example, In transit, At rest),Amazon Cloud Watch, AWS Config, and AWS Cloud Trail,
+AWS access management capabilities: of User and Identity Management, Access keys and password policies
+(rotation, complexity), Multi-Factor Authentication (MFA), AWS Identity and Access Management (IAM),
+Groups/users, Roles, Policies, managed policies compared to custom policies, Protection of root accounts
+network security capabilities:Native AWS services (for example, security groups, Network ACLs, AWS
+WAF),3rd party security products from the AWS Marketplace,AWS Knowledge Center, Security Center,
+security forum, and security blogs. Partner Systems Integrators.
+Unit – III 8 Hours
+Technology:
+Deploying and operating in the AWS Cloud:Identify at a high level different ways of provisioning and
+operating in the AWS cloud,Programmatic access, APIs, SDKs, AWS Management Console, CLI,
+Infrastructure as Code,different types of cloud deployment models, All in with cloud/cloud native,Hybrid,On-
+premises,Identify connectivity options, VPN, AWS Direct Connect, Public internet.
+Unit – IV 8 Hours
+Technology:
+AWS global infrastructure: relationships among Regions, Availability Zones, and Edge Locations, multiple
+Availability Zones,multiple AWS Regions,Disaster recovery/business continuity, Low latency for end-users,
+Data sovereignty, Describe at a high level the benefits of Edge Locations, Amazon Cloud Front, AWS Global
+Accelerator.
+Unit – V 8 Hours
+Technology:
+core AWS services:categories of services on AWS (compute, storage, network, database),AWS compute
+services,different compute families,different services that provide compute (for example, AWS Lambda
+compared to Amazon Elastic Container Service (Amazon ECS), or Amazon EC2, etc.),Auto Scaling,load
+balancers. different AWS storage services:Amazon S3,Amazon Elastic Block Store,Amazon S3 Glacier,AWS
+Snowball,Amazon Elastic File System (Amazon EFS),AWS Storage Gateway.
+AWS networking services:VPC,Amazon Route 53,VPN, AWS Direct Connect.
+AWS database services.resources for technology support:various levels and scope of AWS support, sources of
+AWS technical assistance and knowledge including professional services, solution architects, training and
+certification, and the Amazon Partner Network, the benefits of using AWS Trusted Advisor."
+Software Testing,"Unit - I 8 Hours
+Introduction: Professional Software Development: Software Engineering, Software Engineering
+Diversity, Software Engineering ethics. Software Process: Software Process models: The Waterfall
+model, Incremental development. Process activities: Software specification, Software design and
+implementation, Software validation.
+Self-learning topics: Coping with Change: Prototyping, Incremental Delivery, Boehm’s Spiral
+Model
+Unit - II 8 Hours
+A Perspective on Testing:
+Basic definitions, Test cases, Insights from a Venn diagram, Identifying test cases, Error and fault
+taxonomies, Levels of testing. Examples: Generalized pseudocode, The triangle problem,
+Self-learning topics: The commission problem.
+Unit - III 8 Hours
+The SATM (Simple Automatic Teller Machine) problem, The currency converter.
+Boundary value analysis: Boundary value analysis: Generalizing Boundary Value Analysis,
+Limitations of Boundary Value Analysis, Robustness testing, Worst-case testing, Special value
+testing, Examples: Guidelines for Boundary Value Testing
+Unit – IV 8 Hours
+Equivalence Class Testing: Equivalence classes, Equivalence test cases for the triangle problem and
+the commission problem, Guidelines and observations.
+Decision Table–Based Testing: Decision tables, Test cases for the triangle problem.
+Self-learning topics: Decision tables for the commission problem
+Unit - V 8 Hours
+Path Testing, Data Flow Testing:
+DD paths, Test coverage metrics: Metric Based Testing, Basis path testing: McCabe's Basis Path
+Method, guidelines and observations. Definition-Use testing. Guidelines and observations.
+Self-learning topics: Observations on McCabe's Basis Path Method , Essential Complexity"
