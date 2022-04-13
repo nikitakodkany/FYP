@@ -16,6 +16,13 @@
 2. dataset.csv: Final JD Dataset
 3. ScriptToMergeDataset.ipynb.ipynb: Notebook file to merge all the scraped data from naukri.com
 4. Syllabus_Dataset.csv: Contains syllabus key words and description
+5. uselessWords [directory]: Contains the list of useless words
+    * uselessWordsRemoval.ipyb : Notebook to remove useless words 
+    * useless_words.txt : Combined list of all useless words
+6. word_removal_helper.py : A script to assist in adding useless words to the file. Documentation can be found in the file itself
+7. dataset_excel.xlsx : JD Dataset in excel format for better readability
+
+
 
 ### 3. Others
 1. Phase 0 powerpoint presentation pdf
