@@ -1,7 +1,7 @@
 
 # FYP - Final Year Project
 **Problem Statement:** University-Curriculum Analysis based on entry level based job description.
-## Directories iPython notebooks for Exploratory Data Analysis
+## Directories 
 ### 1. Legacy
 1. DataPreparation [directory] :
 * EDA [directory] : Directory for Exploratory Data Analysis
