@@ -1,25 +1,18 @@
-Subject: Description
-+ACI-statistical +//3//f/9- numerical +//3//f/9- fourier techniques:,+ACIAIg-numerical solution of algebraic and transcendental equations:+ACI-
-method of false position, newton+AC0- raphson method (with derivation), fixed point iteration method
+Subject,Description
+statistical – numerical – fourier techniques:,"numerical solution of algebraic and transcendental equations:
+method of false position, newton- raphson method (with derivation), fixed point iteration method
 (without derivation).
-numerical solution of ordinary differential equations: taylor+//3//f/9-s series method, euler and
-modified euler method, fourth order runge+//3//f/9-kutta method
-fourier series: periodic functions. dirichlet+//3//f/9-s conditions, fourier series, half range fourier sine and
-cosine series. practical examples, harmonic analysis.
-fourier transforms: infinite fourier transform and properties. fourier sine and cosine transforms
-properties and problems.
+numerical solution of ordinary differential equations: taylor’s series method, euler andmodified euler method, fourth order runge–kutta methodfourier series: periodic functions. dirichlet’s conditions, fourier series, half range fourier sine andcosine series. practical examples, harmonic analysis.
+fourier transforms: infinite fourier transform and properties. fourier sine and cosine transformsproperties and problems.
 probability: random variables (rv), discrete and continuous random variables, (drv, crv)
 probability distribution functions (pdf) and cumulative distribution functions(cdf),
-expectations (mean, variance). binomial, poisson, exponential and normal distributions. practical
-examples
-oint pdf and stochastic processes: discrete joint pdf, conditional joint pdf, expectations
-(mean, variance and covariance).definition and classification of stochastic processes. discrete state
-and discrete parameter stochastic process, unique fixed probability vector, regular stochastic
-matrix, transition probability, markov chain.
-+ACI-data structures with c (theory):,+ACIAIg-pointers, structures: introduction to pointers, pointers and arrays, pointers to pointers, pointers to functions,
+expectations (mean, variance). binomial, poisson, exponential and normal distributions. practicalexamplesoint pdf and stochastic processes: discrete joint pdf, conditional joint pdf, expectations
+(mean, variance and covariance).definition and classification of stochastic processes. discrete stateand discrete parameter stochastic process, unique fixed probability vector, regular stochasticmatrix, transition probability, markov chain.
+"
+data structures with c (theory):,"pointers, structures: introduction to pointers, pointers and arrays, pointers to pointers, pointers to functions,
 dynamic memory management in c (malloc(), calloc(), free() and realloc() functions). introduction to structures,
 declaration, initialization, accessing structures, internal implementation of structures, union and its definition.
-self+AC0-learning topics: enumerations.
+self-learning topics: enumerations.
 files, linked lists:
 files in c: text input output with respect to files in c, basic file handling functions in c.
 general linear lists: basic operations, implementation, list adt. complex implementations: circular linked lists,
@@ -28,1356 +21,575 @@ files, linked lists:
 files in c: text input output with respect to files in c, basic file handling functions in c.
 general linear lists: basic operations, implementation, list adt. complex implementations: circular linked lists,
 dtoubly linked lists.
-stacks +ACY- queues:
-stacks: basic stack operations, stack adt, stack linked list implementation, stack applications: conversion of
-expression (infix to postfix), evaluation of expressions.
+stacks & queues:
+stacks: basic stack operations, stack adt, stack linked list implementation, stack applications: conversion ofexpression (infix to postfix), evaluation of expressions.
 queues: queues, queue adt, circular queues linked list design, queue applications.
-self+AC0-learning topics: implementation of stacks and queues using arrays
-rees: basic tree concepts, binary trees, binary search tree adt, general trees, binary search tree (bst) concept,
+self-learning topics: implementation of stacks and queues using arraysrees: basic tree concepts, binary trees, binary search tree adt, general trees, binary search tree (bst) concept,
 bst operations, bst applications. avl trees basic concepts.
-heaps and hashing
-heap: basic concepts, heap implementation, heap adt, heap applications
-hashing: basic concept, hashing methods, collision resolution.+ACI-
-+ACI-digital electronics ( theory):,+ACIAIg-revision of logic gates and boolean algebra, simplification of boolean functions using basic logic+ACI-
-gates, universal gates, sop, pos form, k+AC0-map simplification ( up to 4 variables), don+//3//f/9-t+AC0-care condition,
-quine mcclusky method to generate prime implicants, prime implicants chart, problem solving with
-multiple methods.
+heaps and hashingheap: basic concepts, heap implementation, heap adt, heap applicationshashing: basic concept, hashing methods, collision resolution."
+digital electronics ( theory):,"revision of logic gates and boolean algebra, simplification of boolean functions using basic logicgates, universal gates, sop, pos form, k-map simplification ( up to 4 variables), don’t-care condition,
+quine mcclusky method to generate prime implicants, prime implicants chart, problem solving withmultiple methods.
 tutorial: implementation of sop/pos boolean function using universal gates.
-data processing circuits: multiplexers, de+AC0-multiplexers, decoder, encoders and implementation of
-boolean functions using multiplexer and decoders, parity generators and checkers using xor gates
-magnitude comparators (1 bit and 2 bit), pla, pal, adder / subtracter.
-tutorial: implementation of boolean functions using multiplexer/decoder, realization of
-adder/substracter using logic gates.
-clocks and flip flops: clock waveforms, ttl clock, rs flip flops, gated flip+AC0-flops, edge
-triggered rs flip+AC0-flops, edge triggered d flip+AC0-flops, and edge triggered jk flip+AC0-flops, jk master
-slave flip flops, various representations of flip flops.
+data processing circuits: multiplexers, de-multiplexers, decoder, encoders and implementation ofboolean functions using multiplexer and decoders, parity generators and checkers using xor gatesmagnitude comparators (1 bit and 2 bit), pla, pal, adder / subtracter.
+tutorial: implementation of boolean functions using multiplexer/decoder, realization ofadder/substracter using logic gates.
+clocks and flip flops: clock waveforms, ttl clock, rs flip flops, gated flip-flops, edgetriggered rs flip-flops, edge triggered d flip-flops, and edge triggered jk flip-flops, jk masterslave flip flops, various representations of flip flops.
 tutorial: implementation of flip flops using logic gates.
-analysis of sequential circuits: conversion of flip flops: a synthesis example, types of shift
-register, siso, sipo, piso and pipo, applications of shift registers as ring counter, johnson
-counter, serial adder.
-counters: asynchronous counters (4 bit), synchronous counters (4 bit), changing the counter
-modulus, decade counter (using ic 7490).
-tutorial: application of ic 7490, design and implementation of mod+AC0-n counter
-dac, adc and introduction to hdl: variable, resistor networks, binary ladders, d/a
-converters, d/a resolution and accuracy, a/d converters: simultaneous conversion, successive
-approximation and counter type, a/d resolution and accuracy.
+analysis of sequential circuits: conversion of flip flops: a synthesis example, types of shiftregister, siso, sipo, piso and pipo, applications of shift registers as ring counter, johnsoncounter, serial adder.
+counters: asynchronous counters (4 bit), synchronous counters (4 bit), changing the countermodulus, decade counter (using ic 7490).
+tutorial: application of ic 7490, design and implementation of mod-n counterdac, adc and introduction to hdl: variable, resistor networks, binary ladders, d/aconverters, d/a resolution and accuracy, a/d converters: simultaneous conversion, successiveapproximation and counter type, a/d resolution and accuracy.
 introduction to hdl: types of model, syntax for data flow model.
-+ACI-tutorial: simple programs for sop equation, multiplexer, decoder and adder using verilog.+ACIAIg-+ACI-
-+ACI-object oriented programming with java (theory):,+ACIAIg-+ACI-
-oop paradigm: the key attributes of object+AC0-oriented programming.
+tutorial: simple programs for sop equation, multiplexer, decoder and adder using verilog."
+object oriented programming with java (theory):," oop paradigm: the key attributes of object-oriented programming.
 java basics: the java language, jdk, arrays, multidimensional arrays, alternative array declaration,
-assigning array references, using the length member, the for+AC0-each loop, strings, using the command line
-arguments.
-introducing classes and objects: class fundamentals, how objects are created, reference variables and
-assignment.
-
-methods and classes: methods, returning from a method, returning a value, using parameters, constructors,
+assigning array references, using the length member, the for-each loop, strings, using the command linearguments.
+introducing classes and objects: class fundamentals, how objects are created, reference variables andassignment.
+ methods and classes: methods, returning from a method, returning a value, using parameters, constructors,
 parameterized constructors, the new operator revisited, garbage collection and finalizers, this keyword.
-controlling access to class members, pass objects to methods, argument passing, returning objects, method
-overloading, recursion, static, nested and inner classes, varargs.
+controlling access to class members, pass objects to methods, argument passing, returning objects, methodoverloading, recursion, static, nested and inner classes, varargs.
 inheritance: inheritance basics, member access and inheritance, constructors and inheritance, using super,
-multilevel hierarchy, when are constructors executed, superclass reference and subclass objects, method
-overriding, polymorphism, using abstract classes, using final, the object class.
-interfaces: interface fundamentals, creating, implementing and using interfaces, implementing multiple
-interfaces, constants in interfaces, extending interfaces and nested interfaces.
-
-packages: package fundamentals, packages and member access, importing packages, static import.
+multilevel hierarchy, when are constructors executed, superclass reference and subclass objects, methodoverriding, polymorphism, using abstract classes, using final, the object class.
+interfaces: interface fundamentals, creating, implementing and using interfaces, implementing multipleinterfaces, constants in interfaces, extending interfaces and nested interfaces.
+ packages: package fundamentals, packages and member access, importing packages, static import.
 exception handling: the exception hierarchy, exception handling fundamentals, uncaught exceptions,
 handle errors gracefully, multiple catch, catching subclass exceptions, nested try, throwing exception,
-throwable, using finally and throws, built+AC0-in exceptions, new exception features in jdk7, creating
-exception subclasses.
+throwable, using finally and throws, built-in exceptions, new exception features in jdk7, creatingexception subclasses.
 string handling: string fundamentals, constructors, string related language features, length(),
-obtaining characters within a string, string comparison, indexof() and lastindexof(), obtaining a
-modified string, changing case, stringbuffer and stringbuilder.
-
-swing fundamentals: origins and design philosophy, components and containers, layout managers,
+obtaining characters within a string, string comparison, indexof() and lastindexof(), obtaining amodified string, changing case, stringbuffer and stringbuilder.
+ swing fundamentals: origins and design philosophy, components and containers, layout managers,
 event handling, push button, jtextfield, anonymous inner classes.
-+ACI-swing controls: jlabel and imageicon, swing buttons, trees.+ACIAIg-+ACI-
-+ACI-computer organization ( theory):,+ACIAIg-basic structure of computers:+ACI-
-functional units, basic operational concepts, bus structures, performance +//3//f/9- processor clock,
-basic performance equation, clock rate, performance measurement, machine instructions and
-programs: numbers, arithmetic operations and characters, memory location and addresses,
+swing controls: jlabel and imageicon, swing buttons, trees."
+computer organization ( theory):,"basic structure of computers:
+functional units, basic operational concepts, bus structures, performance – processor clock,
+basic performance equation, clock rate, performance measurement, machine instructions andprograms: numbers, arithmetic operations and characters, memory location and addresses,
 memory operations, instructions and instruction sequencing. addressing modes.
-self learning topics: computer types, historical perspective
-input / output organization:
-accessing i/o devices, program controlled i/o, memory mapped i/o, interrupts +//3//f/9- interrupt
-hardware, enabling and disabling interrupts, handling multiple devices, controlling device
-requests, direct memory access, bus arbitration techniques: centralized +ACY- distributed, buses:
-synchronous +ACY- asynchronous
-memory system
-basic concepts, semiconductor ram memories, read only memories, speed, size, and cost,
-cache memories+//3//f/9-mapping functions: direct mapping, associative mapping, set+AC0-associative
-mapping.
+self learning topics: computer types, historical perspectiveinput / output organization:
+accessing i/o devices, program controlled i/o, memory mapped i/o, interrupts – interrupthardware, enabling and disabling interrupts, handling multiple devices, controlling devicerequests, direct memory access, bus arbitration techniques: centralized & distributed, buses:
+synchronous & asynchronousmemory systembasic concepts, semiconductor ram memories, read only memories, speed, size, and cost,
+cache memories–mapping functions: direct mapping, associative mapping, set-associativemapping.
 arithmetic:
-addition and subtraction of signed numbers, design of fast adders, multiplication of positive
-numbers, signed operand multiplication, fast multiplication, integer division.
+addition and subtraction of signed numbers, design of fast adders, multiplication of positivenumbers, signed operand multiplication, fast multiplication, integer division.
 application of the algorithms for arithmetic operations.
 basic processing unit:
-fundamental concepts, execution of a complete instruction, multiple bus organization, hard+AC0-
+fundamental concepts, execution of a complete instruction, multiple bus organization, hard-
 wired control.
-+ACI-self learning topics: embedded systems+ACIAIg-+ACI-
-+ACI-web programming ( integrated):,+ACIAIg-+ACI-
-introduction: the internet versus the web, serving up your information, web page addresses (urls),
-the anatomy of a web page, a dizzying multitude of devices, sticking with the standards, progressive
-enhancement, responsive web design, accessibility, site performance, steps to becoming a web
-developer, skills and tools, dos and don+//3//f/9-ts, career trends
-self learning topics: web history, web standards
-
-html5: basic elements, drag and drop, file upload, dropdown menu, audio player, local storage,
-graphics and animation, geolocation and form validation, css3: basic properties, inheritance, multiple
-classes, box model, effects.
-self learning topics: html5 code validation
-
-basics of javascript: dialog boxes, conditional statements, loops, arrays, objects, events, jquery:
-add/remove class, ui datepicker, file upload, autocomplete
-self learning topics: javascript code validation, jquery basics
-
-basics of angularjs: form validation, routing, controller, table, data binding
-self learning topics: agularjs api, w3.css, includes
-
-basics of bootstrap: grid, navbar, table, dropdown, form, layout, tooltip, panel, pop+AC0-over, tabs,
-modals
-+ACI-self learning topics: concepts of responsive design, bs4 basic template+ACIAIg-+ACI-
-+ACI-calculus, fourier analysis and linear algebra:+ACIAIg-,+ACI-
-differential calculus: taylor+//3//f/9-s and maclaurin+//3//f/9-s theorems for function of one variable (statement only)+AC0-
-problems. angle between polar curves. partial differentiation: definition and problems. total
-differentiation+AC0- problems. partial differentiation of composite functions+AC0- problems.
-
-laplace transforms: definition, laplace transforms of elementary functions. laplace transforms
-of)t(feat ,)t(ft n ,dt)t(f
-t
-+//3//f/9-0 ,t
-)t(f (without proof), inverse laplace transforms: inverse laplace
-transforms +AC0-problems, applications to solve linear differential equation.
-unit +//3//f/9-iii
-fourier analysis: fourier series: fourier series, half range fourier sine and cosine series. practical
-examples. harmonic analysis.
+self learning topics: embedded systems"
+web programming ( integrated):," introduction: the internet versus the web, serving up your information, web page addresses (urls),
+the anatomy of a web page, a dizzying multitude of devices, sticking with the standards, progressiveenhancement, responsive web design, accessibility, site performance, steps to becoming a webdeveloper, skills and tools, dos and don’ts, career trendsself learning topics: web history, web standards html5: basic elements, drag and drop, file upload, dropdown menu, audio player, local storage,
+graphics and animation, geolocation and form validation, css3: basic properties, inheritance, multipleclasses, box model, effects.
+self learning topics: html5 code validation basics of javascript: dialog boxes, conditional statements, loops, arrays, objects, events, jquery:
+add/remove class, ui datepicker, file upload, autocompleteself learning topics: javascript code validation, jquery basics basics of angularjs: form validation, routing, controller, table, data bindingself learning topics: agularjs api, w3.css, includes basics of bootstrap: grid, navbar, table, dropdown, form, layout, tooltip, panel, pop-over, tabs,
+modalsself learning topics: concepts of responsive design, bs4 basic template"
+"calculus, fourier analysis and linear algebra:"," differential calculus: taylor’s and maclaurin’s theorems for function of one variable (statement only)-
+problems. angle between polar curves. partial differentiation: definition and problems. totaldifferentiation- problems. partial differentiation of composite functions- problems.
+ laplace transforms: definition, laplace transforms of elementary functions. laplace transformsof)t(feat ,)t(ft n ,dt)t(ft
+0 ,t
+)t(f (without proof), inverse laplace transforms: inverse laplacetransforms -problems, applications to solve linear differential equation.
+unit –iii fourier analysis: fourier series: fourier series, half range fourier sine and cosine series. practicalexamples. harmonic analysis.
 fourier transforms: infinite fourier transform and properties. fourier sine and cosine transforms.
 properties and problems.
-
-numerical techniques: numerical solution of algebraic and transcendental equations: method of
-false position, newton+AC0- raphson method, fixed point iteration method (without derivation).
-numerical solution of ordinary differential equations: taylor+//3//f/9-s series method, euler and modified
-euler method, fourth order runge+AC0-kutta method (without derivation).
-
-linear algebra: rank of a matrix by elementary transformation, solution of system of linear
-equations+AC0-gauss elimination method and gauss+AC0-seidal method. eigen value and eigen vectors +//3//f/9-
-+ACI-rayleigh+//3//f/9-s power method.+ACIAIg-+ACI-
-+ACI-discrete mathematical structures and graph theory:,+ACIAIg-+ACI-
-fundamentals of logic: laws of logic, logical implication+AC0-rules of inference. quantifiers+AC0-
+ numerical techniques: numerical solution of algebraic and transcendental equations: method offalse position, newton- raphson method, fixed point iteration method (without derivation).
+numerical solution of ordinary differential equations: taylor’s series method, euler and modifiedeuler method, fourth order runge-kutta method (without derivation).
+ linear algebra: rank of a matrix by elementary transformation, solution of system of linearequations-gauss elimination method and gauss-seidal method. eigen value and eigen vectors –
+rayleigh’s power method."
+discrete mathematical structures and graph theory:," fundamentals of logic: laws of logic, logical implication-rules of inference. quantifiers-
 universal and existential quantifiers, proofs techniques: direct, indirect and contradiction.
-unit+//3//f/9-ii
-relations and functions: zero+AC0-one matrices and directed graphs, closure and equivalence
-relations and partitions, partial orders, hasse diagrams, lattice, properties of functions,
+unit–ii relations and functions: zero-one matrices and directed graphs, closure and equivalencerelations and partitions, partial orders, hasse diagrams, lattice, properties of functions,
 composition and invertible functions.
-unit+AC0-iii
-advanced counting techniques: sterling number of second kind, inclusion and exclusion,
-pigeonhole principle, generating function, recurrence relations, solution of linear homogeneous
-and non+AC0-homogeneous recurrence relations with constant coefficients, divide and conquer
-algorithms, merge sort algorithm.
-unit+AC0-iv
-basic graph theory: definitions and examples, subgraphs, complements and graph
-isomorphism, connectivity, euler trails and circuits, planar graphs, hamiltonian paths and cycles,
+unit-iii advanced counting techniques: sterling number of second kind, inclusion and exclusion,
+pigeonhole principle, generating function, recurrence relations, solution of linear homogeneousand non-homogeneous recurrence relations with constant coefficients, divide and conqueralgorithms, merge sort algorithm.
+unit-iv basic graph theory: definitions and examples, subgraphs, complements and graphisomorphism, connectivity, euler trails and circuits, planar graphs, hamiltonian paths and cycles,
 coloring, matching.
-unit+AC0-v
-elementary number theory and cryptography: fields, modular arithmetic, prime numbers,
-fermat+//3//f/9-s and euler+//3//f/9-s theorem. testing of primality, chinese remainder theorem. caesar
-+ACI-encryption/decryption, rsa cryptosystem+ACIAIg-+ACI-
-+ACI-operating system ( theory):,+ACIAIg-+ACI-
-introduction to operating system: system structures: what operating systems do+ADs- operating system
-operations+ADs- process management+ADs- memory management+ADs- storage management+ADs- protection and security+ADs-
-distributed system+ADs- operating system services+ADs- system calls+ADs- types of system calls+ADs- operating system
-structure+ADs- system boot.
-introduction to unix file system: inside unix, internal and external commands, command
-structure.
-case study: android operating system / ios
-
-process management: process concept+ADs- process scheduling+ADs- process scheduling: basic concepts+ADs- scheduling
-criteria+ADs- scheduling algorithms.
-the process: understanding the process, how a process is created, the login shell, init, internal and external
-commands, ps.
-
-process synchronization: synchronization: the critical section problem+ADs- peterson+//3//f/9-s solution+ADs- semaphores+ADs-
+unit-v elementary number theory and cryptography: fields, modular arithmetic, prime numbers,
+fermat’s and euler’s theorem. testing of primality, chinese remainder theorem. caesarencryption/decryption, rsa cryptosystem"
+operating system ( theory):," introduction to operating system: system structures: what operating systems do; operating systemoperations; process management; memory management; storage management; protection and security;
+distributed system; operating system services; system calls; types of system calls; operating systemstructure; system boot.
+introduction to unix file system: inside unix, internal and external commands, commandstructure.
+case study: android operating system / ios process management: process concept; process scheduling; process scheduling: basic concepts; schedulingcriteria; scheduling algorithms.
+the process: understanding the process, how a process is created, the login shell, init, internal and externalcommands, ps.
+ process synchronization: synchronization: the critical section problem; peterson’s solution; semaphores;
 classical problems of synchronization.
-deadlocks: deadlocks: system model+ADs- deadlock characterization+ADs- methods for handling deadlocks+ADs- deadlock
-prevention+ADs- deadlock avoidance+ADs- deadlock detection and recovery from deadlock.
-
-memory management: memory management strategies: background+ADs- swapping+ADs- contiguous
-memory allocation+ADs- paging+ADs- virtual memory management: background+ADs- demand paging+ADs-
-copy+AC0-on+AC0-write+ADs- page replacement+ADs-
-
-file system: implementation of file system: file system: file concept+ADs- access methods+ADs- directory structure+ADs-
-file system mounting+ADs- file sharing+ADs- protection. implementing file system: file system structure.
-the file system: the parent child relationship, the unix file system, absolute pathnames, relative
-+ACI-pathnames, pwd, cd, mkdir, rmdir, cp, rm, mv, cat. file attributes: ls, ls+AC0-l, ls+AC0-d, file permissions, chmod.+ACIAIg-+ACI-
-+ACI-database management system (theory):,+ACIAIg-+ACI-
-introduction: introduction to database, characteristics of database approach, advantages of using
-dbms approach, three+AC0-schema architecture and data independence.
-entity+AC0-relationship model: using high+AC0-level conceptual data models for database design+ADs- an
-example database application+ADs- entity types, entity sets, attributes and keys+ADs- relationships,
-relationship types, roles and structural constraints+ADs- weak entity types.
-case study: er+AC0-modeling of airline reservation system, hospital management and
-educational institute.
-
-relational model and relational algebra: relational model concepts+ADs- relational model
-constraints and relational database schemas+ADs- update operations, dealing with constraint violations+ADs-
-unary relational operations: select and project+ADs- relational algebra operations from set
-theory+ADs- binary relational operations: join and division+ADs- additional relational operations.
-
-database design: informal design guidelines for relation schemas+ADs- functional dependencies+ADs-
-normal forms based on primary keys+ADs- general definitions of second and third normal forms+ADs-
-boyce+AC0-codd normal form.
-transaction processing concepts: introduction to transaction processing, transaction and system
-concepts, desirable properties of transactions and issues with concurrent transactions.
-self study: triggers 1 hour
-
-sql :sql data definition and data types+ADs- specifying basic constraints in sql+ADs- schema change
-statements in sql+ADs- basic queries in sql+ADs- more complex sql queries. insert, delete and update
-statements in sql.
-
-pl/sql :pl/sql block structure, pl/sql variables, pl/sql function , pl/sql procedure,
-pl/sql if statement , pl/sql loop statement: pl/sql while loop statement, pl/sql for
-loop statement.
+deadlocks: deadlocks: system model; deadlock characterization; methods for handling deadlocks; deadlockprevention; deadlock avoidance; deadlock detection and recovery from deadlock.
+ memory management: memory management strategies: background; swapping; contiguousmemory allocation; paging; virtual memory management: background; demand paging;
+copy-on-write; page replacement;
+ file system: implementation of file system: file system: file concept; access methods; directory structure;
+file system mounting; file sharing; protection. implementing file system: file system structure.
+the file system: the parent child relationship, the unix file system, absolute pathnames, relativepathnames, pwd, cd, mkdir, rmdir, cp, rm, mv, cat. file attributes: ls, ls-l, ls-d, file permissions, chmod."
+database management system (theory):," introduction: introduction to database, characteristics of database approach, advantages of usingdbms approach, three-schema architecture and data independence.
+entity-relationship model: using high-level conceptual data models for database design; anexample database application; entity types, entity sets, attributes and keys; relationships,
+relationship types, roles and structural constraints; weak entity types.
+case study: er-modeling of airline reservation system, hospital management andeducational institute.
+ relational model and relational algebra: relational model concepts; relational modelconstraints and relational database schemas; update operations, dealing with constraint violations;
+unary relational operations: select and project; relational algebra operations from settheory; binary relational operations: join and division; additional relational operations.
+ database design: informal design guidelines for relation schemas; functional dependencies;
+normal forms based on primary keys; general definitions of second and third normal forms;
+boyce-codd normal form.
+transaction processing concepts: introduction to transaction processing, transaction and systemconcepts, desirable properties of transactions and issues with concurrent transactions.
+self study: triggers 1 hour sql :sql data definition and data types; specifying basic constraints in sql; schema changestatements in sql; basic queries in sql; more complex sql queries. insert, delete and updatestatements in sql.
+ pl/sql :pl/sql block structure, pl/sql variables, pl/sql function , pl/sql procedure,
+pl/sql if statement , pl/sql loop statement: pl/sql while loop statement, pl/sql forloop statement.
 self study: plsql installation and programming. 2 hours
-+ACI-
-design and analysis of algorithm(theory):,+ACI-
-introduction: fundamentals of algorithmic problem solving, analysis framework, asymptotic
-notations and basic efficiency classes, mathematical analysis of non+AC0-recursive and recursive
-algorithms, brute force approaches: introduction, selection sort, linear search.
+"
+design and analysis of algorithm(theory):," introduction: fundamentals of algorithmic problem solving, analysis framework, asymptoticnotations and basic efficiency classes, mathematical analysis of non-recursive and recursivealgorithms, brute force approaches: introduction, selection sort, linear search.
 self learning topics: short tutorial on recurrence relations, bubble sort( 1hr)
-
-algorithm design technique+AC0-i: divide and conquer, decrease+AC0-and+AC0-conquer transform and conquer,
+ algorithm design technique-i: divide and conquer, decrease-and-conquer transform and conquer,
 the general approach and illustration.
-applications of divide and conquer technique: binary search, merge sort, quick sort and their
-performance comparison. counting leaf+AC0-nodes, tiling+AC0-game implementation.
-applications of decrease and conquer technique: insertion sort, depth first search and breadth first
-search. maze+AC0-game implementation.
-applications of transform and conquer: heaps and heap sort, horner+//3//f/9-s rule. clustering.
+applications of divide and conquer technique: binary search, merge sort, quick sort and theirperformance comparison. counting leaf-nodes, tiling-game implementation.
+applications of decrease and conquer technique: insertion sort, depth first search and breadth firstsearch. maze-game implementation.
+applications of transform and conquer: heaps and heap sort, horner’s rule. clustering.
 self learning topics: multiplication of large integers and binary exponentiation. (2 hrs)
-
-algorithm design technique+AC0-ii: the general greedy technique, illustration with examples.
-applications of greedy method:kruskal+//3//f/9-s algorithm +//3//f/9- minimum+AC0-cost spanning trees: prim+//3//f/9-s
-algorithm, single source shortest path +AC0- dijkstra+//3//f/9-s algorithm, huffman trees +//3//f/9- encoding of data.
-
-algorithm design technique+AC0-iii: dynamic programming definition and concept illustration. the
-general method,
-applications of dynamic programming:warshall+//3//f/9-s algorithm +//3//f/9- transitive closure, floyd+//3//f/9-s algorithm
-for the all+AC0-pairs shortest paths, knapsack using general weights and 0/1 knapsack. longest common
-difference +//3//f/9- used in implementation of diff command and polynomial interpolation.
+ algorithm design technique-ii: the general greedy technique, illustration with examples.
+applications of greedy method:kruskal’s algorithm – minimum-cost spanning trees: prim’salgorithm, single source shortest path - dijkstra’s algorithm, huffman trees – encoding of data.
+ algorithm design technique-iii: dynamic programming definition and concept illustration. thegeneral method,
+applications of dynamic programming:warshall’s algorithm – transitive closure, floyd’s algorithmfor the all-pairs shortest paths, knapsack using general weights and 0/1 knapsack. longest commondifference – used in implementation of diff command and polynomial interpolation.
 self learning topics: computing ncr, the dynamic approach (1 hr)
-8hours
-algorithm design technique+AC0-iv: backtracking, branch+AC0-and+AC0-bound, string matching, basics and
-illustrations.
-applications of backtracking: n +AC0- queens+//3//f/9-s problem, hamiltonian circuit problem, sum of subset +//3//f/9-
+ 8hoursalgorithm design technique-iv: backtracking, branch-and-bound, string matching, basics andillustrations.
+applications of backtracking: n - queens’s problem, hamiltonian circuit problem, sum of subset –
 problem and its use in public key cryptosystem. graph coloring problem.
-applications of branch and bound: jobassignment problem, knapsack problem, traveling
-salesperson problem. best first search used in ai.
-applications string matching: input enhancement in string matching, horsepool+//3//f/9-s method, rabin+AC0-
+applications of branch and bound: jobassignment problem, knapsack problem, travelingsalesperson problem. best first search used in ai.
+applications string matching: input enhancement in string matching, horsepool’s method, rabin-
 karp algorithm. used in text processing toolkits like nltk.
-+ACI-self learning topics: na+//3//Q-ve string matching algorithm. (1hr)+ACIAIg-+ACI-
-+ACI-software engineering ( theory):,+ACIAIg-+ACI-
-introduction: professional software development: software engineering, software engineering ethics. a case
-study.
-software process: software process models: the waterfall model +//3//f/9- a case study, incremental development,
-reuse+AC0- oriented software engineering, process activities: software specification, software design and
-implementation, software validation, coping with change: prototyping, incremental delivery, boehm+//3//f/9-s spiral
-model.
-
-requirements engineering: functional and non+AC0-functional requirements: functional requirements, non+AC0-
-functional requirements, case studies, the software requirements document, introduction to requirements
-specification, requirements engineering processes: requirement elicitation and analysis.
-
-design engineering: context models, interaction models, design within the context of software engineering
+self learning topics: naïve string matching algorithm. (1hr)"
+software engineering ( theory):," introduction: professional software development: software engineering, software engineering ethics. a casestudy.
+software process: software process models: the waterfall model – a case study, incremental development,
+reuse- oriented software engineering, process activities: software specification, software design andimplementation, software validation, coping with change: prototyping, incremental delivery, boehm’s spiralmodel.
+ requirements engineering: functional and non-functional requirements: functional requirements, non-
+functional requirements, case studies, the software requirements document, introduction to requirementsspecification, requirements engineering processes: requirement elicitation and analysis.
+ design engineering: context models, interaction models, design within the context of software engineering
 ,design process and design quality, design concepts: abstraction , architecture, patterns, modularity ,
-information hiding, functional independence, refinement, refactoring
-agile software development: agile methods, plan driven and agile development, introduction to extreme
-programming. self study: scrum
-
-project planning: software pricing, plan+AC0-driven development: project plans, planning process, project
-scheduling: schedule representation, agile planning, estimation techniques: algorithmic cost modeling. the
-cocomo ii model. project duration and staffing.
-
-software testing: development testing: unit testing, choosing unit test cases, component testing, system
-testing, test driven development, release testing, requirements based testing, scenario testing, performance
-+ACI-testing, user testing. a demo of selenium.+ACIAIg-+ACI-
-+ACI-python programming ( integrated lab):,+ACIAIg-+ACI-
-introduction to python, use idle to develop programs, basic coding skills, working with data types and
-variables, working with numeric data, working with string data, python functions, boolean expressions,
-selection structure, iteration structure, illustrative programs
-unit +AC0- ii
-define and use functions and modules, basic skills for working with lists, work with a list of lists, work
-with tuples, get started with dictionaries, an introduction to file i/o, use text files, use csv files, handle a
-single exception, handle multiple exceptions illustrative programs
-unit +AC0- iii
-object oriented programming, an introduction to classes and objects, define a class, work with object
-composition, work with encapsulation, work with inheritance, override object methods, using sqlite
-manager to work with a database, using python to work with a database, creating a gui that handles an
-event illustrative programs
-unit +AC0- iv
-numpy basics: arrays and vectorized computation: creating ndarrays, data types for ndarrays,
+information hiding, functional independence, refinement, refactoringagile software development: agile methods, plan driven and agile development, introduction to extremeprogramming. self study: scrum project planning: software pricing, plan-driven development: project plans, planning process, projectscheduling: schedule representation, agile planning, estimation techniques: algorithmic cost modeling. thecocomo ii model. project duration and staffing.
+ software testing: development testing: unit testing, choosing unit test cases, component testing, systemtesting, test driven development, release testing, requirements based testing, scenario testing, performancetesting, user testing. a demo of selenium."
+python programming ( integrated lab):," introduction to python, use idle to develop programs, basic coding skills, working with data types andvariables, working with numeric data, working with string data, python functions, boolean expressions,
+selection structure, iteration structure, illustrative programsunit - ii define and use functions and modules, basic skills for working with lists, work with a list of lists, workwith tuples, get started with dictionaries, an introduction to file i/o, use text files, use csv files, handle asingle exception, handle multiple exceptions illustrative programsunit - iii object oriented programming, an introduction to classes and objects, define a class, work with objectcomposition, work with encapsulation, work with inheritance, override object methods, using sqlitemanager to work with a database, using python to work with a database, creating a gui that handles anevent illustrative programsunit - iv numpy basics: arrays and vectorized computation: creating ndarrays, data types for ndarrays,
 operations between arrays and scalars, basic indexing and slicing, indexing with slices, boolean indexing,
 transposing arrays and swapping axes.
-
-introduction to pandas, pandas objects, operations in pandas: object creation, viewing data, selection,
-different ways of creating dataframe, handling missing data, merge and concat operations. pivot and
-pivot table.
+ introduction to pandas, pandas objects, operations in pandas: object creation, viewing data, selection,
+different ways of creating dataframe, handling missing data, merge and concat operations. pivot andpivot table.
 scipy: introduction to optimization and minimization, interpolation, integration, statistics
-+ACI-
-graph theory and discrete mathematical structures:,+ACI-
-fundamentals of logic: laws of logic, logical implication+AC0-rules of inference. quantifiers+AC0- universal and
-existential quantifiers, proofs techniques: direct, indirect and contradiction.
-unit +//3//f/9-ii
-relations and functions: zero+AC0-one matrices and directed graphs, closure and equivalence relations and
-partitions, partial orders, hasse diagrams, lattice, properties of functions, composition and invertible functions.
-unit iii
-advanced counting techniques: sterling number of second kind, inclusion and exclusion, pigeonhole
-principle, generating function, recurrence relations, solution of linear homogeneous and non+AC0-homogeneous
-recurrence relations with constant coefficients, divide and conquer algorithms, merge sort algorithm.
-unit iv
-basic graph theory: definitions and examples, subgraphs, complements and graph isomorphism,
+"
+graph theory and discrete mathematical structures:," fundamentals of logic: laws of logic, logical implication-rules of inference. quantifiers- universal andexistential quantifiers, proofs techniques: direct, indirect and contradiction.
+unit –ii relations and functions: zero-one matrices and directed graphs, closure and equivalence relations andpartitions, partial orders, hasse diagrams, lattice, properties of functions, composition and invertible functions.
+unit iii advanced counting techniques: sterling number of second kind, inclusion and exclusion, pigeonholeprinciple, generating function, recurrence relations, solution of linear homogeneous and non-homogeneousrecurrence relations with constant coefficients, divide and conquer algorithms, merge sort algorithm.
+unit iv basic graph theory: definitions and examples, subgraphs, complements and graph isomorphism,
 connectivity, euler trails and circuits, planar graphs, hamiltonian paths and cycles, coloring, matching.
-unit v
-elementary number theory and cryptography: fields, modular arithmetic, prime numbers, fermat+//3//f/9-s and
-euler+//3//f/9-s theorem. testing of primality, chinese remainder theorem. caesar encryption/decryption, rsa
-+ACI-cryptosystem.+ACIAIg-+ACI-
-+ACI-environmental studies (mnc):,+ACIAIg-+ACI-
-definition of environment, ecology and eco+AC0-system, structure and functions of ecosystem, balanced ecosystem,
+unit v elementary number theory and cryptography: fields, modular arithmetic, prime numbers, fermat’s andeuler’s theorem. testing of primality, chinese remainder theorem. caesar encryption/decryption, rsacryptosystem."
+environmental studies (mnc):," definition of environment, ecology and eco-system, structure and functions of ecosystem, balanced ecosystem,
 introduction to environmental impact assessment.
-natural resources: material cycles +AC0- oxygen, carbon, nitrogen and hydrological cycle. importance of water
-quality, water borne diseases, water induced diseases, significance of fluoride in drinking water.
-unit ii
-energy +AC0- different types of energy, conventional and non +AC0- conventional sources +//3//f/9- advantages and limitations
-of wind mills, hydro electric, fossil fuel, nuclear, solar, biomass and bio+AC0-gas, geothermal energy.
-unit iii
-disasters +AC0- natural disasters: meaning and nature of natural disasters, their types and effects (floods, drought,
+natural resources: material cycles - oxygen, carbon, nitrogen and hydrological cycle. importance of waterquality, water borne diseases, water induced diseases, significance of fluoride in drinking water.
+unit ii energy - different types of energy, conventional and non - conventional sources – advantages and limitationsof wind mills, hydro electric, fossil fuel, nuclear, solar, biomass and bio-gas, geothermal energy.
+unit iii disasters - natural disasters: meaning and nature of natural disasters, their types and effects (floods, drought,
 cyclone, earthquakes, tsunami). man made disasters: nuclear disasters, chemical disasters, biological disasters,
-building fire, coal fire, forest fire, oil fire, air pollution, water pollution, deforestation, industrial waste water
-pollution and marine pollution.
-unit iv 05 hours
-disaster management: international strategy for disaster reduction. concept of disaster management and national
-disaster management framework
-unit v 05 hours
-environmental protection: role of government, legal aspects, initiatives by non +AC0- governmental organizations
+building fire, coal fire, forest fire, oil fire, air pollution, water pollution, deforestation, industrial waste waterpollution and marine pollution.
+unit iv 05 hoursdisaster management: international strategy for disaster reduction. concept of disaster management and nationaldisaster management frameworkunit v 05 hoursenvironmental protection: role of government, legal aspects, initiatives by non - governmental organizations
 (ngo), environmental education, women education. e waste and solid waste management rules
-+ACI-
-computer networks:,+ACI-
-introduction to computer networks and the internet: what is the internet?, the network edge, the
-network core, delay, loss, and throughput in packet+AC0-switched networks, protocol layers and their
-service models.
-tutorials: networks under attack, introduction to network analysis tool+AC0- wireshark
-
-application layer: principles of network applications, the web and http, file transfer: ftp
-commands and replies, electronic mail in the internet, the internet's directory service, peer+AC0-to+AC0-peer
-applications+AC0-bit torrent file distribution protocol.
+"
+computer networks:," introduction to computer networks and the internet: what is the internet?, the network edge, thenetwork core, delay, loss, and throughput in packet-switched networks, protocol layers and theirservice models.
+tutorials: networks under attack, introduction to network analysis tool- wireshark application layer: principles of network applications, the web and http, file transfer: ftpcommands and replies, electronic mail in the internet, the internet's directory service, peer-to-peerapplications-bit torrent file distribution protocol.
 tutorials: wireshark demonstration for http and dns, introduction to rfc.
-
-transport layer: introduction and transport+AC0-layer services, multiplexing and de+AC0-multiplexing,
-connectionless transport : udp, principles of reliable data transfer: go+AC0-back+AC0-n and selective repeat,
-connection+AC0-oriented transport: tcp.
-tutorials: programming assignment on implementing a reliable transport protocol and using the
-wireshark for exploring the tcp and udp
-
-the network layer: introduction, virtual circuit and datagram networks, what+//3//f/9-s inside a router?, the
-internet protocol (ip): forwarding and addressing in the internet.
-tutorials : introduction to routing in the internet+AC0-bgp, wireshark for exploring icmp using ping and
-trace+AC0-route
-
-the link layer: links, access networks, and lans:
-introduction to the link layer, error detection and correction techniques, multiple access links and
-protocols, introduction to link virtualization and data center networking.
-+ACI-tutorials : use of wireshark in exploring ethernet, arp and dhcp+ACIAIg-+ACI-
-+ACI-object oriented modeling and design:,+ACIAIg-+ACI-
-introduction, modeling concepts, class modeling: introduction to object orientated (oo)
-development. oo themes+ADs- oo modeling history. modeling as design technique: modeling+ADs- abstraction+ADs-
+ transport layer: introduction and transport-layer services, multiplexing and de-multiplexing,
+connectionless transport : udp, principles of reliable data transfer: go-back-n and selective repeat,
+connection-oriented transport: tcp.
+tutorials: programming assignment on implementing a reliable transport protocol and using thewireshark for exploring the tcp and udp the network layer: introduction, virtual circuit and datagram networks, what’s inside a router?, theinternet protocol (ip): forwarding and addressing in the internet.
+tutorials : introduction to routing in the internet-bgp, wireshark for exploring icmp using ping andtrace-route the link layer: links, access networks, and lans:
+introduction to the link layer, error detection and correction techniques, multiple access links andprotocols, introduction to link virtualization and data center networking.
+tutorials : use of wireshark in exploring ethernet, arp and dhcp"
+object oriented modeling and design:," introduction, modeling concepts, class modeling: introduction to object orientated (oo)
+development. oo themes; oo modeling history. modeling as design technique: modeling; abstraction;
 the three models.
-class modeling: object and class concepts+ADs- link and associations concepts+ADs- generalization and
-inheritance. introduction to association and aggregation.
-
-state modeling, advanced state modeling: state modeling: events, states, transitions and
-conditions+ADs- state diagrams+ADs- state diagram behavior+ADs- advanced state modeling: nested state diagrams+ADs-
+class modeling: object and class concepts; link and associations concepts; generalization andinheritance. introduction to association and aggregation.
+ state modeling, advanced state modeling: state modeling: events, states, transitions andconditions; state diagrams; state diagram behavior; advanced state modeling: nested state diagrams;
 nested states.
-7 hours
-interaction modeling, advanced interaction modeling: interaction modeling: use case models+ADs-
-sequence models+ADs- activity models. use case relationships+ADs- procedural sequence models+ADs- special
-constructs for activity models.
-
-domain analysis: overview of domain analysis+ADs- domain class model+ADs- domain state model+ADs- domain
-interaction model+ADs- iterating the analysis.
-
-application analysis: application interaction model+ADs- application class model+ADs- overview of class
-+ACI-design.+ACIAIg-+ACI-
-+ACI-unix system programming:,+ACIAIg-+ACI-
-introduction to unix and its commands: unix and ansi standards: the ansi c standard, the
-ansi/iso c+//0- standards, difference between ansi c and c+//0-, the posix standards, the posix.1
-fips standard. unix and posix apis: the posix apis, the unix and posix development
-environment, api common characteristics, the file system: the file, what+//3//f/9-s in a (file)name, the
-parent+AC0-child relationship, the unix file system, pwd, absolute pathnames, cd, relative pathnames,
+ 7 hoursinteraction modeling, advanced interaction modeling: interaction modeling: use case models;
+sequence models; activity models. use case relationships; procedural sequence models; specialconstructs for activity models.
+ domain analysis: overview of domain analysis; domain class model; domain state model; domaininteraction model; iterating the analysis.
+ application analysis: application interaction model; application class model; overview of classdesign."
+unix system programming:," introduction to unix and its commands: unix and ansi standards: the ansi c standard, theansi/iso c++ standards, difference between ansi c and c++, the posix standards, the posix.1fips standard. unix and posix apis: the posix apis, the unix and posix developmentenvironment, api common characteristics, the file system: the file, what’s in a (file)name, theparent-child relationship, the unix file system, pwd, absolute pathnames, cd, relative pathnames,
 mkdir, rmdir, cp, rm, mv, cat, ls.
-
-unix files: file types, the unix and posix file system, the unix and posix file attributes,
+ unix files: file types, the unix and posix file system, the unix and posix file attributes,
 inodes in unix system v, application program interface to files, unix kernel support for files,
 general file apis, directory file apis , device file apis, fifo file apis , symbolic link file apis,
 file and record locking.
-
-unix processes: the environment of a unix process: introduction, main function, process
-termination, command+AC0-line arguments, environment list, memory layout of a c program, shared
-libraries, memory allocation, environment variables, setjmp and longjmp functions, getrlimit, setrlimit
-functions, unix kernel support for processes.
-
-signals and daemon processes: signals: the unix kernel support for signals, signal, signal mask,
+ unix processes: the environment of a unix process: introduction, main function, processtermination, command-line arguments, environment list, memory layout of a c program, sharedlibraries, memory allocation, environment variables, setjmp and longjmp functions, getrlimit, setrlimitfunctions, unix kernel support for processes.
+ signals and daemon processes: signals: the unix kernel support for signals, signal, signal mask,
 sigaction, the sigchld signal and waitpid api, the sigsetjmp and siglongjmp functions, kill, alarm,
 interval timers.
-daemon processes: introduction, daemon characteristics, coding rules, error logging, client+AC0-server
-model.
-
-inter+AC0-process communication: introduction, pipes, popen and pclose functions, co+AC0-processes, fifos,
-+ACI-message queues, semaphores, shared memory.+ACIAIg-+ACI-
-+ACI-formal languages and automata theory:,+ACIAIg-+ACI-
-introduction to finite automata: introduction to finite automata, structural representation. the
-central concepts of automata theory +//3//f/9- alphabet, strings +ACY- languages. deterministic finite automata
-(dfa), non+AC0-deterministic and equivalence of nfa and dfa,
-self learning: fa with epsilon (+//3//Q-) transitions and applications of finite automata.
-
-regular expressions and languages: regular expressions, finite automata and regular expressions,
-properties of regular languages (rl): proving languages not to be regular. equivalence and
-minimization of automata.
-self learning : closure properties of regular languages and applications of regular expressions
-
-context+AC0-free grammars (cfg) and languages (cfl): context+AC0-free grammars, parse trees,
-applications of context+AC0-free grammars, ambiguity in grammars and languages. normal forms for
-context free grammar.
+daemon processes: introduction, daemon characteristics, coding rules, error logging, client-servermodel.
+ inter-process communication: introduction, pipes, popen and pclose functions, co-processes, fifos,
+message queues, semaphores, shared memory."
+formal languages and automata theory:," introduction to finite automata: introduction to finite automata, structural representation. thecentral concepts of automata theory – alphabet, strings & languages. deterministic finite automata
+(dfa), non-deterministic and equivalence of nfa and dfa,
+self learning: fa with epsilon (ε) transitions and applications of finite automata.
+ regular expressions and languages: regular expressions, finite automata and regular expressions,
+properties of regular languages (rl): proving languages not to be regular. equivalence andminimization of automata.
+self learning : closure properties of regular languages and applications of regular expressions context-free grammars (cfg) and languages (cfl): context-free grammars, parse trees,
+applications of context-free grammars, ambiguity in grammars and languages. normal forms forcontext free grammar.
 self learning: closure properties and pumping lemma for context free languages.
-
-pushdown automata (pda): definition of pushdown automata, the languages of a pda: acceptance
-by final state +ACY- empty stack.
+ pushdown automata (pda): definition of pushdown automata, the languages of a pda: acceptanceby final state & empty stack.
 introduction to turing machines (tm): turing machine model: definition of turing machine,
-transition function, instantaneous description +ACY- moves, programming a turing machine, language
-recognition by turing machine.
-self learning: deterministic pushdown automata,turing machine as a acceptors,turing machine as
-transducers.
-
-lex and yacc tools: the simplest lex program, recognizing words with lex. grammars: parser+AC0-
-lexer communication, a yacc parser, rules section. running lex and yacc and examples
-using lex: regular expressions and examples.
-+ACI-using yacc: shift reduce parsing, arithmetic expressions and ambiguity.+ACIAIg-+ACI-
-+ACI-advanced web programming:,+ACIAIg-+ACI-
-an ajax overview: introducing ajax, examples of real world applications, back to the joke of the day
-application. understanding the document object model: the ajax story of the day application, an
-introduction to the document object model, the dom tree, walking the dom tree, dynamically updating
-the page content. ajax basics: connecting your application to web servers, working with the
-xmlhttprequest object, managing the current xmlhttprequests. important ajax design issues:
+transition function, instantaneous description & moves, programming a turing machine, languagerecognition by turing machine.
+self learning: deterministic pushdown automata,turing machine as a acceptors,turing machine astransducers.
+ lex and yacc tools: the simplest lex program, recognizing words with lex. grammars: parser-
+lexer communication, a yacc parser, rules section. running lex and yacc and examplesusing lex: regular expressions and examples.
+using yacc: shift reduce parsing, arithmetic expressions and ambiguity."
+advanced web programming:," an ajax overview: introducing ajax, examples of real world applications, back to the joke of the dayapplication. understanding the document object model: the ajax story of the day application, anintroduction to the document object model, the dom tree, walking the dom tree, dynamically updatingthe page content. ajax basics: connecting your application to web servers, working with thexmlhttprequest object, managing the current xmlhttprequests. important ajax design issues:
 programming hurdles that all ajax developers face.
-self learning topics: project preview : the joke of the day application , the ajax story of the day
-application, ajax typing challenge,
-07 hours
-introducing full stack development: node.js, express, mongodb, angularjs, supporting cast+ADs-
-designing a mean stack architecture: planning a real application, breaking the development into
-stages, hardware architecture
-
-building node application: a brief look at express, node and npm, create express project, modifying
-express for mvc, import bootstrap for responsive layout, setting up heroku, building a static site with
-node and express: defining routes in express, building basic controllers, creating views.
-07 hours
-connecting express application to mongodb, why model data?, defining mongoose schemas,
-database development with mongodb and mongoose, getting our database live ,installing the
-stack and supporting softwares.
-
-rules of rest api, setting up the api in express, get, post,put and delete methods+ADs- consuming
-a rest api: call an api from express, using lists of data from api, getting single documents from
-api, adding data to the database via api, protecting data integrity with data validation, writing modular
-+ACI-javascript and javascript callbacks.+ACIAIg-+ACI-
-+ACI-advanced java:,+ACIAIg-+ACI-
-java i/o: byte streams and character streams, the byte stream classes, the character stream classes,
-predefined streams, using byte streams, using java+//3//f/9-s type wrappers to convert numeric strings.
-
-file i/o: reading and writing files using byte streams, automatically closing a file, reading and
-writing binary data, random+AC0-access files, using java+//3//f/9-s character+AC0-based streams, file i/o using
-character streams
-
-multithreaded programming: multithreading fundamentals, the thread class and runnable interface,
+self learning topics: project preview : the joke of the day application , the ajax story of the dayapplication, ajax typing challenge,
+ 07 hoursintroducing full stack development: node.js, express, mongodb, angularjs, supporting cast;
+designing a mean stack architecture: planning a real application, breaking the development intostages, hardware architecture building node application: a brief look at express, node and npm, create express project, modifyingexpress for mvc, import bootstrap for responsive layout, setting up heroku, building a static site withnode and express: defining routes in express, building basic controllers, creating views.
+ 07 hoursconnecting express application to mongodb, why model data?, defining mongoose schemas,
+database development with mongodb and mongoose, getting our database live ,installing thestack and supporting softwares.
+ rules of rest api, setting up the api in express, get, post,put and delete methods; consuminga rest api: call an api from express, using lists of data from api, getting single documents fromapi, adding data to the database via api, protecting data integrity with data validation, writing modularjavascript and javascript callbacks."
+advanced java:," java i/o: byte streams and character streams, the byte stream classes, the character stream classes,
+predefined streams, using byte streams, using java’s type wrappers to convert numeric strings.
+ file i/o: reading and writing files using byte streams, automatically closing a file, reading andwriting binary data, random-access files, using java’s character-based streams, file i/o usingcharacter streams multithreaded programming: multithreading fundamentals, the thread class and runnable interface,
 creating a thread, creating multiple threads, determining when a thread ends, thread priorities,
-synchronization, using synchronized methods, the synchronized statement, thread communication using
-notify(), wait() and notifyall(), suspending, resuming and stopping threads
-
-jdbc: the concept of jdbc+ADs- jdbc driver types+ADs- jdbc packages+ADs- a brief overview of the jdbc
-process+ADs- database connection+ADs- associating the jdbc/odbc bridge with the database+ADs- statement
-objects+ADs- resultset+ADs- transaction processing +AC0- commit(), rollback(), savepoint.
-
-servlets: background+ADs- the life cycle of a servlet+ADs- using tomcat for servlet development+ADs- a simple
-servlet+ADs- the servlet api+ADs- the javax.servlet package+ADs- reading servlet parameter+ADs- the javax.servlet.http
-+ACI-package+ADs- handling http requests and responses+ADs- using cookies+ADs- session tracking.+ACIAIg-+ACI-
-+ACI-advanced algorithms:,+ACIAIg-+ACI-
-review of analysis techniques: standard notations and common functions+ADs- recurrences and solution of
-recurrence equations+AC0- the substitution method, the recurrence +//3//f/9- tree method, the master method+ADs- amortized
-analysis: aggregate, counting and potential method.
-
-graph algorithms: johnson+//3//f/9-s algorithm for sparse graphs+ADs- detecting negative cycle+AC0-floyd warshal
-algorithm. single source shortest path in dag. flow networks and ford+AC0-fulkerson method. graph coloring
-algorithm.
-
-number+AC0-theoretic algorithms: theoretic algorithms: elementary notions+ADs- gcd, extended euclid+ADs-
-solving modular linear equations+ADs- powers of an element+ADs- modular inverse, chinese remainder theorem,
-fermat+//3//f/9-s theorem, miller+AC0-rabin for primality test. rsa cryptosystem.
-
-string+AC0-matching algorithms: na+//3//Q-ve string matching+ADs- rabin +AC0- karp algorithm+ADs- string matching with finite
-automata and its time complexity+ADs- knuth+AC0-morris+AC0-prat algorithm and its time complexity, boyer +//3//f/9- moore
-algorithms.
-
-probabilistic and randomized algorithms: deterministic and non+AC0-deterministic algorithms, concept of np+AC0-
-hard and np+AC0-complete. tsp example. probabilistic algorithms+ADs- randomizing deterministic algorithms, monte
-+ACI-carlo and las vegas algorithms.+ACIAIg-+ACI-
-+ACI-data warehousing and data mining:,+ACIAIg-+ACI-
-data mining: introduction, what is data mining?, data mining +//3//f/9- on what kind of data? data mining
-functionalities+AC0-what kinds of patterns can be mined?, classification of data mining systems, major
-issues in data mining.
-
-data warehouse and olap technology: what is data warehouse? a multidimensional data
-model, data warehouse architecture. from data warehouse to data mining.
-self+AC0-learning topics: weka tool
-
-data pre+AC0-processing: why preprocess the data? data cleaning, data integration and transformation,
+synchronization, using synchronized methods, the synchronized statement, thread communication usingnotify(), wait() and notifyall(), suspending, resuming and stopping threads jdbc: the concept of jdbc; jdbc driver types; jdbc packages; a brief overview of the jdbcprocess; database connection; associating the jdbc/odbc bridge with the database; statementobjects; resultset; transaction processing - commit(), rollback(), savepoint.
+ servlets: background; the life cycle of a servlet; using tomcat for servlet development; a simpleservlet; the servlet api; the javax.servlet package; reading servlet parameter; the javax.servlet.httppackage; handling http requests and responses; using cookies; session tracking."
+advanced algorithms:," review of analysis techniques: standard notations and common functions; recurrences and solution ofrecurrence equations- the substitution method, the recurrence – tree method, the master method; amortizedanalysis: aggregate, counting and potential method.
+ graph algorithms: johnson‘s algorithm for sparse graphs; detecting negative cycle-floyd warshalalgorithm. single source shortest path in dag. flow networks and ford-fulkerson method. graph coloringalgorithm.
+ number-theoretic algorithms: theoretic algorithms: elementary notions; gcd, extended euclid;
+solving modular linear equations; powers of an element; modular inverse, chinese remainder theorem,
+fermat‘s theorem, miller-rabin for primality test. rsa cryptosystem.
+ string-matching algorithms: naïve string matching; rabin - karp algorithm; string matching with finiteautomata and its time complexity; knuth-morris-prat algorithm and its time complexity, boyer – moorealgorithms.
+ probabilistic and randomized algorithms: deterministic and non-deterministic algorithms, concept of np-
+hard and np-complete. tsp example. probabilistic algorithms; randomizing deterministic algorithms, montecarlo and las vegas algorithms."
+data warehousing and data mining:," data mining: introduction, what is data mining?, data mining – on what kind of data? data miningfunctionalities-what kinds of patterns can be mined?, classification of data mining systems, majorissues in data mining.
+ data warehouse and olap technology: what is data warehouse? a multidimensional datamodel, data warehouse architecture. from data warehouse to data mining.
+self-learning topics: weka tool data pre-processing: why preprocess the data? data cleaning, data integration and transformation,
 data reduction.
-self+AC0-learning topics: weka tool
-
-classification and prediction: what is classification and prediction? issues regarding classification
-and prediction. classification by decision tree induction. bayesian classification. backpropagation.
-self learning topics: weka tool for analysis
-
-cluster analysis: what is cluster analysis? types of data in cluster analysis, categarization of
-+ACI-major clustering methods. partitioning methods.+ACIAIg-+ACI-
-+ACI-nosql:,+ACIAIg-+ACI-
-why nosql? aggregate data models, more details on data models, distribution models,
-consistency, version stamps, map+AC0-reduce.
-
-implement: key+AC0-value databases, document databases, column+AC0-family stores, graph databases,
+self-learning topics: weka tool classification and prediction: what is classification and prediction? issues regarding classificationand prediction. classification by decision tree induction. bayesian classification. backpropagation.
+self learning topics: weka tool for analysis cluster analysis: what is cluster analysis? types of data in cluster analysis, categarization ofmajor clustering methods. partitioning methods."
+nosql:," why nosql? aggregate data models, more details on data models, distribution models,
+consistency, version stamps, map-reduce.
+ implement: key-value databases, document databases, column-family stores, graph databases,
 choosing your database.
-
-mongodb: introduction, creating, updating, and deleting documents, querying
-
-introduction to cassandra: the cassandra data model, reading and writing data: query basic write
-properties, basic read properties, deleting.
-
-redis: getting to know redis: what is redis? , what does redis data structures look like, anatomy of
-+ACI-redis web application, commands in redis, building a simple social network.+ACIAIg-+ACI-
-+ACI-enterprise resource planning:,+ACIAIg-+ACI-
-introduction to erp: overview, business processes, introduction to erp, benefits of erp, erp and
-related technologies, business process reengineering, data warehousing, data mining, on+//3//f/9-line
-analytical processing, supply chain management.
-08hours
-erp implementation: implementation life cycle, implementation methodologies, hidden costs,
-vendors and consultants, contracts with vendors, consultants, and employees, project management
-and monitoring.
-
-business modules: business modules in an erp package, financials, manufacturing, human resource
-management, plant maintenance, materials management, quality management, sales, distribution, and
-service.
-
-erp market dynamics: erp market place and marketplace dynamics, erp vendors.
+ mongodb: introduction, creating, updating, and deleting documents, querying introduction to cassandra: the cassandra data model, reading and writing data: query basic writeproperties, basic read properties, deleting.
+ redis: getting to know redis: what is redis? , what does redis data structures look like, anatomy ofredis web application, commands in redis, building a simple social network."
+enterprise resource planning:," introduction to erp: overview, business processes, introduction to erp, benefits of erp, erp andrelated technologies, business process reengineering, data warehousing, data mining, on–lineanalytical processing, supply chain management.
+ 08hourserp implementation: implementation life cycle, implementation methodologies, hidden costs,
+vendors and consultants, contracts with vendors, consultants, and employees, project managementand monitoring.
+ business modules: business modules in an erp package, financials, manufacturing, human resourcemanagement, plant maintenance, materials management, quality management, sales, distribution, andservice.
+ erp market dynamics: erp market place and marketplace dynamics, erp vendors.
 two case studies such as data span, lg electronics, tata motors.
-self learning topics: system software associates
-
-erp +//3//f/9-present and future: turbo charge the erp system, eia, erp and e+//3//f/9-business, erp,internet,and
-www+AC0-erp ii ,erp and total quality management.
-+ACI-self learning topics: future directions and trends in erp, working of google search engine.+ACIAIg-+ACI-
-+ACI-project management:,+ACIAIg-+ACI-
-introduction to software project management: introduction ,why is software project management important,
-what is project, software projects versus other types of project, contract management and technical project
-management, activities covered by software project management, plans methods and methodologies some ways
-of categorizing software projects, stakeholders, selling objectives, the business case, project success and failure,
-what is management, management control, traditional versus modern project management practices
-project evaluation and programme management: introduction, a business case, project portfolio
-management, evaluation of individual projects. cost benefit evaluation technique, risk evaluation, programme
-management, managing the allocation of resources within programme, strategic programme management,
+self learning topics: system software associates erp –present and future: turbo charge the erp system, eia, erp and e–business, erp,internet,andwww-erp ii ,erp and total quality management.
+self learning topics: future directions and trends in erp, working of google search engine."
+project management:," introduction to software project management: introduction ,why is software project management important,
+what is project, software projects versus other types of project, contract management and technical projectmanagement, activities covered by software project management, plans methods and methodologies some waysof categorizing software projects, stakeholders, selling objectives, the business case, project success and failure,
+what is management, management control, traditional versus modern project management practicesproject evaluation and programme management: introduction, a business case, project portfoliomanagement, evaluation of individual projects. cost benefit evaluation technique, risk evaluation, programmemanagement, managing the allocation of resources within programme, strategic programme management,
 creating a programme, aids to programme management, some reservations about programme management,
-benefit management
-unit ii
-risk management: introduction, risk, categories of risk, a framework for dealing with risk, risk identification,
-risk assessment, risk planning, risk management, evaluating risks to the schedule, applying the pert
-technique, monte carlo simulation, critical chain concepts.
-resource allocation: introduction, the nature of resources, identifying resource requirements, scheduling
-resources, creating critical paths, counting the cost, being specific, publishing the resource schedule, cost
-schedules, the scheduling sequence.
-unit iii
-monitoring and control: introduction, creating the framework, collecting the data, review, project termination
-review, visualising progress, cost monitoring, earned value analysis, prioritizing monitoring, getting the project
-back to target, change control, software configuration management(scm).
+benefit managementunit ii risk management: introduction, risk, categories of risk, a framework for dealing with risk, risk identification,
+risk assessment, risk planning, risk management, evaluating risks to the schedule, applying the perttechnique, monte carlo simulation, critical chain concepts.
+resource allocation: introduction, the nature of resources, identifying resource requirements, schedulingresources, creating critical paths, counting the cost, being specific, publishing the resource schedule, costschedules, the scheduling sequence.
+unit iii monitoring and control: introduction, creating the framework, collecting the data, review, project terminationreview, visualising progress, cost monitoring, earned value analysis, prioritizing monitoring, getting the projectback to target, change control, software configuration management(scm).
 managing contracts: introduction, types of contracts, stages in contract placement, typical terms of a contract,
 contract management, acceptance.
-unit iv
-managing people in software environment: introduction, understanding behaviour, organizational behaviour:
-a background, selecting the right person for job, instruction in the best methods, motivation, the oldham+AC0-
-hackman job characteristics model, stress, health and safety, some ethical and professional concerns
-working in teams: introduction, becoming a team, decision making, organization and team structures,
+unit iv managing people in software environment: introduction, understanding behaviour, organizational behaviour:
+a background, selecting the right person for job, instruction in the best methods, motivation, the oldham-
+hackman job characteristics model, stress, health and safety, some ethical and professional concernsworking in teams: introduction, becoming a team, decision making, organization and team structures,
 coordination dependencies, dispersed and virtual teams, communication genres, communication plans,
-leadership
-unit v
-software quality: introduction, the place of software quality in project planning, the importance of software
-quality, defining software quality, iso 9126, product and process metrics, product versus process quality
-management, quality management systems, process capability models, techniques to help enhance software
-+ACI-quality, testing, software reliability, quality plans+ACIAIg-+ACI-
-+ACI-principles of cyber security:,+ACIAIg-+ACI-
-ethical hacking: overview of ethics, overview of ethical hacking, methodology of ethical hacking,
-networking
-foundations: communications models, topologies, physical networking, ip, tcp, udp, internet
-control message protocol, network architectures, cloud computing,
-
-security foundations: the triad, risk, policies, standards, and procedures, security technology,
-being prepared+ADs-
-footprinting and reconnaissance: open+AC0-source intelligence, domain name system, passive
-reconnaissance, website intelligence, technology intelligence,
-
-scanning networks: ping sweeps, port scanning, vulnerability scanning
-enumeration: service enumeration, remote procedure calls, server message block, web+AC0-based
-enumeration
-
-system hacking: searching for exploits, system compromise, gathering passwords, password
-cracking, client+AC0-side vulnerabilities, post exploitation
-malware: malware types, malware analysis, antivirus solutions, spoofing attacks
-subject code: 18cs564 credits: 3
-course type: oe cie marks: 50
-hours/week: l +//3//f/9- t +//3//f/9- p 3 +//3//f/9- 0 +//3//f/9- 0 see marks: 50
-total hours: 40 see
-duration:
-3 hours
-
-social engineering: social engineering, physical social engineering, phishing attacks, website
-attacks
-+ACI-cryptography: basic encryption, symmetric key cryptography, asymmetric key cryptography,+ACIAIg-+ACI-
-+ACI-object oriented programming using c+//0-:,+ACIAIg-unit+//3//f/9- i+ACI-
-beginning with c+//0- and its features: what is c+//0-?, applications and structure of c+//0- program,
-different data types, variables, different operators, expressions, operator overloading and control
-structures in c+//0-.
-
-functions, classes and objects: functions, inline function, function overloading, friend and virtual
-functions, specifying a class, c+//0- program with a class, memory allocation to objects, array of objects.
-
-constructors, destructors and operator overloading: constructors, multiple constructors in a class, copy
-constructor, dynamic constructor, destructors, overloading unary and binary operators.
-unit+//3//f/9- iv
-inheritance, pointers, virtual functions, polymorphism: derived classes, single, multilevel, multiple
-inheritance, pointers to objects and derived classes, this pointer, virtual and pure virtual functions.
-unit+//3//f/9- v
-templates +ACY- standard template library (stl): introduction, need and use of templates, function templates
-+ACI-and class templates+ADs- stl: introduction, containers, algorithms and iterators.+ACIAIg-+ACI-
-+ACI-artificial intelligence and machine learning
-:+ACIAIg-,+ACI-
-introduction to artificial intelligence: introduction, what is ai, strong methods and weak
-methods. uses and limitations:
+leadershipunit v software quality: introduction, the place of software quality in project planning, the importance of softwarequality, defining software quality, iso 9126, product and process metrics, product versus process qualitymanagement, quality management systems, process capability models, techniques to help enhance softwarequality, testing, software reliability, quality plans"
+principles of cyber security:," ethical hacking: overview of ethics, overview of ethical hacking, methodology of ethical hacking,
+networkingfoundations: communications models, topologies, physical networking, ip, tcp, udp, internetcontrol message protocol, network architectures, cloud computing,
+ security foundations: the triad, risk, policies, standards, and procedures, security technology,
+being prepared;
+footprinting and reconnaissance: open-source intelligence, domain name system, passivereconnaissance, website intelligence, technology intelligence,
+ scanning networks: ping sweeps, port scanning, vulnerability scanningenumeration: service enumeration, remote procedure calls, server message block, web-basedenumeration system hacking: searching for exploits, system compromise, gathering passwords, passwordcracking, client-side vulnerabilities, post exploitationmalware: malware types, malware analysis, antivirus solutions, spoofing attackssubject code: 18cs564 credits: 3course type: oe cie marks: 50hours/week: l – t – p 3 – 0 – 0 see marks: 50total hours: 40 seeduration:
+3 hours social engineering: social engineering, physical social engineering, phishing attacks, websiteattackscryptography: basic encryption, symmetric key cryptography, asymmetric key cryptography,"
+object oriented programming using c++:,"unit– i beginning with c++ and its features: what is c++?, applications and structure of c++ program,
+different data types, variables, different operators, expressions, operator overloading and controlstructures in c++.
+ functions, classes and objects: functions, inline function, function overloading, friend and virtualfunctions, specifying a class, c++ program with a class, memory allocation to objects, array of objects.
+ constructors, destructors and operator overloading: constructors, multiple constructors in a class, copyconstructor, dynamic constructor, destructors, overloading unary and binary operators.
+unit– iv inheritance, pointers, virtual functions, polymorphism: derived classes, single, multilevel, multipleinheritance, pointers to objects and derived classes, this pointer, virtual and pure virtual functions.
+unit– v templates & standard template library (stl): introduction, need and use of templates, function templatesand class templates; stl: introduction, containers, algorithms and iterators."
+"artificial intelligence and machine learning
+:"," introduction to artificial intelligence: introduction, what is ai, strong methods and weakmethods. uses and limitations:
 knowledge representation: need for good representation, semantic nets, frames, , search spaces,
 semantics tress, search trees, combinatorial explosion, problem reduction, goal trees,
-combinatorial explosion
-self+AC0-learning topics: inheritance, object oriented programming
-
-search methodologies: introduction, problem solving as search, data driven or goal driven search,
-generate and test, properties of search methods, depth first iterative deepening, using heuristics
-for search, hill climbing, best+AC0-first search, identifying optimal paths, constraint satisfaction
-search, forward checking, local search and meta heuristics, simulated annealing. genetic
-algorithms for search, real time a+ACo-, bidirectional search, nondeterministic search, non+AC0-
-chronological backtracking
-self+AC0-learning topics: depth first search, breadth first search, implementing depth+AC0-first and
-breadth+AC0-first search
-
-game playing: game trees, minimax, alpha beta pruning
-prepositional and predicate logic: introduction, what is logic, why logic is used in artificial
-intelligence, logical operators, translating between english and logic notation, the deduction
-theorem, soundness, completeness, decidability, monotonicity, abduction and inductive reasoning,
+combinatorial explosionself-learning topics: inheritance, object oriented programming search methodologies: introduction, problem solving as search, data driven or goal driven search,
+generate and test, properties of search methods, depth first iterative deepening, using heuristicsfor search, hill climbing, best-first search, identifying optimal paths, constraint satisfactionsearch, forward checking, local search and meta heuristics, simulated annealing. geneticalgorithms for search, real time a*, bidirectional search, nondeterministic search, non-
+chronological backtrackingself-learning topics: depth first search, breadth first search, implementing depth-first andbreadth-first search game playing: game trees, minimax, alpha beta pruningprepositional and predicate logic: introduction, what is logic, why logic is used in artificialintelligence, logical operators, translating between english and logic notation, the deductiontheorem, soundness, completeness, decidability, monotonicity, abduction and inductive reasoning,
 modal logics and possible worlds, dealing with change.
 inference and resolution for problem solving: introduction, resolution in prepositional logic:
 applications of resolution, resolution in predicate logic, normal forms for predicate logic,
 skolemization, resolution algorithms, resolution for problem solving,
-self+AC0-learning topics: truth tables: not, and, or, implies, if, complex truth tables, tautology,
-equivalence
-
-introduction to machine learning: introduction, training rote learning, learning concepts,
-general+AC0-to+AC0-specific ordering, version spaces, candidate elimination, inductive bias, decision+AC0-
-tree induction, the problem of overfitting, the nearest neighbor algorithm, backpropagation
-algorithms, reinforcement learning.
-neural networks: introduction, neurons, perceptrons, multilayer neural networks, recurrent
-networks, unsupervised learning networks, evolving neural networks.
-self+AC0-learning topics: supervised learning, unsupervised learning
-
-probabilistic reasoning and bayesian belief networks: introduction, probabilistic reasoning,
-joint probability distributions, bayes+//3//f/9- theorem, simple bayesian concept learning, bayesian
-belief networks, the noisy+AC0-v function, bayes+//3//f/9- optimal classifier, the na+//3//Q-ve bayes classifier
-+ACI-self+AC0-learning topics: collaborative filtering+ACIAIg-+ACI-
-+ACI-compiler design
-:+ACIAIg-,+ACI-
-introduction and lexical analysis:
+self-learning topics: truth tables: not, and, or, implies, if, complex truth tables, tautology,
+equivalence introduction to machine learning: introduction, training rote learning, learning concepts,
+general-to-specific ordering, version spaces, candidate elimination, inductive bias, decision-
+tree induction, the problem of overfitting, the nearest neighbor algorithm, backpropagationalgorithms, reinforcement learning.
+neural networks: introduction, neurons, perceptrons, multilayer neural networks, recurrentnetworks, unsupervised learning networks, evolving neural networks.
+self-learning topics: supervised learning, unsupervised learning probabilistic reasoning and bayesian belief networks: introduction, probabilistic reasoning,
+joint probability distributions, bayes’ theorem, simple bayesian concept learning, bayesianbelief networks, the noisy-v function, bayes’ optimal classifier, the naïve bayes classifierself-learning topics: collaborative filtering"
+"compiler design
+:"," introduction and lexical analysis:
 introduction: language processor, structure of compiler: lexical analysis, syntax analysis,
-semantic analysis, intermediate code generation, code optimization, code generation, symbol+AC0-table
-management, the grouping of phases into passes, compiler+AC0-construction tools
-lexical analysis: the role of lexical analyzer: lexical analysis versus parsing, tokens, patterns,
-and lexemes, attributes for tokens, lexical errors+ADs- input buffering: buffer pairs, sentinels+ADs-
+semantic analysis, intermediate code generation, code optimization, code generation, symbol-tablemanagement, the grouping of phases into passes, compiler-construction toolslexical analysis: the role of lexical analyzer: lexical analysis versus parsing, tokens, patterns,
+and lexemes, attributes for tokens, lexical errors; input buffering: buffer pairs, sentinels;
 specification of tokens: strings and languages, operations on languages, regular expressions,
-regular definitions, extensions of regular expressions+ADs- recognition of tokens: transition diagrams,
-recognition of reserved words and identifiers, completion of the running example, architecture of a
-transition+AC0-diagram+AC0-based lexical analyzer
-tutorial: exercises on specification and recognition of tokens
-self+AC0-learning: applications of compiler technology
-
-syntax analysis+AC0-1:
-introduction: the role of the parser, representative grammars, syntax error handling, error+AC0-
-recovery strategies+ADs- context+AC0-free grammars: the formal definition of a context+AC0-free grammar,
-notational conventions, derivations, parse trees and derivations, ambiguity, verifying the language
-generated by a grammar, context+AC0-free grammars versus regular expressions+ADs- writing a grammar:
-lexical versus syntactic analysis, eliminating ambiguity, elimination of left recursion, left
-factoring+ADs- top+AC0-down parsing: recursive+AC0-descent parsing, first and follow, ll(l) grammars,
-non+AC0-recursive predictive parsing, error recovery in predictive parsing
-tutorial: exercises on top down parsing
-
-syntax analysis+AC0-2:
-bottom+AC0-up parsing: reductions, handle pruning, shift+AC0-reduce parsing, conflicts during shift+AC0-reduce
-parsing+ADs- introduction to lr parsing: simple lr: items and the lr(o) automaton, the lr+AC0-parsing
-algorithm, constructing slr+AC0-parsing tables, viable prefixes+ADs- more powerful lr parsers: canonical
-lr(l) items, constructing lr(l) sets of items, canonical lr(l) parsing tables, constructing lalr
-parsing
-tutorial: exercises on bottom up parsing
-self+AC0-learning: using ambiguous grammars
-
-syntax+AC0-directed definitions and syntax+AC0-directed translation schemes:
-inherited and synthesized attributes, evaluating an sdd at the nodes of a parse tree+ADs- evaluation
-orders for sdd's: dependency graphs, ordering the evaluation of attributes, s+AC0-attributed
-definitions, l+AC0-attributed definitions+ADs- applications of syntax+AC0-directed translation: construction of
-syntax trees (only s+AC0-attributed)
-syntax+AC0-directed translation schemes: postfix translation schemes, parser+AC0-stack implementation of
-postfix sdt's
-
-intermediate code generation and code generation:
-variants of syntax trees: directed acyclic graphs for expressions, the value+AC0-number method for
-constructing dag's+ADs- three+AC0-address code: addresses and instructions, quadruples, triples, static
-single+AC0-assignment form+ADs- translation of expressions: operations within expressions+ADs- control flow:
-boolean expressions, short+AC0-circuit code, flow+AC0-of+AC0-control statements
-code generation: issues in the design of code generator, the target language, basic blocks and flow
-graphs+ADs- optimization of basic blocks+ADs- a simple code generator
-self+AC0-learning: control+AC0-flow translation of boolean expressions
-+ACI-
-embedded systems and iot:,+ACI-
-embedded computing: introduction, complex systems and microprocessors, embedding
-computers, characteristics of embedded computing applications, why use microprocessors,
+regular definitions, extensions of regular expressions; recognition of tokens: transition diagrams,
+recognition of reserved words and identifiers, completion of the running example, architecture of atransition-diagram-based lexical analyzertutorial: exercises on specification and recognition of tokensself-learning: applications of compiler technology syntax analysis-1:
+introduction: the role of the parser, representative grammars, syntax error handling, error-
+recovery strategies; context-free grammars: the formal definition of a context-free grammar,
+notational conventions, derivations, parse trees and derivations, ambiguity, verifying the languagegenerated by a grammar, context-free grammars versus regular expressions; writing a grammar:
+lexical versus syntactic analysis, eliminating ambiguity, elimination of left recursion, leftfactoring; top-down parsing: recursive-descent parsing, first and follow, ll(l) grammars,
+non-recursive predictive parsing, error recovery in predictive parsingtutorial: exercises on top down parsing syntax analysis-2:
+bottom-up parsing: reductions, handle pruning, shift-reduce parsing, conflicts during shift-reduceparsing; introduction to lr parsing: simple lr: items and the lr(o) automaton, the lr-parsingalgorithm, constructing slr-parsing tables, viable prefixes; more powerful lr parsers: canonicallr(l) items, constructing lr(l) sets of items, canonical lr(l) parsing tables, constructing lalrparsingtutorial: exercises on bottom up parsingself-learning: using ambiguous grammars syntax-directed definitions and syntax-directed translation schemes:
+inherited and synthesized attributes, evaluating an sdd at the nodes of a parse tree; evaluationorders for sdd's: dependency graphs, ordering the evaluation of attributes, s-attributeddefinitions, l-attributed definitions; applications of syntax-directed translation: construction ofsyntax trees (only s-attributed)
+syntax-directed translation schemes: postfix translation schemes, parser-stack implementation ofpostfix sdt's intermediate code generation and code generation:
+variants of syntax trees: directed acyclic graphs for expressions, the value-number method forconstructing dag's; three-address code: addresses and instructions, quadruples, triples, staticsingle-assignment form; translation of expressions: operations within expressions; control flow:
+boolean expressions, short-circuit code, flow-of-control statementscode generation: issues in the design of code generator, the target language, basic blocks and flowgraphs; optimization of basic blocks; a simple code generatorself-learning: control-flow translation of boolean expressions
+"
+embedded systems and iot:," embedded computing: introduction, complex systems and microprocessors, embeddingcomputers, characteristics of embedded computing applications, why use microprocessors,
 challenges in embedded computing system design, performance of embedded computing systems.
-the embedded system design process: requirements, specification, architecture design, designing
-hardware and software components, system integration.
-
-the 8051 microcontrollers: microcontrollers and embedded processors, overview of the 8051
-family.
-8051 programming in c: data types and time delay in 8051 c, i/o programming in 8051 c, logic
-operations in 8051 c, data conversion programs in 8051 c.
-
-programming timers 0 and 1 in 8051 c, basics of serial communication, serial port programming
-in c, lcd interfacing, dac interfacing, and sensor interfacing.
-7 hours
-introduction to internet of things: introduction, definition and characteristics of iot, physical
-design of iot, things in iot, iot protocols, logical design of iot, iot functional blocks, iot
-communication models, iot communication apis, iot enabling technologies, iot levels and
-deployment templates.
+the embedded system design process: requirements, specification, architecture design, designinghardware and software components, system integration.
+ the 8051 microcontrollers: microcontrollers and embedded processors, overview of the 8051family.
+8051 programming in c: data types and time delay in 8051 c, i/o programming in 8051 c, logicoperations in 8051 c, data conversion programs in 8051 c.
+ programming timers 0 and 1 in 8051 c, basics of serial communication, serial port programmingin c, lcd interfacing, dac interfacing, and sensor interfacing.
+ 7 hoursintroduction to internet of things: introduction, definition and characteristics of iot, physicaldesign of iot, things in iot, iot protocols, logical design of iot, iot functional blocks, iotcommunication models, iot communication apis, iot enabling technologies, iot levels anddeployment templates.
 domain specific iots: introduction, home automation, environment.
-7 hours
-iot physical devices and endpoints: what is an iot device, basic building blocks of an iot
-device, exemplary device: raspberry pi, about the board, linux on raspberry pi, raspberry pi
-interfaces, programming raspberry pi with python, other iot devices.
-+ACI-
-computer graphics:,+ACI-
-introduction: a graphics system, images: physical and synthetic, the synthetic camera model, the
-programmer+//3//f/9-s interface, graphics architectures, the sierpinski gasket, programming 2d
-applications, the opengl api, primitives and attributes.
-
-introduction: color, viewing, control functions, the gasket program, polygons and recursion, the
-three+AC0-dimensional gasket.
-input and interaction: interaction, input devices, programming event driven input, menus, a
-simple cad program, building interactive models, animating interactive program, design of
-interactive programs, logic operations.
-unit +AC0- iii
-geometric objects and transformations : three+AC0-dimensional primitives, coordinate systems and
-frames, frames in open gl, modeling a colored cube, affine transformations, rotation,
-translation and scaling, transformation in homogeneous coordinates, concatenation of
-transformations, 3d transformations, opengl transformation matrices.
-unit +AC0- iv
-viewing: classical and computer viewing, viewing with a computer+ADs- positioning of the camera,
-simple projections, projections in opengl, hidden+AC0-surface removal.
+ 7 hoursiot physical devices and endpoints: what is an iot device, basic building blocks of an iotdevice, exemplary device: raspberry pi, about the board, linux on raspberry pi, raspberry piinterfaces, programming raspberry pi with python, other iot devices.
+"
+computer graphics:," introduction: a graphics system, images: physical and synthetic, the synthetic camera model, theprogrammer’s interface, graphics architectures, the sierpinski gasket, programming 2dapplications, the opengl api, primitives and attributes.
+ introduction: color, viewing, control functions, the gasket program, polygons and recursion, thethree-dimensional gasket.
+input and interaction: interaction, input devices, programming event driven input, menus, asimple cad program, building interactive models, animating interactive program, design ofinteractive programs, logic operations.
+unit - iii geometric objects and transformations : three-dimensional primitives, coordinate systems andframes, frames in open gl, modeling a colored cube, affine transformations, rotation,
+translation and scaling, transformation in homogeneous coordinates, concatenation oftransformations, 3d transformations, opengl transformation matrices.
+unit - iv viewing: classical and computer viewing, viewing with a computer; positioning of the camera,
+simple projections, projections in opengl, hidden-surface removal.
 lighting: light and matter, light sources, the phong lighting model, computation of vectors.
-unit +AC0- v
-shading: polygonal shading, approximation of a sphere by recursive subdivisions, light sources in
-opengl, specification of materials in opengl, shading of the sphere model, global illumination.
-+ACI-implementation: clipping, line+AC0-segment clipping, polygon clipping.+ACIAIg-+ACI-
-+ACI-big data management:,+ACIAIg-+ACI-
-introduction: big data definition, history of data management+AC0-evolution of big data, structuring big
-data, elements of big data, big data analytics, careers in big data, future of big data, use of big data
-in social networking, use of big data in preventing fraudulent activities+ADs- use of big data in retail
-industry
-
-hadoop ecosystem: understanding hadoop ecosystem, hadoop distributed file system:hdfs
-architecture,concept of blocks in hdfs architecture, namenodes and data nodes, the command+AC0-line
-interface, using hdfs files, hadoop+AC0-specific file system types, hdfs commands, the
-org.apache.hadoop.io package,hdfs high availability:features of hdfs.
-course code 18cs642 credits 3
-course type pe cie marks 50 marks
-hours/week: l+AC0-t+AC0-p 3 +//3//f/9- 0 +//3//f/9- 0 see marks 50 marks
-total hours: 40 see duration 3 hours for 100 marks
-pre+AC0-requisites: database management system, unix shell programming
-
-understanding mapreduce: the mapreduce framework: exploring the features of mapreduce,
+unit - v shading: polygonal shading, approximation of a sphere by recursive subdivisions, light sources inopengl, specification of materials in opengl, shading of the sphere model, global illumination.
+implementation: clipping, line-segment clipping, polygon clipping."
+big data management:," introduction: big data definition, history of data management-evolution of big data, structuring bigdata, elements of big data, big data analytics, careers in big data, future of big data, use of big datain social networking, use of big data in preventing fraudulent activities; use of big data in retailindustry hadoop ecosystem: understanding hadoop ecosystem, hadoop distributed file system:hdfsarchitecture,concept of blocks in hdfs architecture, namenodes and data nodes, the command-lineinterface, using hdfs files, hadoop-specific file system types, hdfs commands, theorg.apache.hadoop.io package,hdfs high availability:features of hdfs.
+course code 18cs642 credits 3course type pe cie marks 50 markshours/week: l-t-p 3 – 0 – 0 see marks 50 markstotal hours: 40 see duration 3 hours for 100 markspre-requisites: database management system, unix shell programming understanding mapreduce: the mapreduce framework: exploring the features of mapreduce,
 working of mapreduce, exploring map and reduce functions, uses of mapreduce.
-yarn architecture: background+ADs- advantages of yarn+ADs- yarn architecture
-
-apache spark: overview +AC0- what apache spark is? features of apache spark, spark programming
-languages, spark's built+AC0-in libraries+ADs- spark history +AC0- limitations of map reduce in hadoop, creation
-history of spark+ADs- why use spark +AC0- comparison of spark and map reduce, reasons for choosing spark+ADs-
-spark architecture and its advantages+ADs- data sharing using spark rdd+ADs- iterative operations on spark rdd+ADs-
-interactive operations on spark rdd+ADs- spark +//3//f/9-installation.
-
-nosql: introduction to nosql: why nosql, characteristics of nosql, history of nosql, types of
-nosql data models: key+AC0-value data model, column+AC0-oriented data model, document data model,
+yarn architecture: background; advantages of yarn; yarn architecture apache spark: overview - what apache spark is? features of apache spark, spark programminglanguages, spark's built-in libraries; spark history - limitations of map reduce in hadoop, creationhistory of spark; why use spark - comparison of spark and map reduce, reasons for choosing spark;
+spark architecture and its advantages; data sharing using spark rdd; iterative operations on spark rdd;
+interactive operations on spark rdd; spark –installation.
+ nosql: introduction to nosql: why nosql, characteristics of nosql, history of nosql, types ofnosql data models: key-value data model, column-oriented data model, document data model,
 graph databases, schemaless databases, materialized views, distribution models: cap theorem,
-+ACI-sharding+ACIAIg-+ACI-
-+ACI-system software:,+ACIAIg-+ACI-
-machine architecture: introduction, system software and machine architecture, simplified
-instructional computer (sic) +AC0- sic machine architecture, sic/xe machine architecture, sic and
-sic/xe programming examples. case study ultrasparc architecture
-self+AC0-learning topics: powerpc architecture
-
-assemblers +AC0-1: basic assembler function +AC0- a simple sic assembler, assembler algorithm and
-data structures, machine dependent assembler features +AC0- instruction formats and addressing
-modes, program relocation
-
-assemblers +AC0-2: machine independent assembler features +//3//f/9- literals, program blocks, control
-sections and programming linking, assembler design operations +//3//f/9- one pass assembler, multi+AC0-
+sharding"
+system software:," machine architecture: introduction, system software and machine architecture, simplifiedinstructional computer (sic) - sic machine architecture, sic/xe machine architecture, sic andsic/xe programming examples. case study ultrasparc architectureself-learning topics: powerpc architecture assemblers -1: basic assembler function - a simple sic assembler, assembler algorithm anddata structures, machine dependent assembler features - instruction formats and addressingmodes, program relocation assemblers -2: machine independent assembler features – literals, program blocks, controlsections and programming linking, assembler design operations – one pass assembler, multi-
 pass assembler. case study masm assembler.
-self+AC0-learning topics: sparc assembler.
-
-loaders and linkers: basic loader functions +AC0- design of an absolute loader, a simple bootstrap
-loader, machine+AC0-dependent loader features +//3//f/9- relocation, program linking, algorithm and data
-structures for a linking loader+ADs- machine+AC0-independent loader features +AC0- automatic library search,
-loader options. case study ms+AC0-dos linker,
-self+AC0-learning topics: case study sun os linker
-
-macro processor: basic macro processor functions +AC0- macro definitions and expansion, macro
-processor algorithm and data structures, machine independent macro processor features +AC0-
+self-learning topics: sparc assembler.
+ loaders and linkers: basic loader functions - design of an absolute loader, a simple bootstraploader, machine-dependent loader features – relocation, program linking, algorithm and datastructures for a linking loader; machine-independent loader features - automatic library search,
+loader options. case study ms-dos linker,
+self-learning topics: case study sun os linker macro processor: basic macro processor functions - macro definitions and expansion, macroprocessor algorithm and data structures, machine independent macro processor features -
 concatenation of macro parameters, generation of unique labels, conditional macro expansion,
-+ACI-keyword macro parameters, case study: masm macro processor. ansi c macro language.+ACIAIg-+ACI-
-+ACI-software testing:,+ACIAIg-+ACI-
-a perspective on testing
-basic definitions, test cases, insights from venn diagram, identifying test cases, error and fault
-taxonomy, levels of testing.
-examples: generalized pseudocode, the triangle problem, the next date function, the
-commission problem, the satm (simple automatic teller machine) system, the currency
-convertor, saturn windshield wiper controller.
-
-boundary value testing
-boundary value analysis, robustness testing, worst case testing, special value testing,
+keyword macro parameters, case study: masm macro processor. ansi c macro language."
+software testing:," a perspective on testingbasic definitions, test cases, insights from venn diagram, identifying test cases, error and faulttaxonomy, levels of testing.
+examples: generalized pseudocode, the triangle problem, the next date function, thecommission problem, the satm (simple automatic teller machine) system, the currencyconvertor, saturn windshield wiper controller.
+ boundary value testingboundary value analysis, robustness testing, worst case testing, special value testing,
 examples, random testing, guidelines for boundary value testing.
-case study: analysis of banking application using boundary value analysis
-
-equivalence class testing:
-equivalence classes, equivalence class test cases for the triangle problem, equivalence class test
-cases for the nextdate function, equivalence class test cases for the commission problem,
+case study: analysis of banking application using boundary value analysis equivalence class testing:
+equivalence classes, equivalence class test cases for the triangle problem, equivalence class testcases for the nextdate function, equivalence class test cases for the commission problem,
 guidelines and observations.
-case study: analysis of amazon e+AC0-commerce application by using equivalence class testing.
-
-path testing: dd paths, test coverage matrix, basis path testing, guidelines and observations.
-
-data flow testing:
+case study: analysis of amazon e-commerce application by using equivalence class testing.
+ path testing: dd paths, test coverage matrix, basis path testing, guidelines and observations.
+ data flow testing:
 define/use testing, slice based testing, guidelines and observations.
-+ACI-case study: selenium and j automated testing tools.+ACIAIg-+ACI-
-+ACI-robotic process automation
-(industry supported elective):+ACIAIg-,+ACI-
-programming basics +ACY- recap
-programming concepts basics +AC0- understanding the application +AC0- basic web concepts +AC0- protocols +AC0-
-email clients +AC0-. data structures +AC0- data tables +AC0- algorithms +AC0- software processes +AC0- software design
-+AC0- scripting +AC0- .net framework +AC0- .net fundamentals +AC0- xml +AC0- control structures and functions +AC0- xml
-+AC0- html +AC0- css +AC0- variables +ACY- arguments
-
-rpa concepts
-rpa basics +AC0- history of automation +AC0- what is rpa +AC0- rpa vs automation +AC0- processes +ACY- flowcharts
-+AC0- programming constructs in rpa +AC0- what processes can be automated +AC0- types of bots +AC0- workloads
-which can be automated +AC0- rpa advanced concepts +AC0- standardization of processes +AC0- rpa developemt
-methodologies +AC0- difference from sdlc +AC0- robotic control flow architecture +AC0- rpa business case +AC0-
-rpa team +AC0- proccess design document/solution design document +AC0- industries best suited for rpa
-+AC0- risks +ACY- challenges with rpa +AC0- rpa and emerging ecosystem.
-
-rpa tool introduction +ACY- basics
-introduction to rpa tool +AC0- the user interface +AC0- variables +AC0- managing variables +AC0- naming best
-practices +AC0- the variables panel +AC0- generic value variables +AC0- text variables +AC0- true or false variables
-+AC0- number variables +AC0- array variables +AC0- date and time variables +AC0- data table variables +AC0- managing
-arguments +AC0- naming best practices +AC0- the arguments panel +AC0- using arguments +AC0- about imported
-namespaces +AC0- importing new namespaces+AC0- control flow +AC0- control flow introduction +AC0- if else
-statements +AC0- loops +AC0- advanced control flow +AC0- sequences +AC0- flowcharts +AC0- about control flow +AC0-
-control flow activities +AC0- the assign activity +AC0- the delay activity +AC0- the do while activity +AC0- the if
-activity +AC0- the switch activity +AC0- the while activity +AC0- the for each activity +AC0- the break activity +AC0-
-data manipulation +AC0- data manipulation introduction +AC0- scalar variables, collections and tables +AC0- text
-manipulation +AC0- data manipulation +AC0- gathering and assembling data
-
-advanced automation concepts and techniques
-recording and advanced ui interaction +AC0- recording introduction +AC0- basic and desktop recording
-+AC0- web recording +AC0- input/output methods +AC0- screen scraping +AC0- data scraping +AC0- scraping advanced
-techniques +AC0- selectors +AC0- selectors +AC0- defining and assessing selectors +AC0- customization +AC0- debugging +AC0-
-dynamic selectors +AC0- partial selectors +AC0- rpa challenge +AC0- image, text +ACY- advanced citrix automation
-+AC0- introduction to image +ACY- text automation +AC0- image based automation +AC0- keyboard based automation
-+AC0- information retrieval +AC0- advanced citrix automation challenges +AC0- best practices +AC0- using tab for
-images +AC0- starting apps +AC0- excel data tables +ACY- pdf +AC0- data tables in rpa +AC0- excel and data table
-basics +AC0- data manipulation in excel +AC0- extracting data from pdf +AC0- extracting a single piece of data +AC0-
-anchors +AC0- using anchors in pdf.
-
-email automation +ACY- exceptional handling
-email automation +AC0- email automation +AC0- incoming email automation +AC0- sending email automation +AC0-
-debugging and exception handling +AC0- debugging tools +AC0- strategies for solving issues +AC0- catching
-+ACI-errors.+ACIAIg-+ACI-
-+ACI-digital image processing:,+ACIAIg-+ACI-
-introduction what is digital image processing, the origin of digital image processing examples of
-fields that use image processing, fundamental steps in digital image processing, components of an
-image processing system, image sampling and quantization, some basic relationships between
-pixels+AC0-neighbors and connectivity of pixels in image.
-unit ii
-image enhancement in the spatial domain: some basic gray level transformations, histogram
-processing, enhancement using arithmetic/logic operations, basics of spatial filtering, smoothing
-spatial filters, sharpening spatial filters, combining spatial enhancement methods.
-unit iii
-image enhancement in frequency domain: introduction to fourier transform +ACY- frequency domain,
-one dimensional +ACY- two dimensional discrete fourier transform (dft) and its inverse, image filtering
-in frequency domain. correspondence between filtering in spatial +ACY- frequency domain. smoothing
-frequency domain filters, sharpening frequency domain filters
-unit iv
-image enhancement in frequency domain contd..: smoothing frequency domain filters: ideal low
-pass filter, butterworth low pass, gaussian low pass, sharpening frequency domain filters: ideal high
-pass filter, butterworth high pass, gaussian high pass, the laplacian in the frequency domain
-unit v
-image segmentation: introduction, detection of discontinuities, point detection, line detection, edge
-detection, thresholding: fondation, role of illumination, basic global +ACY- adaptive thresholding,
-+ACI-region based segmentation+AC0- region growing, region splitting and merging+ACIAIg-+ACI-
-+ACI-information and network security:,+ACIAIg-+ACI-
-classical encryption techniques symmetric cipher model:
-symmetric cipher model, security attacks, security services, security mechanisms, substitution
-techniques, transposition techniques the data encryption standard, feistal cipher structure, block
-cipher design principles
-self+AC0-study: aes traditional block cipher.
-
-public+AC0-key cryptography and rsa:
-principles of public+AC0-key cryptosystems. publickey cryptosystems. applications for public+AC0-key
-cryptosystems, requirements for publickey cryptosystems. public+AC0-key cryptanalysis. the rsa
-algorithm, description of the algorithm, computational aspects, the security of rsa.
-self+AC0-study: other public+AC0-key cryptosystems: diffie+AC0-hellman key exchange, the algorithm, key
-exchange protocols, man in the middle attack
-
-key management and distribution
-symmetric key distribution using symmetric encryption, symmetric key distribution using
-asymmetric encryption, distribution of public keys, x.509 certificates.
-self+AC0-study: kerberos motivation, kerberos version 4, kerberos version 5
-
-
-wireless network security and transport layer security
-wireless security, mobile device security, ieee 802.11 wireless lan overview, web security
-considerations, secure sockets layer and transport layer security.
-self+AC0-study: https connection initiation, connection closure. secure shell (ssh).
-
-electronic mail security:
-pretty good privacy, notation, operational+ADs- description, s/mime, rfc5322, multipurpose internet
-mail extensions, s/mime functionality, s/mime messages, s/mime certificate processing,
-enhanced security services, domain keys identified mail, internet mail architecture, e+AC0-mail threats,
-+ACI-dkim strategy, dkim functional flow.+ACIAIg-+ACI-
-+ACI-ntroduction to salesforce
-(industry supported elective):+ACIAIg-,+ACI-
-introduction: getting around the app, salesforce platform basics: get started with salesforce
-platform. discover use cases for the platform, understand the salesforce architecture, navigate
-setup, power up with appexchange, data model: understand custom +ACY- standard objects, create
-object relationships, work with schema builder, lightning experience: get your bearings,
-navigate around, work with list views, work with your data, company+AC0-wide org settings: learn
-about regional settings, discover multiple currency settings
-
-getting your organization ready for users: lightning experience productivity: elevate your
-daily productivity, work with notes and files, manage your tasks, events, and email, find your
-stuff with search, collaborate with feeds and groups, analyze your data with reports and
-dashboards, configuring search settings: choose the right search solution, optimize search
-results, setting up chatter (classic): get started with chatter, enable feed tracking, create
-publisher actions, approve records from the feed, develop a rollout strategy, support a new
-business unit: manage user access, manage chatter, modify your data model, configure an email
-letterhead and template, automate your business process, mobile access with salesforce1.
-
-elementary sctp sockets: interface models, shutdown function, notifications.
-setting up and managing users: managing users and introduction to data security, activity
-management: activities: tasks, events, and calendars documentation.
+case study: selenium and j automated testing tools."
+"robotic process automation
+(industry supported elective):"," programming basics & recapprogramming concepts basics - understanding the application - basic web concepts - protocols -
+email clients -. data structures - data tables - algorithms - software processes - software design
+- scripting - .net framework - .net fundamentals - xml - control structures and functions - xml
+- html - css - variables & arguments rpa conceptsrpa basics - history of automation - what is rpa - rpa vs automation - processes & flowcharts
+- programming constructs in rpa - what processes can be automated - types of bots - workloadswhich can be automated - rpa advanced concepts - standardization of processes - rpa developemtmethodologies - difference from sdlc - robotic control flow architecture - rpa business case -
+rpa team - proccess design document/solution design document - industries best suited for rpa
+- risks & challenges with rpa - rpa and emerging ecosystem.
+ rpa tool introduction & basicsintroduction to rpa tool - the user interface - variables - managing variables - naming bestpractices - the variables panel - generic value variables - text variables - true or false variables
+- number variables - array variables - date and time variables - data table variables - managingarguments - naming best practices - the arguments panel - using arguments - about importednamespaces - importing new namespaces- control flow - control flow introduction - if elsestatements - loops - advanced control flow - sequences - flowcharts - about control flow -
+control flow activities - the assign activity - the delay activity - the do while activity - the ifactivity - the switch activity - the while activity - the for each activity - the break activity -
+data manipulation - data manipulation introduction - scalar variables, collections and tables - textmanipulation - data manipulation - gathering and assembling data advanced automation concepts and techniquesrecording and advanced ui interaction - recording introduction - basic and desktop recording
+- web recording - input/output methods - screen scraping - data scraping - scraping advancedtechniques - selectors - selectors - defining and assessing selectors - customization - debugging -
+dynamic selectors - partial selectors - rpa challenge - image, text & advanced citrix automation
+- introduction to image & text automation - image based automation - keyboard based automation
+- information retrieval - advanced citrix automation challenges - best practices - using tab forimages - starting apps - excel data tables & pdf - data tables in rpa - excel and data tablebasics - data manipulation in excel - extracting data from pdf - extracting a single piece of data -
+anchors - using anchors in pdf.
+ email automation & exceptional handlingemail automation - email automation - incoming email automation - sending email automation -
+debugging and exception handling - debugging tools - strategies for solving issues - catchingerrors."
+digital image processing:," introduction what is digital image processing, the origin of digital image processing examples offields that use image processing, fundamental steps in digital image processing, components of animage processing system, image sampling and quantization, some basic relationships betweenpixels-neighbors and connectivity of pixels in image.
+unit ii image enhancement in the spatial domain: some basic gray level transformations, histogramprocessing, enhancement using arithmetic/logic operations, basics of spatial filtering, smoothingspatial filters, sharpening spatial filters, combining spatial enhancement methods.
+unit iii image enhancement in frequency domain: introduction to fourier transform & frequency domain,
+one dimensional & two dimensional discrete fourier transform (dft) and its inverse, image filteringin frequency domain. correspondence between filtering in spatial & frequency domain. smoothingfrequency domain filters, sharpening frequency domain filtersunit iv image enhancement in frequency domain contd..: smoothing frequency domain filters: ideal lowpass filter, butterworth low pass, gaussian low pass, sharpening frequency domain filters: ideal highpass filter, butterworth high pass, gaussian high pass, the laplacian in the frequency domainunit v image segmentation: introduction, detection of discontinuities, point detection, line detection, edgedetection, thresholding: fondation, role of illumination, basic global & adaptive thresholding,
+region based segmentation- region growing, region splitting and merging"
+information and network security:," classical encryption techniques symmetric cipher model:
+symmetric cipher model, security attacks, security services, security mechanisms, substitutiontechniques, transposition techniques the data encryption standard, feistal cipher structure, blockcipher design principlesself-study: aes traditional block cipher.
+ public-key cryptography and rsa:
+principles of public-key cryptosystems. publickey cryptosystems. applications for public-keycryptosystems, requirements for publickey cryptosystems. public-key cryptanalysis. the rsaalgorithm, description of the algorithm, computational aspects, the security of rsa.
+self-study: other public-key cryptosystems: diffie-hellman key exchange, the algorithm, keyexchange protocols, man in the middle attack key management and distributionsymmetric key distribution using symmetric encryption, symmetric key distribution usingasymmetric encryption, distribution of public keys, x.509 certificates.
+self-study: kerberos motivation, kerberos version 4, kerberos version 5wireless network security and transport layer securitywireless security, mobile device security, ieee 802.11 wireless lan overview, web securityconsiderations, secure sockets layer and transport layer security.
+self-study: https connection initiation, connection closure. secure shell (ssh).
+ electronic mail security:
+pretty good privacy, notation, operational; description, s/mime, rfc5322, multipurpose internetmail extensions, s/mime functionality, s/mime messages, s/mime certificate processing,
+enhanced security services, domain keys identified mail, internet mail architecture, e-mail threats,
+dkim strategy, dkim functional flow."
+"ntroduction to salesforce
+(industry supported elective):"," introduction: getting around the app, salesforce platform basics: get started with salesforceplatform. discover use cases for the platform, understand the salesforce architecture, navigatesetup, power up with appexchange, data model: understand custom & standard objects, createobject relationships, work with schema builder, lightning experience: get your bearings,
+navigate around, work with list views, work with your data, company-wide org settings: learnabout regional settings, discover multiple currency settings getting your organization ready for users: lightning experience productivity: elevate yourdaily productivity, work with notes and files, manage your tasks, events, and email, find yourstuff with search, collaborate with feeds and groups, analyze your data with reports anddashboards, configuring search settings: choose the right search solution, optimize searchresults, setting up chatter (classic): get started with chatter, enable feed tracking, createpublisher actions, approve records from the feed, develop a rollout strategy, support a newbusiness unit: manage user access, manage chatter, modify your data model, configure an emailletterhead and template, automate your business process, mobile access with salesforce1.
+ elementary sctp sockets: interface models, shutdown function, notifications.
+setting up and managing users: managing users and introduction to data security, activitymanagement: activities: tasks, events, and calendars documentation.
 security and data access: data security, who sees what.
-object customizations: creating picklist and picklist administration, creating formula fields and
-validation rule, working with page layouts, working with record types, introduction to business
-process, maintaining data quality.
-managing data: import wizards, export wizards, use data loader to export data, data loader
-to import.
-
-lightning experience customization: customize the lightning experience user interface without
-writing any code, reports and dashboards: introduction to reports and dashboards, creating new
-reports with the report builder, running and modifying reports, format reports with summary,
-tabular, matrix and joined, building dashboards, email templates and letterheads: email
-templates and letterheads, automation: difference between workflow rules and process builder,
+object customizations: creating picklist and picklist administration, creating formula fields andvalidation rule, working with page layouts, working with record types, introduction to businessprocess, maintaining data quality.
+managing data: import wizards, export wizards, use data loader to export data, data loaderto import.
+ lightning experience customization: customize the lightning experience user interface withoutwriting any code, reports and dashboards: introduction to reports and dashboards, creating newreports with the report builder, running and modifying reports, format reports with summary,
+tabular, matrix and joined, building dashboards, email templates and letterheads: emailtemplates and letterheads, automation: difference between workflow rules and process builder,
 process builder, lead automation.
-
-managing the support process: managing and resolving cases, customizing a support process,
-automating support, understanding the salesforce console for service, collaborating in the service
-cloud, analyzing support data, lightning app builder: build custom pages for lightning
-+ACI-experience and the salesforce mobile app quickly with point+AC0-and+AC0-click tools.+ACIAIg-+ACI-
-+ACI-mobile computing:,+ACIAIg-+ACI-
-introduction: pcs architecture, cellular telephony: advanced mobile phone service, global system
-for mobile communication, cordless telephone and low tier pcs: cordless telephone, 2nd generation,
-digital european cordless telephone, personnel handy phone system, personnel access communication
-system, mobility management: handoff, intersystem handoff, roaming management.
-self learning topics: roaming management under ss7
-
-gsm system: overview, architecture: mobile station, base station system, network and switching
-subsystem, radio interface, location tracking, security, data services: gprs, mobility management,
-gsm location update, failure restoration
-self learning topics: vlr identification algorithm.
-
-gsm short message service: sms architecture, sms protocol hierarchy: short message transfer layer,
-short message relay layer, connection sublayer, mobile originated messaging, mobile terminated
-messaging, dte+AC0- dce interface
-
-gprs: procedures, billing, wireless application protocol, wap uaprof, caching, 3rd generation mobile
-services, wcdma, dma 2000, wap developer toolkit, wireless os for 3g handset, 3rd generation
-systems.
-
-cellular communication: the 3rd generation(3g), the 3.5 generation, 4th generation, wlan
-standard, physical layer, mac layer, frame structure, services, bluetooth: advantages, applications,
-+ACI-protocol stack, tracking services, frame structure, hyperlan+ACIAIg-+ACI-
-+ACI-entrepreneurship and managemen:,+ACIAIg-+ACI-
-management: introduction, nature and characteristics of management, scope and functional areas
-of management, levels of management.
+ managing the support process: managing and resolving cases, customizing a support process,
+automating support, understanding the salesforce console for service, collaborating in the servicecloud, analyzing support data, lightning app builder: build custom pages for lightningexperience and the salesforce mobile app quickly with point-and-click tools."
+mobile computing:," introduction: pcs architecture, cellular telephony: advanced mobile phone service, global systemfor mobile communication, cordless telephone and low tier pcs: cordless telephone, 2nd generation,
+digital european cordless telephone, personnel handy phone system, personnel access communicationsystem, mobility management: handoff, intersystem handoff, roaming management.
+self learning topics: roaming management under ss7 gsm system: overview, architecture: mobile station, base station system, network and switchingsubsystem, radio interface, location tracking, security, data services: gprs, mobility management,
+gsm location update, failure restorationself learning topics: vlr identification algorithm.
+ gsm short message service: sms architecture, sms protocol hierarchy: short message transfer layer,
+short message relay layer, connection sublayer, mobile originated messaging, mobile terminatedmessaging, dte- dce interface gprs: procedures, billing, wireless application protocol, wap uaprof, caching, 3rd generation mobileservices, wcdma, dma 2000, wap developer toolkit, wireless os for 3g handset, 3rd generationsystems.
+ cellular communication: the 3rd generation(3g), the 3.5 generation, 4th generation, wlanstandard, physical layer, mac layer, frame structure, services, bluetooth: advantages, applications,
+protocol stack, tracking services, frame structure, hyperlan"
+entrepreneurship and managemen:," management: introduction, nature and characteristics of management, scope and functional areasof management, levels of management.
 planning: nature, importance and purpose of planning process, types of plans, decision making,
-importance of planning, steps in planning
-organizing: nature and purpose of organization, principles of organization, types of organization,
+importance of planning, steps in planningorganizing: nature and purpose of organization, principles of organization, types of organization,
 span of control.
-self+AC0-learning topics: management as a science, art of profession
-unit +AC0- ii
-staffing: nature and importance of staffing, process of selection +ACY- recruitment, training methods.
+self-learning topics: management as a science, art of professionunit - ii staffing: nature and importance of staffing, process of selection & recruitment, training methods.
 directing: meaning and nature of directing, leadership styles, motivation theories,
-communication+AC0-meaning and importance.
-controlling: meaning and steps in controlling, essentials of a sound control system, methods of
-establishing control.
-unit +AC0- iii
-entrepreneur: meaning of entrepreneur: evolution of the concept: functions of an entrepreneur,
-types of entrepreneur, concept of entrepreneurship, evolution of entrepreneurship, the
-entrepreneurial culture and stages in entrepreneurial process.
-creativity and innovation: creativity, source of new idea, ideas into opportunities, creative
-problem solving: heuristics, brainstorming, synectics, significance of intellectual property rights.
-self+AC0-learning topics: case studies of entrepreneurs
-unit +AC0- iv
-micro, small and medium enterprises +AFs-msmes+AF0- and institutional support: business
-environment in india, role of msmes, government policies towards msmes, impact of
-liberalization, privatization and globalization on msmes.
-institutional support: nsic, tecksok, kiadb, kssidc, sidbi+ADs- ksfc
-self+AC0-learning topics: make in india, start up india, digital india
-unit +AC0- v
-preparation of project: meaning of project, project identification, project selection, project report,
-need and significance of project report, contents, formulation, guidelines by planning commission for
-project report.
-enterprise resource planning: meaning and importance+AC0- erp and functional areas of management
-+//3//f/9- marketing / sales+AC0- supply chain management +//3//f/9- finance and accounting +//3//f/9- human resources +//3//f/9- types
-of reports and methods of report generation
-+ACI-
-network programming:,+ACI-
-introduction: introduction, client/server communication, osi model, bsd networking history,
-test networks and hosts, unix standards, 64+AC0-bit architectures.
+communication-meaning and importance.
+controlling: meaning and steps in controlling, essentials of a sound control system, methods ofestablishing control.
+unit - iii entrepreneur: meaning of entrepreneur: evolution of the concept: functions of an entrepreneur,
+types of entrepreneur, concept of entrepreneurship, evolution of entrepreneurship, theentrepreneurial culture and stages in entrepreneurial process.
+creativity and innovation: creativity, source of new idea, ideas into opportunities, creativeproblem solving: heuristics, brainstorming, synectics, significance of intellectual property rights.
+self-learning topics: case studies of entrepreneursunit - iv micro, small and medium enterprises [msmes] and institutional support: businessenvironment in india, role of msmes, government policies towards msmes, impact ofliberalization, privatization and globalization on msmes.
+institutional support: nsic, tecksok, kiadb, kssidc, sidbi; ksfcself-learning topics: make in india, start up india, digital indiaunit - v preparation of project: meaning of project, project identification, project selection, project report,
+need and significance of project report, contents, formulation, guidelines by planning commission forproject report.
+enterprise resource planning: meaning and importance- erp and functional areas of management
+– marketing / sales- supply chain management – finance and accounting – human resources – typesof reports and methods of report generation
+"
+network programming:," introduction: introduction, client/server communication, osi model, bsd networking history,
+test networks and hosts, unix standards, 64-bit architectures.
 transport layer: tcp, udp and sctp, tcp connection establishment and termination.
 self learning topics: tcp/ip protocols in nut shell.
-
-sockets introduction: introduction, socket address structures, value+AC0-result arguments, byte
-ordering and manipulation functions.
-elementary tcp sockets: socket, connect, bind, listen, accept, fork and exec, concurrent server
-design, getcsockname and getpeername functions.
+ sockets introduction: introduction, socket address structures, value-result arguments, byteordering and manipulation functions.
+elementary tcp sockets: socket, connect, bind, listen, accept, fork and exec, concurrent serverdesign, getcsockname and getpeername functions.
 self learning topics: tcp echo client/server functions.
-
-elementary udp sockets: recvform and sendto functions, udp echo client/server+AC0- main, dg+AF8-echo
-and dg+AF8-cli functions, lost datagrams, verifying received responses, server not running, connect
-function with udp, lack of flow control with udp, determining outgoing interface with udp,
+ elementary udp sockets: recvform and sendto functions, udp echo client/server- main, dg_echoand dg_cli functions, lost datagrams, verifying received responses, server not running, connectfunction with udp, lack of flow control with udp, determining outgoing interface with udp,
 tcp and udp echo server using select.
 elementary sctp sockets: interface models, shutdown function, notifications.
-self learning topics: stcp one+AC0-to+AC0-many+AC0-style streaming echo client and server main functions.
-
-advanced sockets 1
-ipv4 and ipv6 interoperability: ipv4 client and ipv6 server, ipv6 client ad ipv4 server, ipv6
-address+AC0-testing macros, source code portability
-daemon processes: syslogd daemon , syslog function.
-self learning topics: daemon+AF8-init function, inetd daemon daemon+AF8-inetd function.
-
-advanced sockets 2
-broadcasting: introduction, broadcast addresses, unicast vs broadcast, dg+AF8-cli function using
-broadcasting, race conditions.
-multicasting: introduction, multicast addresses, multicast vs broadcast on a lan, multicast on a
-+ACI-wan, source+AC0-specific multicast.+ACIAIg-+ACI-
-+ACI-distributed computing:,+ACIAIg-+ACI-
-characterization of distributed systems: introduction, examples of distributed systems,
+self learning topics: stcp one-to-many-style streaming echo client and server main functions.
+ advanced sockets 1ipv4 and ipv6 interoperability: ipv4 client and ipv6 server, ipv6 client ad ipv4 server, ipv6address-testing macros, source code portabilitydaemon processes: syslogd daemon , syslog function.
+self learning topics: daemon_init function, inetd daemon daemon_inetd function.
+ advanced sockets 2broadcasting: introduction, broadcast addresses, unicast vs broadcast, dg_cli function usingbroadcasting, race conditions.
+multicasting: introduction, multicast addresses, multicast vs broadcast on a lan, multicast on awan, source-specific multicast."
+distributed computing:," characterization of distributed systems: introduction, examples of distributed systems,
 challenges: heterogeneity, openness, security, scalability, failure handling.
 system model: architectural models, fundamental models.
-self+AC0-learning topics: security models
-
-inter process communication: introduction, api for internet protocols, external data
-representation and marshalling, client +//3//f/9- server communication.
+self-learning topics: security models inter process communication: introduction, api for internet protocols, external datarepresentation and marshalling, client – server communication.
 distributed object and rmi: introduction, communication between distributed objects, rpc,
 events and notifications.
-
-distributed file system: introduction, file service architecture.
+ distributed file system: introduction, file service architecture.
 security in distributed systems: introduction, overview of security techniques: cryptography,
 certificates, access control. cryptographic algo: symmetric: ex substitution algo. , asymmetric:
 rsa.
-
-time and global states: introduction, clocks, events and process status, synchronizing physical
-clocks, logical time and logical clocks, global states.
+ time and global states: introduction, clocks, events and process status, synchronizing physicalclocks, logical time and logical clocks, global states.
 coordination and agreement: introduction, distributed mutual exclusion, elections.
-
-introduction to cloud computing: introduction, network centric computing and network centric
-content, peer to peer systems, cloud computing: an old idea whose time has come,
-cloud computing: delivery models and services, ethical issues in cloud computing, cloud
-vulnerabilities, major challenges faced by cloud computing.
-+ACI-self+AC0-learning topics: case studies: amazon web studies+ACIAIg-+ACI-
-+ACI-cloud computing:,+ACIAIg-+ACI-
-introduction: business and it perspective, cloud and virtualization, cloud services requirements, cloud
-and dynamic infrastructure, cloud computing characteristics, cloud adoption.
-cloud deployment models: cloud characteristics, measured service, cloud deployment models, security
-in a public cloud, public verses private clouds, cloud infrastructure self+AC0-service.
-
-cloud as a service: gamut of cloud solutions, principal technologies, cloud strategy, cloud design and
-implementation using soa, conceptual cloud model, cloud service defined.
-cloud solutions: cloud ecosystem, cloud business process management, cloud service management, cloud
-stack, computing on demand, cloud sourcing.
-
-cloud virtualization technology: virtualization defined, virtualization benefits, server virtualization,
+ introduction to cloud computing: introduction, network centric computing and network centriccontent, peer to peer systems, cloud computing: an old idea whose time has come,
+cloud computing: delivery models and services, ethical issues in cloud computing, cloudvulnerabilities, major challenges faced by cloud computing.
+self-learning topics: case studies: amazon web studies"
+cloud computing:," introduction: business and it perspective, cloud and virtualization, cloud services requirements, cloudand dynamic infrastructure, cloud computing characteristics, cloud adoption.
+cloud deployment models: cloud characteristics, measured service, cloud deployment models, securityin a public cloud, public verses private clouds, cloud infrastructure self-service.
+ cloud as a service: gamut of cloud solutions, principal technologies, cloud strategy, cloud design andimplementation using soa, conceptual cloud model, cloud service defined.
+cloud solutions: cloud ecosystem, cloud business process management, cloud service management, cloudstack, computing on demand, cloud sourcing.
+ cloud virtualization technology: virtualization defined, virtualization benefits, server virtualization,
 virtualization for x86 architecture, hypervisor management software, logical partitioning, vio server,
-virtual infrastructure requirements. storage virtualization, storage area networks, network attached
-storage, cloud server virtualization.
-
-cloud management: resiliency, provisioning, asset management, cloud governance, high availability
-and disaster recovery, charging models, usage reporting, billing and metering.
-
-+ACI-cloud computing with the titans: google, emc, netapp. microsoft, amazon, salesforce.com, ibm.+ACIAIg-+ACI-
-+ACI-soft computing:,+ACIAIg-+ACI-
-introduction: neural networks, application scope of neural networks, fuzzy logic, genetic
-algorithm, hybrid systems, soft computing.
-artificial neural network: an introduction, fundamental concepts, evolution of neural
-networks, basic models of artificial neural networks, important terminologies of anns,
-mcculloch+AC0- pitts neuron, linear separability, hebb network.
-
-supervised learning network: perceptron networks: perceptron learning rule, perceptron
-training algorithm for single output classes, adaptive linear neuron (adaline): delta rule for
-single output unit, back+AC0-propagation network..
+virtual infrastructure requirements. storage virtualization, storage area networks, network attachedstorage, cloud server virtualization.
+ cloud management: resiliency, provisioning, asset management, cloud governance, high availabilityand disaster recovery, charging models, usage reporting, billing and metering.
+ cloud computing with the titans: google, emc, netapp. microsoft, amazon, salesforce.com, ibm."
+soft computing:," introduction: neural networks, application scope of neural networks, fuzzy logic, geneticalgorithm, hybrid systems, soft computing.
+artificial neural network: an introduction, fundamental concepts, evolution of neuralnetworks, basic models of artificial neural networks, important terminologies of anns,
+mcculloch- pitts neuron, linear separability, hebb network.
+ supervised learning network: perceptron networks: perceptron learning rule, perceptrontraining algorithm for single output classes, adaptive linear neuron (adaline): delta rule forsingle output unit, back-propagation network..
 associative memory networks: bidirectional associative memory (bam), hopfield networks.
-
-introduction to fuzzy logic, classical sets and fuzzy sets: introduction to fuzzy logic, classical
-sets (crisp sets), fuzzy sets, properties of fuzzy sets.
+ introduction to fuzzy logic, classical sets and fuzzy sets: introduction to fuzzy logic, classicalsets (crisp sets), fuzzy sets, properties of fuzzy sets.
 classical relations and fuzzy relations: classical relation: operations on classical relations,
-fuzzy relations: cardinality of fuzzy relations, operations on fuzzy relations, properties of fuzzy
-relations, fuzzy composition.
-
-membership functions: features of the membership functions, fuzzification, methods of
-membership value assignments.
+fuzzy relations: cardinality of fuzzy relations, operations on fuzzy relations, properties of fuzzyrelations, fuzzy composition.
+ membership functions: features of the membership functions, fuzzification, methods ofmembership value assignments.
 defuzzification: defuzzification methods.
-
-genetic algorithm: introduction, what are genetic algorithm?, why genetic algorithms?, genetic
-algorithm and search space: evolution and optimization, basic terminologies in genetic
-algorithms, operators in genetic algorithms: encoding, selection, crossover (recombination),
-+ACI-mutation+ACIAIg-+ACI-
-+ACI-block chain management:,+ACIAIg-+ACI-
-on decentralization: why decentralization matters examples of failures due to centralized systems
-some of the half+AC0-measures used to fix centralization
-docker and cryptography: fundamental cryptography concepts: symmetric keys, asymmetric keys
-and hashes, utilizing openssl to understand cryptography concepts,using docker and docker
-compose to deploy simple applications
-blockchain revolution: public blockchains, and the problem they solve shortcomings of public
-blockchains addressed by permissioned blockchains, components of a typical blockchain
-
-blockchain basics: from bitcoin to blockchain+ADs- blockchain programming+ADs- uml blockchain design
-models+ADs- blockchain node installation and management
-smart contracts: the concept of a smart contract+ADs- design of a smart contract+ADs- development of smart
-contract code+ADs- deploying and testing the smart contract+ADs- decentralized airline system use case+ADs-
-airlines smart contract+ADs- motivating decentralized scenarios+ADs- smart contract design considerations+ADs-
-best practices
-
-techniques for trust and integrity: essentials of trust and integrity+ADs- implementing trust intermediation+ADs-
-testing+ADs- establishing trust with modifiers, require(), revert(), and assert()+ADs- best practices
-from smart contracts to dapps: preliminary concepts+ADs- dapp development using the truffle ide+ADs-
-installing the ganache test chain+ADs- smart contract development+ADs- dapp web application development+ADs-
-introspection+ADs- best practices
-
-security and privacy: deploying smart contracts on ropsten+ADs- cryptography basics+ADs- application of
-public key cryptography+ADs- hashing basics+ADs- application of secure hashing+ADs- introspection+ADs- best practices
-on+AC0-chain and off+AC0-chain data: on+AC0-chain data+ADs- blind auction use case+ADs- off+AC0-chain data: external data
-sources+ADs- ask airline system+ADs- introspection+ADs- best practices
-
-web3 and a channel dapp+ADs- going public with infura+ADs- decentralized file systesm(ipfs)
-+ACI-blockchain data analytics+ADs- blockchain protocols and platforms+ADs- blockchain business use cases+ACIAIg-+ACI-
-+ACI-ad+AC0-hoc sensor networks:,+ACIAIg-+ACI-
-introduction: application examples, types of applications, challenges for wsns, why are sensor
-networks different +//3//f/9- manets and wsns, energy scavenging, microcontroller energy consumption,
+ genetic algorithm: introduction, what are genetic algorithm?, why genetic algorithms?, geneticalgorithm and search space: evolution and optimization, basic terminologies in geneticalgorithms, operators in genetic algorithms: encoding, selection, crossover (recombination),
+mutation"
+block chain management:," on decentralization: why decentralization matters examples of failures due to centralized systemssome of the half-measures used to fix centralizationdocker and cryptography: fundamental cryptography concepts: symmetric keys, asymmetric keysand hashes, utilizing openssl to understand cryptography concepts,using docker and dockercompose to deploy simple applicationsblockchain revolution: public blockchains, and the problem they solve shortcomings of publicblockchains addressed by permissioned blockchains, components of a typical blockchain blockchain basics: from bitcoin to blockchain; blockchain programming; uml blockchain designmodels; blockchain node installation and managementsmart contracts: the concept of a smart contract; design of a smart contract; development of smartcontract code; deploying and testing the smart contract; decentralized airline system use case;
+airlines smart contract; motivating decentralized scenarios; smart contract design considerations;
+best practices techniques for trust and integrity: essentials of trust and integrity; implementing trust intermediation;
+testing; establishing trust with modifiers, require(), revert(), and assert(); best practicesfrom smart contracts to dapps: preliminary concepts; dapp development using the truffle ide;
+installing the ganache test chain; smart contract development; dapp web application development;
+introspection; best practices security and privacy: deploying smart contracts on ropsten; cryptography basics; application ofpublic key cryptography; hashing basics; application of secure hashing; introspection; best practiceson-chain and off-chain data: on-chain data; blind auction use case; off-chain data: external datasources; ask airline system; introspection; best practices web3 and a channel dapp; going public with infura; decentralized file systesm(ipfs)
+blockchain data analytics; blockchain protocols and platforms; blockchain business use cases"
+ad-hoc sensor networks:," introduction: application examples, types of applications, challenges for wsns, why are sensornetworks different – manets and wsns, energy scavenging, microcontroller energy consumption,
 relationship between computation and communication, some examples of sensor nodes.
-
-mac protocols: introduction, issues, design goals, classifications, contention+AC0-based protocols +//3//f/9-
-macaw, contention+AC0-based protocols with reservation mechanism +//3//f/9- d+AC0-prma, low duty cycle
-protocols and wakeup concepts +//3//f/9- s+AC0-mac, schedule+AC0-based protocols +//3//f/9- leach
-self+AC0-learning topics: ieee 802.11 dcf back off mechanism
-
-routing protocols: introduction, issues, classifications, table+AC0-driven routing protocols +//3//f/9- dsdv,
-on+AC0-demand routing protocols +//3//f/9- dsr, aodv, hybrid routing protocols +//3//f/9- zrp, routing protocols
-with efficient flooding mechanism +//3//f/9- olsr, hierarchical routing protocols +//3//f/9- fsr
-self+AC0-learning topics: localization and positioning, topology control
-
-transport protocols: introduction, issues, design goals, classification, tcp over ad hoc networks
-+//3//f/9- a brief revisit, why tcp does not perform well in ad hoc networks, feedback+AC0-based tcp, tcp
-with elfn, other transport layer protocols +//3//f/9- actp, ad hoc transport protocol.
-self+AC0-learning topics: coverage and deployment problems
-
-quality of service: introduction, issues and challenges, classifications, mac layer solutions +//3//f/9-
-ieee 802.11e edcf, network layer solutions +//3//f/9- predictive location+AC0-based qos routing protocol,
-qos frameworks +//3//f/9- qos models, qos resource reservation signaling
-+ACI-self+AC0-learning topics: qos in multihop wireless networks+ACIAIg-+ACI-
-+ACI-system simulation and modeling:,+ACIAIg-+ACI-
-introduction: when simulation is the appropriate tool and when it is not appropriate, advantages
-and disadvantages of simulation, systems and system environment+ADs- components of a system+ADs-
-discrete and continuous systems+ADs- model of a system+ADs- types of models+ADs- discrete+AC0-event system
-simulation+ADs- simulation examples: simulation of queuing systems(single server and two server),
+ mac protocols: introduction, issues, design goals, classifications, contention-based protocols –
+macaw, contention-based protocols with reservation mechanism – d-prma, low duty cycleprotocols and wakeup concepts – s-mac, schedule-based protocols – leachself-learning topics: ieee 802.11 dcf back off mechanism routing protocols: introduction, issues, classifications, table-driven routing protocols – dsdv,
+on-demand routing protocols – dsr, aodv, hybrid routing protocols – zrp, routing protocolswith efficient flooding mechanism – olsr, hierarchical routing protocols – fsrself-learning topics: localization and positioning, topology control transport protocols: introduction, issues, design goals, classification, tcp over ad hoc networks
+– a brief revisit, why tcp does not perform well in ad hoc networks, feedback-based tcp, tcpwith elfn, other transport layer protocols – actp, ad hoc transport protocol.
+self-learning topics: coverage and deployment problems quality of service: introduction, issues and challenges, classifications, mac layer solutions –
+ieee 802.11e edcf, network layer solutions – predictive location-based qos routing protocol,
+qos frameworks – qos models, qos resource reservation signalingself-learning topics: qos in multihop wireless networks"
+system simulation and modeling:," introduction: when simulation is the appropriate tool and when it is not appropriate, advantagesand disadvantages of simulation, systems and system environment; components of a system;
+discrete and continuous systems; model of a system; types of models; discrete-event systemsimulation; simulation examples: simulation of queuing systems(single server and two server),
 simulation of (m,n) inventory system.
-general principles, simulation software: concepts in discrete+AC0-event simulation: the event+AC0-
-scheduling / time+AC0-advance algorithm.
-
-statistical models in simulation: review of terminology and concepts+ADs- useful statistical models+ADs-
-discrete distributions: binomial distribution, poisson distribution+ADs- continuous distributions: uniform
-distribution, exponential distribution, triangular distribution.
-
-random+AC0-number generation: properties of random numbers+ADs- generation of pseudo+AC0-random
-numbers+ADs- techniques for generating random numbers+ADs- tests for random numbers: frequency tests+ADs-
-random+AC0-variate generation: inverse transform technique: exponential distribution, uniform
-distribution, triangular distribution.
-
-input modeling: data collection+ADs- identifying the distribution with data+ADs- parameter estimation+ADs-
-goodness of fit tests+ADs- selecting input models without data.
-
-verification, calibration, validation and optimization
-model building, verification and validation+ADs- verification of simulation models+ADs- calibration and
-+ACI-validation of models, input+AC0-output validation using historical input data+ACIAIg-+ACI-
-+ACI-storage area networks:,+ACIAIg-+ACI-
-introduction to information storage and management:: information storage, evolution of
-storage technology and architecture , data centre infrastructure , key challenges in managing
-information , information lifecycle
-concepts of storage networking: data storage and data access problem
-unit ii
-data protection: raid 5: implementation of raid, raid array components , raid levels ,
-raid comparison , raid impact on disk performance ,hot spares
-unit iii
-storage area networks: fibre channel,the san and its evolution , components of san , fc
-connectivity.
-network attached storage: general+AC0-purpose servers vs. nas devices , benefits of nas , nas
-file i/o , components of nas
-unit iv
-storage virtualization: definition of storage virtualization, implementation considerations,
-storage virtualization on block or file level, storage virtualization on various levels of the storage
-network, symmetric and asymmetric storage virtualization in the network
-unit v
-application and case studies of storage area networks: applying the san to olt p workloads,
+general principles, simulation software: concepts in discrete-event simulation: the event-
+scheduling / time-advance algorithm.
+ statistical models in simulation: review of terminology and concepts; useful statistical models;
+discrete distributions: binomial distribution, poisson distribution; continuous distributions: uniformdistribution, exponential distribution, triangular distribution.
+ random-number generation: properties of random numbers; generation of pseudo-randomnumbers; techniques for generating random numbers; tests for random numbers: frequency tests;
+random-variate generation: inverse transform technique: exponential distribution, uniformdistribution, triangular distribution.
+ input modeling: data collection; identifying the distribution with data; parameter estimation;
+goodness of fit tests; selecting input models without data.
+ verification, calibration, validation and optimizationmodel building, verification and validation; verification of simulation models; calibration andvalidation of models, input-output validation using historical input data"
+storage area networks:," introduction to information storage and management:: information storage, evolution ofstorage technology and architecture , data centre infrastructure , key challenges in managinginformation , information lifecycleconcepts of storage networking: data storage and data access problemunit ii data protection: raid 5: implementation of raid, raid array components , raid levels ,
+raid comparison , raid impact on disk performance ,hot sparesunit iii storage area networks: fibre channel,the san and its evolution , components of san , fcconnectivity.
+network attached storage: general-purpose servers vs. nas devices , benefits of nas , nasfile i/o , components of nasunit iv storage virtualization: definition of storage virtualization, implementation considerations,
+storage virtualization on block or file level, storage virtualization on various levels of the storagenetwork, symmetric and asymmetric storage virtualization in the networkunit v application and case studies of storage area networks: applying the san to olt p workloads,
 applying san to web based applications, applying san to data ware house models. case study:
-+ACI-the import auto industry+ACIAIg-+ACI-
-+ACI-agile software development:,+ACIAIg-+ACI-
-introduction: understanding success, beyond deadlines, the importance of organizational
-success, enter agility, agile methods, don+//3//f/9-t make your own method, the road to mastery,
-find a mentor, the xp lifecycle, the xp team, xp concepts, adopting x.p
-unit +AC0- ii
-thinking: pair programming, energized work, informative workspace, root+AC0-cause analysis,
+the import auto industry"
+agile software development:," introduction: understanding success, beyond deadlines, the importance of organizationalsuccess, enter agility, agile methods, don’t make your own method, the road to mastery,
+find a mentor, the xp lifecycle, the xp team, xp concepts, adopting x.punit - ii thinking: pair programming, energized work, informative workspace, root-cause analysis,
 retrospectives, collaborating: trust, impressions, sit together, real customer involvement,
-ubiquitous language, stand+AC0-up meetings, iteration demo, reporting.
-unit +AC0- iii
-releasing: nobugs, version control, ten+AC0-minute build, continuous integration, collective code
-ownership and documentation.
-unit +AC0- iv
-planning: vision, release planning, the planning game, risk management, iteration planning,
+ubiquitous language, stand-up meetings, iteration demo, reporting.
+unit - iii releasing: nobugs, version control, ten-minute build, continuous integration, collective codeownership and documentation.
+unit - iv planning: vision, release planning, the planning game, risk management, iteration planning,
 slack, stories, estimating.
-unit +AC0- v
-developing: incremental requirements, customer tests, test+AC0-driven development,
-refactoring, simple design, incremental design and architecture, spike solutions, performance
-+ACI-optimization, exploratory testing+ACIAIg-+ACI-
-+ACI-service oriented architecture:,+ACIAIg-+ACI-
-introduction to soa: fundamental soa+AC0- common misperceptions about soa+AC0- common tangible
-benefits of soa+AC0- common pitfalls of adopting soa. the evolution of soa:+AC0-from xml to web
-services to soa, comparing soa with n+AC0-tier architecture, the continuing evolution of soa, the
-roots of soa
-
-web services and primitive soa: the web services framework+AC0- services, service descriptions,
-messaging with soap. web services and contemporary soa: message exchange patterns+AC0- service
-activity coordination+AC0- atomic transactions+AC0- business activities+AC0-orchestration+AC0-choreography.
-
-service orientation and security: web services and contemporary soa: addressing+AC0- reliable
-messaging+AC0- correlation+AC0- policies metadata exchange+AC0- security+AC0- notification and eventing. soa and
-service+AC0-orientation: principles of service+AC0-orientation+AC0-service+AC0-orientation. anatomy of a service+AC0-
-oriented architecture+AC0- common principle of service+AC0-orientation+AC0-service layers +//3//f/9-service orientation
-
-building soa: soa delivery strategies+AC0- soa delivery lifecycle phases. service+AC0-oriented
-analysis: introduction to service+AC0-oriented analysis+AC0- benefits of a business+AC0-centric soa deriving
-business services+AC0- service+AC0- oriented analysis: service modeling, service modeling guidelines+AC0-
-classifying service model logic+AC0- contrasting service modeling approaches
-
-service+AC0-oriented design: introduction to service+AC0-oriented design+AC0- wsdl+AC0-related xml schema
-language basics+AC0- wsdl language basics+AC0- soap language basics+AC0- service interface, design tools.
-soa composition guidelines: steps to composing soa considerations for choosing service layers
-+ACI-and soa standards, positioning of cores and soa extensions.+ACIAIg-+ACI-
-+ACI-aws cloud computing (integrated lab):,+ACIAIg-+ACI-
-cloud concepts:
-benefits of aws cloud: security, reliability, high availability, elasticity, agility, pay+AC0-as+AC0-you go pricing,
+unit - v developing: incremental requirements, customer tests, test-driven development,
+refactoring, simple design, incremental design and architecture, spike solutions, performanceoptimization, exploratory testing"
+service oriented architecture:," introduction to soa: fundamental soa- common misperceptions about soa- common tangiblebenefits of soa- common pitfalls of adopting soa. the evolution of soa:-from xml to webservices to soa, comparing soa with n-tier architecture, the continuing evolution of soa, theroots of soa web services and primitive soa: the web services framework- services, service descriptions,
+messaging with soap. web services and contemporary soa: message exchange patterns- serviceactivity coordination- atomic transactions- business activities-orchestration-choreography.
+ service orientation and security: web services and contemporary soa: addressing- reliablemessaging- correlation- policies metadata exchange- security- notification and eventing. soa andservice-orientation: principles of service-orientation-service-orientation. anatomy of a service-
+oriented architecture- common principle of service-orientation-service layers –service orientation building soa: soa delivery strategies- soa delivery lifecycle phases. service-orientedanalysis: introduction to service-oriented analysis- benefits of a business-centric soa derivingbusiness services- service- oriented analysis: service modeling, service modeling guidelines-
+classifying service model logic- contrasting service modeling approaches service-oriented design: introduction to service-oriented design- wsdl-related xml schemalanguage basics- wsdl language basics- soap language basics- service interface, design tools.
+soa composition guidelines: steps to composing soa considerations for choosing service layersand soa standards, positioning of cores and soa extensions."
+aws cloud computing (integrated lab):," cloud concepts:
+benefits of aws cloud: security, reliability, high availability, elasticity, agility, pay-as-you go pricing,
 scalability, global reach, economy of scale.
-identify aspects of aws cloud economics: operational expenses (opex),capital expenses (capex),impact of
-software licensing costs when moving to the cloud,right+AC0-sized infrastructure, benefits of automation, reduce
-compliance scope (for example, reporting), managed services (for example, rds, ecs, eks, dynamo db).
+identify aspects of aws cloud economics: operational expenses (opex),capital expenses (capex),impact ofsoftware licensing costs when moving to the cloud,right-sized infrastructure, benefits of automation, reducecompliance scope (for example, reporting), managed services (for example, rds, ecs, eks, dynamo db).
 cloud architecture design principles: design for failure, decouple components versus monolithic architecture,
-implement elasticity in the cloud versus on+AC0-premises, think parallel
-
-security and compliance:
-aws shared responsibility model: customer+//3//f/9-s responsibly on aws, aws responsibilities.
-aws cloud security and compliance concepts:aws compliance information, identify different encryption
-options on aws (for example, in transit, at rest),amazon cloud watch, aws config, and aws cloud trail,
+implement elasticity in the cloud versus on-premises, think parallel security and compliance:
+aws shared responsibility model: customer’s responsibly on aws, aws responsibilities.
+aws cloud security and compliance concepts:aws compliance information, identify different encryptionoptions on aws (for example, in transit, at rest),amazon cloud watch, aws config, and aws cloud trail,
 aws access management capabilities: of user and identity management, access keys and password policies
-(rotation, complexity), multi+AC0-factor authentication (mfa), aws identity and access management (iam),
-groups/users, roles, policies, managed policies compared to custom policies, protection of root accounts
-network security capabilities:native aws services (for example, security groups, network acls, aws
-waf),3rd party security products from the aws marketplace,aws knowledge center, security center,
+(rotation, complexity), multi-factor authentication (mfa), aws identity and access management (iam),
+groups/users, roles, policies, managed policies compared to custom policies, protection of root accountsnetwork security capabilities:native aws services (for example, security groups, network acls, awswaf),3rd party security products from the aws marketplace,aws knowledge center, security center,
 security forum, and security blogs. partner systems integrators.
-
-technology:
-deploying and operating in the aws cloud:identify at a high level different ways of provisioning and
-operating in the aws cloud,programmatic access, apis, sdks, aws management console, cli,
-infrastructure as code,different types of cloud deployment models, all in with cloud/cloud native,hybrid,on+AC0-
+ technology:
+deploying and operating in the aws cloud:identify at a high level different ways of provisioning andoperating in the aws cloud,programmatic access, apis, sdks, aws management console, cli,
+infrastructure as code,different types of cloud deployment models, all in with cloud/cloud native,hybrid,on-
 premises,identify connectivity options, vpn, aws direct connect, public internet.
-
-technology:
-aws global infrastructure: relationships among regions, availability zones, and edge locations, multiple
-availability zones,multiple aws regions,disaster recovery/business continuity, low latency for end+AC0-users,
-data sovereignty, describe at a high level the benefits of edge locations, amazon cloud front, aws global
-accelerator.
-
-technology:
-core aws services:categories of services on aws (compute, storage, network, database),aws compute
-services,different compute families,different services that provide compute (for example, aws lambda
-compared to amazon elastic container service (amazon ecs), or amazon ec2, etc.),auto scaling,load
-balancers. different aws storage services:amazon s3,amazon elastic block store,amazon s3 glacier,aws
-snowball,amazon elastic file system (amazon efs),aws storage gateway.
+ technology:
+aws global infrastructure: relationships among regions, availability zones, and edge locations, multipleavailability zones,multiple aws regions,disaster recovery/business continuity, low latency for end-users,
+data sovereignty, describe at a high level the benefits of edge locations, amazon cloud front, aws globalaccelerator.
+ technology:
+core aws services:categories of services on aws (compute, storage, network, database),aws computeservices,different compute families,different services that provide compute (for example, aws lambdacompared to amazon elastic container service (amazon ecs), or amazon ec2, etc.),auto scaling,loadbalancers. different aws storage services:amazon s3,amazon elastic block store,amazon s3 glacier,awssnowball,amazon elastic file system (amazon efs),aws storage gateway.
 aws networking services:vpc,amazon route 53,vpn, aws direct connect.
-aws database services.resources for technology support:various levels and scope of aws support, sources of
-aws technical assistance and knowledge including professional services, solution architects, training and
-+ACI-certification, and the amazon partner network, the benefits of using aws trusted advisor.+ACIAIg-+ACI-
-+ACI-software testing:,+ACIAIg-+ACI-
-introduction: professional software development: software engineering, software engineering
-diversity, software engineering ethics. software process: software process models: the waterfall
-model, incremental development. process activities: software specification, software design and
-implementation, software validation.
-self+AC0-learning topics: coping with change: prototyping, incremental delivery, boehm+//3//f/9-s spiral
-model
-unit +AC0- ii
-a perspective on testing:
-basic definitions, test cases, insights from a venn diagram, identifying test cases, error and fault
-taxonomies, levels of testing. examples: generalized pseudocode, the triangle problem,
-self+AC0-learning topics: the commission problem.
-unit +AC0- iii
-the satm (simple automatic teller machine) problem, the currency converter.
+aws database services.resources for technology support:various levels and scope of aws support, sources ofaws technical assistance and knowledge including professional services, solution architects, training andcertification, and the amazon partner network, the benefits of using aws trusted advisor."
+software testing:," introduction: professional software development: software engineering, software engineeringdiversity, software engineering ethics. software process: software process models: the waterfallmodel, incremental development. process activities: software specification, software design andimplementation, software validation.
+self-learning topics: coping with change: prototyping, incremental delivery, boehm’s spiralmodelunit - ii a perspective on testing:
+basic definitions, test cases, insights from a venn diagram, identifying test cases, error and faulttaxonomies, levels of testing. examples: generalized pseudocode, the triangle problem,
+self-learning topics: the commission problem.
+unit - iii the satm (simple automatic teller machine) problem, the currency converter.
 boundary value analysis: boundary value analysis: generalizing boundary value analysis,
-limitations of boundary value analysis, robustness testing, worst+AC0-case testing, special value
-testing, examples: guidelines for boundary value testing
-
-equivalence class testing: equivalence classes, equivalence test cases for the triangle problem and
-the commission problem, guidelines and observations.
-decision table+//3//f/9-based testing: decision tables, test cases for the triangle problem.
-self+AC0-learning topics: decision tables for the commission problem
-unit +AC0- v
-path testing, data flow testing:
-dd paths, test coverage metrics: metric based testing, basis path testing: mccabe's basis path
-method, guidelines and observations. definition+AC0-use testing. guidelines and observations.
-+ACI-self+AC0-learning topics: observations on mccabe's basis path method , essential complexity+ACIAIg-+ACI-
+limitations of boundary value analysis, robustness testing, worst-case testing, special valuetesting, examples: guidelines for boundary value testing equivalence class testing: equivalence classes, equivalence test cases for the triangle problem andthe commission problem, guidelines and observations.
+decision table–based testing: decision tables, test cases for the triangle problem.
+self-learning topics: decision tables for the commission problemunit - v path testing, data flow testing:
+dd paths, test coverage metrics: metric based testing, basis path testing: mccabe's basis pathmethod, guidelines and observations. definition-use testing. guidelines and observations.
+self-learning topics: observations on mccabe's basis path method , essential complexity"
