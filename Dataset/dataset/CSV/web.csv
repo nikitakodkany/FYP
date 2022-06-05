@@ -1,0 +1,26 @@
+unit – i 09 hours
+an ajax overview: introducing ajax, examples of real world applications, back to the joke of the day
+application. understanding the document object model: the ajax story of the day application, an
+introduction to the document object model, the dom tree, walking the dom tree, dynamically updating
+the page content. ajax basics: connecting your application to web servers, working with the
+xmlhttprequest object, managing the current xmlhttprequests. important ajax design issues:
+programming hurdles that all ajax developers face.
+self learning topics: project preview : the joke of the day application , the ajax story of the day
+application, ajax typing challenge,
+unit – ii 07 hours
+introducing full stack development: node.js, express, mongodb, angularjs, supporting cast;
+designing a mean stack architecture: planning a real application, breaking the development into
+stages, hardware architecture
+unit – iii 08 hours
+building node application: a brief look at express, node and npm, create express project, modifying
+express for mvc, import bootstrap for responsive layout, setting up heroku, building a static site with
+node and express: defining routes in express, building basic controllers, creating views.
+unit – iv 07 hours
+connecting express application to mongodb, why model data?, defining mongoose schemas,
+database development with mongodb and mongoose, getting our database live ,installing the
+stack and supporting softwares.
+unit – v 08 hours
+rules of rest api, setting up the api in express, get, post,put and delete methods; consuming
+a rest api: call an api from express, using lists of data from api, getting single documents from
+api, adding data to the database via api, protecting data integrity with data validation, writing modular
+javascript and javascript callbacks.
