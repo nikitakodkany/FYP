@@ -17,7 +17,7 @@ from collections import Counter
 
 
 #Open the appropriate dataset. This should change based on the subject.
-JDVtext1 = pd.read_excel('/home/nikita/College/FYP/Dataset/dataset/Excel/processed_web_dataset.xlsx')
+JDVtext1 = pd.read_excel('../../Dataset/dataset/Excel/processed_web_dataset.xlsx')
 
 #To open syllabus. Notice the format of the file as well. This is basically the file from the server
 with open('./../../Dataset/dataset/CSV/web.csv', newline='') as f2:
