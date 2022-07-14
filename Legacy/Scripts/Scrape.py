@@ -12,23 +12,23 @@ from tqdm import tqdm
 df = pd.DataFrame()
 numbers = []
 
-url_head = "https://www.naukri.com/it-jobs-"
-url_tail = "?k=it"
+url_head = "https://www.naukri.com/python-jobs-"
+url_tail = "?k=python&experience=0"
 
 options = Options()
-options.add_argument('--headless')
+#options.add_argument('--headless')
 options.add_argument('--incognito')
 driver = webdriver.Firefox(options=options)
 
 x,y = 0,0
-for i in tqdm(range(11401,11501)):  #18333
+for i in tqdm(range(25,50)):  #18333
 
 
     for attempt in range(7):
         try:
 
             url = url_head+str(i)+url_tail
-
+            #print(url)
             driver.get(url)
             driver.implicitly_wait(7)
             elems = driver.find_elements_by_xpath('//*[@class="title fw500 ellipsis"]')

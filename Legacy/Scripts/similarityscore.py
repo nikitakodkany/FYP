@@ -7,7 +7,6 @@ import math
 import random
 from tarfile import SYMTYPE
 from xml.sax.handler import EntityResolver
-import numpy as np
 import pandas as pd
 from torch import int8
 from tqdm import tqdm
