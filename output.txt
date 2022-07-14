@@ -1,0 +1,49 @@
+
+DATABASE TECHNOLOGIES
+[(('mysql',), 54), (('mongodb',), 19), (('redis',), 5), (('nosql',), 2), (('rdbms',), 1)]
+[(('mongodb', 'mysql'), 11), (('mysql', 'redis'), 4), (('mongodb', 'nosql'), 1), (('mysql', 'nosql'), 1), (('mongodb', 'rdbms'), 1), (('mongodb', 'redis'), 1), (('rdbms', 'redis'), 1)]
+[(('mongodb', 'mysql', 'nosql'), 1), (('mongodb', 'rdbms', 'redis'), 1)]
+
+
+SERVER-SIDE PROGRAMMING 
+[(('php',), 79), (('node.js',), 55), (('java',), 20), (('python',), 12), (('c++',), 2)]
+[(('node.js', 'php'), 12), (('php', 'python'), 7), (('node.js', 'python'), 5), (('java', 'php'), 4), (('java', 'python'), 3), (('java', 'node.js'), 3), (('c++', 'java'), 2), (('c++', 'python'), 1)]
+[(('java', 'php', 'python'), 1), (('c++', 'java', 'python'), 1), (('java', 'node.js', 'python'), 1), (('node.js', 'php', 'python'), 1)]
+
+
+BACKEND FRAMEWORKS
+[(('express.js',), 26), (('laravel',), 20), (('magento',), 12), (('codeigniter',), 9), (('cake',), 4)]
+[(('express.js', 'laravel'), 9), (('codeigniter', 'laravel'), 7), (('codeigniter', 'magento'), 2), (('cake', 'codeigniter'), 1), (('cake', 'laravel'), 1), (('cake', 'magento'), 1), (('laravel', 'magento'), 1)]
+[(('cake', 'codeigniter', 'laravel'), 1), (('cake', 'codeigniter', 'magento'), 1), (('cake', 'laravel', 'magento'), 1), (('codeigniter', 'laravel', 'magento'), 1)]
+[(('cake', 'codeigniter', 'laravel', 'magento'), 1)]
+
+SERVER
+[(('nginx',), 7), (('apache',), 6)]
+
+DESIGN 
+[(('photoshop',), 47), (('illustrator',), 20), (('dreamweaver',), 12), (('xd',), 8), (('coreldraw',), 6)]
+[(('illustrator', 'photoshop'), 18), (('dreamweaver', 'photoshop'), 8), (('coreldraw', 'photoshop'), 6), (('illustrator', 'xd'), 2), (('photoshop', 'xd'), 2), (('dreamweaver', 'illustrator'), 2), (('coreldraw', 'dreamweaver'), 2)]
+[(('dreamweaver', 'illustrator', 'photoshop'), 2), (('coreldraw', 'dreamweaver', 'photoshop'), 2), (('illustrator', 'photoshop', 'xd'), 1)]
+
+
+
+CMS 
+[(('wordpress',), 58), (('plugins',), 25), (('drupal',), 14), (('joomla',), 7)]
+[(('plugins', 'wordpress'), 25), (('drupal', 'wordpress'), 6), (('joomla', 'wordpress'), 5), (('drupal', 'joomla'), 5), (('drupal', 'plugins'), 3)]
+[(('drupal', 'joomla', 'wordpress'), 3), (('drupal', 'plugins', 'wordpress'), 3)]
+
+PROJECT MANAGAMENT
+[(('git',), 37), (('svn',), 13), (('mercurial',), 11), (('jira',), 5), (('github',), 2), (('jenkins',), 1)]
+[(('git', 'svn'), 12), (('git', 'mercurial'), 11), (('mercurial', 'svn'), 7), (('git', 'jira'), 2), (('github', 'jira'), 1), (('github', 'svn'), 1), (('git', 'jenkins'), 1), (('jenkins', 'jira'), 1)]
+[(('git', 'mercurial', 'svn'), 7), (('git', 'jenkins', 'jira'), 1)]
+
+PWA 
+[(('ionic',), 5)]
+
+
+FRONT-END
+[(('angular.js',), 75), (('react.js',), 49), (('ajax',), 36), (('typescript',), 16), (('vue.js',), 11), (('redux',), 8), (('scss',), 7), (('dom',), 1)]
+[(('angular.js', 'react.js'), 20), (('react.js', 'typescript'), 9), (('angular.js', 'vue.js'), 8), (('react.js', 'vue.js'), 8), (('react.js', 'redux'), 8), (('angular.js', 'typescript'), 8), (('ajax', 'angular.js'), 6), (('angular.js', 'scss'), 4)]
+[(('angular.js', 'react.js', 'vue.js'), 8), (('angular.js', 'react.js', 'scss'), 3), (('angular.js', 'react.js', 'redux'), 2), (('angular.js', 'redux', 'vue.js'), 2), (('react.js', 'redux', 'vue.js'), 2), (('ajax', 'angular.js', 'react.js'), 2), (('ajax', 'angular.js', 'vue.js'), 2), (('ajax', 'react.js', 'vue.js'), 2)]
+[(('angular.js', 'react.js', 'redux', 'vue.js'), 2), (('ajax', 'angular.js', 'react.js', 'vue.js'), 2), (('angular.js', 'react.js', 'scss', 'vue.js'), 1), (('angular.js', 'react.js', 'redux', 'typescript'), 1), (('angular.js', 'react.js', 'typescript', 'vue.js'), 1), (('angular.js', 'redux', 'typescript', 'vue.js'), 1), (('react.js', 'redux', 'typescript', 'vue.js'), 1)]
+[(('angular.js', 'react.js', 'redux', 'typescript', 'vue.js'), 1)]
